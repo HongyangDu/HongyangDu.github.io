@@ -172,7 +172,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src="/images/Members/default.jpeg" width="100"><br>
       <strong>Weiqiang Jin</strong><br>
       Visiting Ph.D.<br>
-      Xian Jiao Tong University
+      Xi'an Jiaotong University
     </td>
 	<td align="center" width="180">
       <img src="/images/Members/default.jpeg" width="100"><br>
