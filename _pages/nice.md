@@ -15,14 +15,46 @@ author_profile: true
 At the NICE Lab, we envision a future where AI and networks converge to create intelligent digital ecosystems. Our mission is to pioneer transformative technologies at this intersection, developing next-generation systems that are both technologically advanced and human-centric, ultimately building the foundation for a fully connected, intelligent world.
 
 ## Team Members
+### Researchers
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Feiran You</strong> (Email: fryou@eee.hku.hk)<br>
+      Postdoctoral researcher, since 03/2025<br>
+      Research interests: edge intelligence, reinforcement learning<br>
+      Ph.D., The University of Sydney
+    </td>
+  </tr>
+</table>
 
+<br>
+
+### Students
+(in alphabetical order by last name)
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Enhan Li</strong> (Email: u3012812@connect.hku.hk)<br>
+      Ph.D. student, starting June 2025<br>
+      Research interests: networking system<br>
+      M.S. University of Chinese Academy of Sciences
+    </td>
+  </tr>
+</table>
 
 ## My Support and Expectations
 
-Our research is highly interdisciplinary, involving collaboration with experts from AI, networking systems, human–computer interaction, psychology, and electrical engineering. Our focus is primarily on publishing in top-tier AI conferences and IEEE journals, complemented by practical implementations. Our primary goal is to prepare our students for future academic positions as well as high-impact positions in industry. Here's what we're looking for and what you can expect from this journey:
+Our research is highly interdisciplinary, involving collaboration with experts from AI, networking systems, human–computer interaction, psychology, and electrical engineering. Here's what we're looking for and what you can expect from this journey:
 
 ### 1. What I Offer:
-- Resources: Full scholarships covering study and living in Hong Kong, plus access to advanced research facilities.
+- Resources: Scholarships covering study and living in Hong Kong, plus access to advanced research facilities.
 - Guidance: **Hands-on mentorship with clear direction.** For outstanding students, I also offer adequate freedom and opportunities for growth.
 - International Connections: Strong ties with leading researchers and institutions worldwide. I will help you build international academic connections.
 - Friendly Environment and Work-Life Balance: Collaborative and supportive lab culture where teamwork and mutual respect are valued. **Say no to 996; embrace sustainable productivity.**
@@ -38,10 +70,10 @@ Our research is highly interdisciplinary, involving collaboration with experts f
 
 ### 1. PhD Students
 
-Several full scholarship opportunities:
-- [Postgraduate Scholarship (PGS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships): HK$18,760 per month
-- [Hong Kong PhD Fellowship Scheme (HKPFS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme): HK$28,100 per month
-- [HKU Presidential Scholarship (HKU-PS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme): HK$28,100 per month
+Several scholarship opportunities:
+- [Postgraduate Scholarship (PGS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships)
+- [Hong Kong PhD Fellowship Scheme (HKPFS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme)
+- [HKU Presidential Scholarship (HKU-PS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme)
 
 ### 2. Postdoctoral Researchers
 
