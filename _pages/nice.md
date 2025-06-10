@@ -159,14 +159,13 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-### Other Supervision of Highly Qualified Students
+### Other Supervision
 <table>
   <tr>
 	<td align="center" width="180">
       <img src="/images/Members/junhao.jpg" width="100"><br>
       <strong>Junhao He</strong><br>
-      Undergraduate Research Fellowship Programme (URFP)<br>
-      University of Hong Kong
+      Undergraduate Research Fellowship Programme <a href="https://tl.hku.hk/urfp/">(URFP)</a>, HKU
     </td>
     <td align="center" width="180">
       <img src="/images/Members/weiqiang.jpg" width="100"><br>
@@ -177,8 +176,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 	<td align="center" width="180">
       <img src="/images/Members/default.jpeg" width="100"><br>
       <strong>Ziyue Zhou</strong><br>
-      Undergraduate Research Fellowship Programme (URFP)<br>
-      University of Hong Kong
+      Undergraduate Research Fellowship Programme <a href="https://tl.hku.hk/urfp/">(URFP)</a>, HKU
     </td>
   </tr>
 </table>
