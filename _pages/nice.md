@@ -19,7 +19,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/feiran.jpg' width="150">
     </td>
     <td>
       <strong>Feiran You</strong> (Email: fryou@eee.hku.hk)<br>
@@ -44,7 +44,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/enhan.jpg' width="150">
     </td>
     <td>
       <strong>Enhan Li</strong> (Email: u3012812@connect.hku.hk)<br>
@@ -86,7 +86,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/xingkun.jpg' width="150">
     </td>
     <td>
       <strong>Xingkun Yin</strong> (Email: xingkunyin@hotmail.com)<br>
@@ -100,7 +100,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/shiyuan.jpg' width="150">
     </td>
     <td>
       <strong>Shiyuan Zhang</strong> (Email: )<br>
@@ -134,7 +134,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/yilai.jpg' width="150">
     </td>
     <td>
       <strong>Yilai Liu</strong> (Email: 1754627980@qq.com)<br>
@@ -163,13 +163,13 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
 	<td align="center" width="180">
-      <img src="/images/Members/default.jpeg" width="100"><br>
+      <img src="/images/Members/junhao.jpg" width="100"><br>
       <strong>Junhao He</strong><br>
       Undergraduate Research Fellowship Programme (URFP)<br>
       University of Hong Kong
     </td>
     <td align="center" width="180">
-      <img src="/images/Members/default.jpeg" width="100"><br>
+      <img src="/images/Members/weiqiang.jpg" width="100"><br>
       <strong>Weiqiang Jin</strong><br>
       Visiting Ph.D.<br>
       Xi'an Jiaotong University
