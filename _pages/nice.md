@@ -116,7 +116,6 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 </table>
 
 ### MPhil Students
-(in alphabetical order by last name)
 
 <table>
   <tr>
@@ -159,6 +158,31 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
   </tr>
 </table>
+
+### Other Supervision of Highly Qualified Students
+<table>
+  <tr>
+	<td align="center" width="180">
+      <img src="/images/Members/default.jpeg" width="100"><br>
+      <strong>Junhao He</strong><br>
+      Undergraduate Research Fellowship Programme (URFP)<br>
+      University of Hong Kong
+    </td>
+    <td align="center" width="180">
+      <img src="/images/Members/default.jpeg" width="100"><br>
+      <strong>Weiqiang Jin</strong><br>
+      Visiting Ph.D.<br>
+      Xian Jiao Tong University
+    </td>
+	<td align="center" width="180">
+      <img src="/images/Members/default.jpeg" width="100"><br>
+      <strong>Ziyue Zhou</strong><br>
+      Undergraduate Research Fellowship Programme (URFP)<br>
+      University of Hong Kong
+    </td>
+  </tr>
+</table>
+
 
 ## My Support and Expectations
 
