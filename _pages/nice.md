@@ -24,7 +24,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     <td>
       <strong>Feiran You</strong> (Email: fryou@eee.hku.hk)<br>
       Postdoctoral researcher, since 03/2025<br>
-      Research interests: edge intelligence, reinforcement learning<br>
+      Research interests: Edge intelligence, reinforcement learning<br>
       Prior Degree: Ph.D., The University of Sydney
 	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Representative Works:</strong><br>
@@ -48,9 +48,69 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
     <td>
       <strong>Enhan Li</strong> (Email: u3012812@connect.hku.hk)<br>
-      Ph.D. student, starting June 2025<br>
-      Research interests: networking system<br>
-      Prior Degree: M.S. University of Chinese Academy of Sciences
+      Ph.D. student, starting 2025<br>
+      Research interests: Networking system<br>
+      Prior Degree: M.S., University of Chinese Academy of Sciences
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Zongxi Liu</strong> (Email: 1754627980@qq.com)<br>
+      Ph.D. student, starting 2025<br>
+      Research interests: Wireless communications<br>
+      Prior Degree: M.S., Nanjing University
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Ruoxuan Yang</strong> (Email: rosheen2000@163.com)<br>
+      Ph.D. student, starting 2025<br>
+      Research interests: Human–computer interaction<br>
+      Prior Degree: M.S., Tsinghua University
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Xingkun Yin</strong> (Email: xingkunyin@hotmail.com)<br>
+      Ph.D. student, starting 2025<br>
+      Research interests: large language models<br>
+      Prior Degree: M.S., Boston University
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Shiyuan Zhang</strong> (Email: zhangshi22@mails.tsinghua.edu.cn)<br>
+      Ph.D. student, starting 2025<br>
+      Research interests: Mobile traffic prediction, LLM, diffusion model<br>
+      Prior Degree: M.S., Tsinghua University
+	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Representative Works:</strong><br>
+        🌐 2025: <a href="">LSDM</a><br>
+      </div>
     </td>
   </tr>
 </table>
