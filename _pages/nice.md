@@ -38,7 +38,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 
 <br>
 
-### Students
+### PhD Students
 (in alphabetical order by last name)
 
 <table>
@@ -48,7 +48,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
     <td>
       <strong>Enhan Li</strong> (Email: u3012812@connect.hku.hk)<br>
-      Ph.D. student, starting 2025<br>
+      Starting 2025<br>
       Research interests: Networking system<br>
       Prior Degree: M.S., University of Chinese Academy of Sciences
     </td>
@@ -62,7 +62,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
     <td>
       <strong>Zongxi Liu</strong> (Email: 1754627980@qq.com)<br>
-      Ph.D. student, starting 2025<br>
+      Starting 2025<br>
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
     </td>
@@ -76,7 +76,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
     <td>
       <strong>Ruoxuan Yang</strong> (Email: rosheen2000@163.com)<br>
-      Ph.D. student, starting 2025<br>
+      Starting 2025<br>
       Research interests: Human–computer interaction<br>
       Prior Degree: M.S., Tsinghua University
     </td>
@@ -90,7 +90,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
     <td>
       <strong>Xingkun Yin</strong> (Email: xingkunyin@hotmail.com)<br>
-      Ph.D. student, starting 2025<br>
+      Starting 2025<br>
       Research interests: large language models<br>
       Prior Degree: M.S., Boston University
     </td>
@@ -103,14 +103,59 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/default.jpeg' width="150">
     </td>
     <td>
-      <strong>Shiyuan Zhang</strong> (Email: zhangshi22@mails.tsinghua.edu.cn)<br>
-      Ph.D. student, starting 2025<br>
+      <strong>Shiyuan Zhang</strong> (Email: )<br>
+      Starting 2025<br>
       Research interests: Mobile traffic prediction, LLM, diffusion model<br>
       Prior Degree: M.S., Tsinghua University
 	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Representative Works:</strong><br>
         🌐 2025: <a href="">LSDM</a><br>
       </div>
+    </td>
+  </tr>
+</table>
+
+### MPhil Students
+(in alphabetical order by last name)
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Yunuo Hu</strong> (Email: )<br>
+      Starting 2025<br>
+      Research interests: LLM<br>
+      Prior Degree: B.S., Tongji University
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Yilai Liu</strong> (Email: 1754627980@qq.com)<br>
+      Starting 2025<br>
+      Research interests: LLM, diffusion model<br>
+      Prior Degree: B.S., Beijing University of Posts and Telecommunications
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/default.jpeg' width="150">
+    </td>
+    <td>
+      <strong>Wenqi Pei</strong> (Email: wenqipei@foxmail.com)<br>
+      Starting 2025<br>
+      Research interests: LLM<br>
+      Prior Degree: B.S., National University of Singapore
     </td>
   </tr>
 </table>
