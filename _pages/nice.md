@@ -120,7 +120,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/yunuo.jpg' width="150">
     </td>
     <td>
       <strong>Yunuo Hu</strong> (Email: )<br>
