@@ -72,7 +72,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/ruoxuan.jpg' width="150">
     </td>
     <td>
       <strong>Ruoxuan Yang</strong> (Email: rosheen2000@163.com)<br>
@@ -148,7 +148,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/wenqi.jpg' width="150">
     </td>
     <td>
       <strong>Wenqi Pei</strong> (Email: wenqipei@foxmail.com)<br>
