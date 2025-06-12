@@ -58,7 +58,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/default.jpeg' width="150">
+      <img src='/images/Members/zongxi.jpg' width="150">
     </td>
     <td>
       <strong>Zongxi Liu</strong> (Email: 1754627980@qq.com)<br>
