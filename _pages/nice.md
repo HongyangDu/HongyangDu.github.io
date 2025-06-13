@@ -172,6 +172,10 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <strong>Weiqiang Jin</strong><br>
       Visiting Ph.D.<br>
       Xi'an Jiaotong University
+	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Representative Works:</strong><br>
+        🌐 2025: <a href="https://arxiv.org/abs/2506.07548">CL-MARL</a><br>
+      </div>
     </td>
 	<td align="center" width="180">
       <img src="/images/Members/ziyue.jpg" width="100"><br>
