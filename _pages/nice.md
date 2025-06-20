@@ -14,6 +14,9 @@ author_profile: true
 
 At the NICE Lab, we envision a future where AI and networks converge to create intelligent digital ecosystems. Our mission is to pioneer transformative technologies at this intersection, developing next-generation systems that are both technologically advanced and human-centric, ultimately building the foundation for a fully connected, intelligent world.
 
+>NICE@HKU Github: [https://github.com/NICE-HKU](https://github.com/NICE-HKU)
+
+
 ## Team Members
 ### Researchers
 <table>
