@@ -182,7 +182,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
 	<td align="center" width="180">
       <img src="/images/Members/jinghao.jpg" width="100"><br>
-      <strong>Ziyue Zhou</strong><br>
+      <strong>Jinghao Zhou</strong><br>
       Visiting undergraduate student.<br>
       Tsinghua University
     </td>
