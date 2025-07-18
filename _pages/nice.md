@@ -181,9 +181,15 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       </div>
     </td>
 	<td align="center" width="180">
+      <img src="/images/Members/ziyue.jpg" width="100"><br>
+      <strong>Ziyue Zhou</strong><br>
+      Undergraduate Research Fellowship Programme <a href="https://tl.hku.hk/urfp/">(URFP)</a>, HKU
+    </td>
+    </td>
+	<td align="center" width="180">
       <img src="/images/Members/jinghao.jpg" width="100"><br>
       <strong>Jinghao Zhou</strong><br>
-      Visiting undergraduate student.<br>
+      Visiting undergraduate student<br>
       Tsinghua University
     </td>
   </tr>
