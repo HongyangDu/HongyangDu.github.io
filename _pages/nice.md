@@ -165,6 +165,16 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 ### Other Supervision
 <table>
   <tr>
+  <td align="center" width="180">
+      <img src="/images/Members/cuiyu.jpg" width="100"><br>
+      <strong>Yu Cui</strong><br>
+      Intern<br>
+      Beijing Institute of Technology
+	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2025: <a href="https://arxiv.org/abs/2507.13038">MAD-Spear</a><br>
+      </div>
+    </td>
 	<td align="center" width="180">
       <img src="/images/Members/junhao.jpg" width="100"><br>
       <strong>Junhao He</strong><br>
