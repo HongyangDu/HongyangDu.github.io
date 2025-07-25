@@ -18,6 +18,17 @@
   summary: "DRESS is designed for seamless integration with any DRL framework, allowing DRESS-aided DRL (DRESSed-DRL) to enable stable and efficient DRL training even under extreme network environments."
   tag: "🥼 DRESS: \"If your DRL's a mess, DRESS it!\""
   category: "GenAI for Network"
+  
+ 
+- title: "LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction"
+  authors: "Shiyuan Zhang, Tong Li*, Zhu Xiao, Hongyang Du*, Kaibin Huang"
+  venue: "submitted to IEEE ToN, major revision, 2025"
+  arxiv: "https://arxiv.org/abs/2507.17795"
+  pdf: "https://arxiv.org/pdf/2507.17795"
+  code: "https://github.com/SoftYuaneR/LSDM"
+  image: "./images/lsdmframe.jpg"
+  summary: "An LLM-Enhanced Spatio-temporal Diffusion Model (LSDM) to achieve SOTA service-level mobile traffic prediction for individual users."
+  category: "Network Large AI Model"
 
 - title: "JPPO++: Joint Power and Denoising-inspired Prompt Optimization for Mobile LLM Services"
   authors: "Feiran You, Hongyang Du*, Kaibin Huang, Abbas Jamalipour"

@@ -129,7 +129,29 @@ Highlighted NI<font color=green><b>CE</b></font> Lab Work
 
 *Network Large AI Model:*
 
-1. Shiyuan Zhang, Tong Li∗, Zhu Xiao, **Hongyang Du** *(corresponding author)*, Kaibin Huang “LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction”, submitted to IEEE/ACM Transactions on Networking, major revision, 2025. <font color=green>We propose an LLM-Enhanced Spatio-temporal Diffusion Model (LSDM) to achieve SOTA service-level mobile traffic prediction for individual users.</font>
+{% assign papers_genai = site.data.papers | where: "category", "Network Large AI Model" %}
+{% for paper in papers_genai %}
+<table>
+  <tr>
+    <td width="280">
+      <a href="{{ paper.arxiv }}">
+        <img src="{{ paper.image }}" width="270px">
+      </a>
+    </td>
+    <td>
+      <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+      {{ paper.authors }}<br>
+      {{ paper.venue }}<br>
+      <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+      <span style="color:green">{{ paper.summary }}</span><br>
+      <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+      {% if paper.code %}
+      | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
+      {% endif %}
+    </td>
+  </tr>
+</table>
+{% endfor %}
 
 *Network-aided LLM Inference:*
 
