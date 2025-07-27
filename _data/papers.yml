@@ -10,7 +10,7 @@
 
 - title: "DRESS: Diffusion Reasoning-based Reward Shaping Scheme For Intelligent Networks"
   authors: "Feiran You, Hongyang Du*, Xiangwang Hou, Yong Ren, Kaibin Huang"
-  venue: "submitted to IEEE, 2025"
+  venue: "submitted to IEEE Transactions on Signal Processing, major revision, 2025"
   arxiv: "https://arxiv.org/abs/2503.07433"
   pdf: "https://arxiv.org/pdf/2503.07433.pdf"
   code: "https://github.com/NICE-HKU/DRESS"
