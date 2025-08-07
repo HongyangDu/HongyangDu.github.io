@@ -229,41 +229,41 @@ Awards
 1. **IEEE ComSoc Best Young Professional Award for Best Early Career Researcher**, 2024 
 <br/> <font color="#CC5500"><i>&bull; IEEE Communications Society</i></font>
 <br/> <font color="#CC5500"><i>&bull; Only six person is selected globally each year; only one person for “Best Early Career Researcher” category</i></font>
-<br/><img src='/images/ber.jpg' width= "500"> 
+<br/><img src='/images/ber.jpg' width= "400"> 
 1. **IEEE Daniel E. Nobel Fellowship Award**, 2022 
 <br/> <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Vehicular Technology Society</i></font>
 <br/> <font color="#CC5500"><i>&bull; Only one person is selected globally each year</i></font>
-<br/><img src='/images/VTS.jpg' width= "500"> 
+<br/><img src='/images/VTS.jpg' width= "400"> 
 1. **IEEE Signal Processing Society Scholarship**, 2023 
 <br/> <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Signal Processing Society</i></font>
-<br/><img src='/images/sps.png' width= "500"> 
+<br/><img src='/images/sps.png' width= "400"> 
 1. **Singapore Data Science Consortium (SDSC) Dissertation Research Fellowship**, 2023
 <br/> <font color="#CC5500"><i>&bull; Only ten students are selected in Singapore each year</i></font>
-<br/><img src='/images/sdscaward.jpg' width= "500"> 
+<br/><img src='/images/sdscaward.jpg' width= "400"> 
 1. **Chinese Government Award for Outstanding Students Abroad**, 2022 
 <br/> <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font>
 <br/> <font color="#CC5500"><i>&bull; Prestigious Award presented to 650 Ph.D. students worldwide each year</i></font>
 1. **NTU Graduate College's Research Excellence Award**, 2024
 <br/> <font color="#CC5500"><i>&bull; Only one student is selected each year.</i></font>
-<br/><img src='/images/Award/gcresearch.png' width= "500"> 
+<br/><img src='/images/Award/gcresearch.png' width= "400"> 
 1. **Best Paper Award** of IEEE Open Journal of the Computer Society
-<br/><img src='/images/bpojcs.png' width= "500"> 
+<br/><img src='/images/bpojcs.png' width= "400"> 
 1. **Best Paper Award** in the IWCMC 2024 Conference Ayia Napa, Cyprus, May 27th – 31st 2024
-<br/><img src='/images/Award/iwcmcbp.png' width= "500"> 
+<br/><img src='/images/Award/iwcmcbp.png' width= "400"> 
 1. **First Prize** in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition 
 <br/> <font color="#CC5500"><i>&bull; Project leader of ``Enhancing Metaverse Social Networking via User-Centric AI-Driven Eyewear''</i></font>
-<br/><img src='/images/Award/student.jpg' width= "500"> 
+<br/><img src='/images/Award/student.jpg' width= "400"> 
 1. **Second Prize** in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition 
 1. **Honorary Mention** in the 2023 ComSoc Student Competition ``Communications Technology Changing the World.'', 2023 
 <br/> <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Communications Society</i></font>
-<br/> <img src='/images/stucom.png' width= "500">
+<br/> <img src='/images/stucom.png' width= "400">
 1. **Honorary Mention** in the 2024 ComSoc Student Competition ``Communications Technology Changing the World.'', 2024 
 <br/> <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Communications Society, <b>Team Advisor</b></i></font>
-<br/> <img src='/images/2024stuw.png' width= "500">
+<br/> <img src='/images/2024stuw.png' width= "400">
 1. **Exemplary Reviewer** of the IEEE TRANSACTIONS ON COMMUNICATIONS, 2021 
-<br/><img src='/images/ReTCOM.jpg' width= "500">
+<br/><img src='/images/ReTCOM.jpg' width= "400">
 1. **Exemplary Reviewer** of the IEEE COMMUNICATIONS LETTERS, 2021 
-<br/><img src='/images/communlett.jpg' width= "500">
+<br/><img src='/images/communlett.jpg' width= "400">
 1. **Research Scholarship**, NTU, 2021-2025
 1. **National Scholarship**, Ministry of Education of China, 2020 
 <br/> <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font>
@@ -284,7 +284,7 @@ Academic Services
 1. Contributor, “IEEE ComSoc Best Readings in Generative AI and Large Language Models for Networking”
 1. Senior Program Committee: The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)
 1. TPC Member: IEEE WCNC 2026 Track 3-Machine Learning and Optimization for Wireless Systems; PIMRC 2025 MAC and Cross-Layer Design; IEEE ICC 2025 IoTSN Symposium; IEEE Globecom 2025 CRAEN, SAC-BD, and SAC-ISAC;  IEEE ICNC 2025 MCC; IEEE Globecom 2024 Workshop - IMMLLM6G; IEEE VTC2024-Fall Washington DC: Machine Learning for Communications; IEEE VTC2024-Fall Washington DC: Electric Vehicles, Vehicular Electronics and Intelligent Transportation; IEEE Globecom 2024-SAC BD; IEEE Globecom 2024-SAC ISC; IEEE ICC 2024-CRAIN Symposium (Cognitive Radio and AI-Enabled Networks); IEEE WCNC 2024-Track 3-Machine Learning and Optimization for Wireless Systems; IEEE WCNC 2024-Track 4-Emerging Technologies, Standards, and Applications; IEEE WCNC 2024-Workshop on The Impact of Large Language Models on 6G Networks; IEEE VTC2023-Fall: Hong Kong, Machine Learning and AI for Communications; IEEE VTC2023-Fall: Hong Kong-Electric Vehicles, Vehicular Electronics and Intelligent Transportation; IEEE VTC2023-Fall: Hong Kong-Recent Results and Workshops; IEEE WCNC 2023-Track 3-Machine Learning and Optimization for Wireless Systems; IEEE WCNC 2022-Track 2-Networking and MAC
-1. Reviewer: IEEE COMST, JSAC, TMC, TWC, TIFS, TCOM, TVT, WCM, IoTJ, Network, WCL, CL, ICLR, and more.
+1. Reviewer: IEEE TPAMI, COMST, JSAC, TMC, TSP, TWC, TIFS, TCOM, TVT, WCM, IoTJ, Network, WCL, CL, ICLR, and more.
 
 
 
