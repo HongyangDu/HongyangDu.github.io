@@ -50,7 +50,6 @@
     summary: "We propose M3LLM, where the Model Context Protocol (MCP) coordinates a mixture of vision experts to achieve distributed MLLMs. Based on the MCP representation, M3LLM formulates vision expert routing as a joint optimization problem that balances task-expert semantic compatibility and channel performance."
     tag: "🧩 M3LLM: \"Split the MLLM, sync the experts.\""
     category: "Network for AI"
-  
 
 - title: "MAD-SPEAR: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems"
   authors: "Yu Cui, Hongyang Du*"
