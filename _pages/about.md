@@ -101,9 +101,9 @@ Highlighted NI<font color=green><b>CE</b></font> Lab Work
 
 **For all publications, please refer to my [google scholar](https://scholar.google.com/citations?user=QI3vo-YAAAAJ&hl=en&oi=ao).**
 
-*GenAI for Network:*
+*AI for Network:*
 
-{% assign papers_genai = site.data.papers | where: "category", "GenAI for Network" %}
+{% assign papers_genai = site.data.papers | where: "category", "AI for Network" %}
 {% for paper in papers_genai %}
 <table>
   <tr>
@@ -127,9 +127,9 @@ Highlighted NI<font color=green><b>CE</b></font> Lab Work
 </table>
 {% endfor %}
 
-*Network Large AI Model:*
+*Network for AI:*
 
-{% assign papers_genai = site.data.papers | where: "category", "Network Large AI Model" %}
+{% assign papers_genai = site.data.papers | where: "category", "Network for AI" %}
 {% for paper in papers_genai %}
 <table>
   <tr>
@@ -153,9 +153,9 @@ Highlighted NI<font color=green><b>CE</b></font> Lab Work
 </table>
 {% endfor %}
 
-*Network-aided LLM Inference:*
+*Agentic AI System:*
 
-{% assign papers_genai = site.data.papers | where: "category", "Network-aided LLM" %}
+{% assign papers_genai = site.data.papers | where: "category", "Agentic AI System" %}
 {% for paper in papers_genai %}
 <table>
   <tr>
