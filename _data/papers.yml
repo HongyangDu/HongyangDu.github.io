@@ -28,7 +28,7 @@
   code: "https://github.com/SoftYuaneR/LSDM"
   image: "./images/lsdmframe.jpg"
   summary: "An LLM-Enhanced Spatio-temporal Diffusion Model (LSDM) to achieve SOTA service-level mobile traffic prediction for individual users."
-  tag: "🛰 LSDM: \"Your traffic tells a story.\""
+  tag: "🗺️ LSDM: \"Your traffic tells a story.\""
   category: "AI for Network"
 
 - title: "JPPO++: Joint Power and Denoising-inspired Prompt Optimization for Mobile LLM Services"
