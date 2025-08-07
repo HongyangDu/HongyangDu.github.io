@@ -46,7 +46,7 @@
   venue: "submitted to conference, 2025"
   arxiv: "https://arxiv.org/abs/2508.01805"
   pdf: "https://arxiv.org/pdf/2508.01805"
-  image: "./images/M3LLM.png"
+  image: "./images/M3LLM.jpg"
   summary: "We propose M3LLM, where the Model Context Protocol (MCP) coordinates a mixture of vision experts to achieve distributed MLLMs. Based on the MCP representation, M3LLM formulates vision expert routing as a joint optimization problem that balances task-expert semantic compatibility and channel performance."
   tag: "🧩 M3LLM: \"Split the MLLM, sync the experts.\""
   category: "Network for AI"
