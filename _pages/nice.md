@@ -190,6 +190,10 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         🌐 2025: <a href="https://arxiv.org/abs/2506.07548">CL-MARL</a><br>
       </div>
     </td>
+      </tr>
+</table>
+    <table>
+  <tr>
 	<td align="center" width="180">
       <img src="/images/Members/ziyue.jpg" width="100"><br>
       <strong>Ziyue Zhou</strong><br>
@@ -200,6 +204,16 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <strong>Jinghao Zhou</strong><br>
       Visiting undergraduate student<br>
       Tsinghua University
+    </td>
+    <td align="center" width="180">
+      <img src="/images/Members/yongjie.jpg" width="100"><br>
+      <strong>Yongjie Zeng</strong><br>
+      Intern<br>
+      China University of Mining and Technology
+      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2025: <a href="https://arxiv.org/abs/2508.01805v1">M3LLM</a><br>
+      </div>
     </td>
   </tr>
 </table>
