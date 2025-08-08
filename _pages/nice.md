@@ -192,7 +192,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
       </tr>
 </table>
-    <table>
+
+
+<table>
   <tr>
 	<td align="center" width="180">
       <img src="/images/Members/ziyue.jpg" width="100"><br>
