@@ -36,7 +36,7 @@ Toward this goal, we explore:
 
 News
 ======
-1. [Aug/2025] I am happy to participate in the *IEEE/CIC International Conference on Communications in China* and deliver tutorial 1, *``TUT-1: Toward Artificial General Intelligent (AGl)-Driven Communications with Generative Al and Large Language Models''*.
+1. [Aug/2025] I am happy to participate in the *IEEE/CIC International Conference on Communications in China* and deliver tutorial 1, **'TUT-1: Toward Artificial General Intelligent (AGl)-Driven Communications with Generative Al and Large Language Models'*.
 
 1. [Apr/2025] I am invited to deliver Lecture 5, **Generative Diffusion Model with Its Applications**, for the *Communication-Specific Large AI Models Master Class* organized by [Chaspark](https://www.chaspark.com/).
 
