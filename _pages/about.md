@@ -36,6 +36,8 @@ Toward this goal, we explore:
 
 News
 ======
+1. [Aug/2025] I am happy to participate in the *IEEE/CIC International Conference on Communications in China* and deliver tutorial 1, *``TUT-1: Toward Artificial General Intelligent (AGl)-Driven Communications with Generative Al and Large Language Models''*.
+
 1. [Apr/2025] I am invited to deliver Lecture 5, **Generative Diffusion Model with Its Applications**, for the *Communication-Specific Large AI Models Master Class* organized by [Chaspark](https://www.chaspark.com/).
 
 1. [Mar/2025] We organize a workshop ["Embracing Generative AI towards 6G RAN"](https://events.vtsociety.org/vtc2025-fall/conference-sessions/workshops-currently-available/w8-embracing-generative-ai-towards-6g-ran/) in the 2025 IEEE 102nd Vehicular Technology Conference **VTC2025-Fall** in Chengdu, China October 19-22, 2025.
