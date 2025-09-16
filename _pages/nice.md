@@ -96,6 +96,10 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: large language models<br>
       Prior Degree: M.S., Boston University
+      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intelligence</a><br>
+      </div>
     </td>
   </tr>
 </table>
