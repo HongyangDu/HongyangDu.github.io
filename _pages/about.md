@@ -182,25 +182,6 @@ Highlighted NI<font color=green><b>CE</b></font> Lab Work
 ---
 
 
-Selected Collaborative Papers
-======
-
-1. Xiaoqi Wang, **Hongyang Du**, Yuehong Gao, and Dong In Kim. ["AOLO: Analysis and Optimization For Low-Carbon Oriented Wireless Large Language Model Services"](https://arxiv.org/abs/2503.04418), submitted to IEEE, 2025. <font color=green>AOLO introduces a comprehensive carbon footprint model that quantifies greenhouse gas emissions across the entire LLM service chain, including computational inference and wireless communication.</font>
-
-1. Jiacheng Wang, **Hongyang Du** *(corresponding author)*, Yinqiu Liu, Geng Sun, Dusit Niyato, Shiwen Mao, Dong In Kim, Xuemin Shen. ["Generative AI based secure wireless sensing for ISAC networks"](https://arxiv.org/pdf/2408.11398), **IEEE Transactions on Information Forensics and Security**, 2025.
-
-1. Changyuan Zhao, **Hongyang Du** *(corresponding author)*, Guangyuan Liu, and Dusit Niyato. ["Supervised Score-Based Modeling by Gradient Boosting."](https://arxiv.org/abs/2411.01159), **AAAI Conference on Artificial Intelligence**, 2024. <font color=green>We provide a theoretical analysis of learning and sampling for SSM to balance inference time and prediction accuracy.</font>
-
-1. Minrui Xu, **Hongyang Du** *(corresponding author)*, Dusit Niyato, Jiawen Kang, Zehui Xiong, Shiwen Mao, Zhu Han et al. [“Unleashing the power of edge-cloud generative AI in mobile networks: A survey of aigc services.”](https://ieeexplore.ieee.org/document/10398474) **IEEE Communications Surveys & Tutorials**, vol. 25, pp. 213-250, 2023.
-<br/> <font color="#CC5500"><i>&bull; ESI highly cited paper </i></font>
-<br/> <font color="#CC5500"><i>&bull; ESI hot cited paper </i></font>
-
-1. Zhe Wang, Jiayi Zhang, **Hongyang Du**, Dusit Niyato, Shuguang Cui, Bo Ai, Merouane Debbah, Khaled B. Leraief, H. Vincent Poor. [“A Tutorial on Extremely Large-Scale MIMO for 6G: Fundamentals, Signal Processing, and Applications.”](https://ieeexplore.ieee.org/document/10379539/) **IEEE Communications Surveys & Tutorials**, vol. 26, pp. 1560-1605, 2024.
-<br/> <font color="#CC5500"><i>&bull; ESI highly cited paper </i></font>
-<br/> <font color="#CC5500"><i>&bull; ESI hot cited paper </i></font>
-
----
-
 Selected First-author Papers
 ======
 
