@@ -31,9 +31,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: Ph.D., The University of Sydney
 	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a><br>
+        🌐 2025: <a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a>
         🌐 2025: <a href="https://arxiv.org/pdf/2503.07433.pdf">DRESS</a>
-		🌐 2025: <a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a>
+	🌐 2025: <a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a><br>
       </div>
     </td>
   </tr>
@@ -98,7 +98,8 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: M.S., Boston University
       <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intelligence</a><br>
+        🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intelligence</a>
+	🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
       </div>
     </td>
   </tr>
