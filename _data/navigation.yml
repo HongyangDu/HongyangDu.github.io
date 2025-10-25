@@ -3,9 +3,6 @@ main:
 
   - title: "NICE Lab"
     url: /nice/
-
-  - title: "Research Highlights"
-    url: /publications/
         
   - title: "Blog Posts"
     url: /year-archive/
