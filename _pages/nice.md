@@ -54,6 +54,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Networking system<br>
       Prior Degree: M.S., University of Chinese Academy of Sciences
+      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2025: <a href="https://arxiv.org/abs/2510.13467">NetMCP</a>
+	🌐 2025: <a href="https://arxiv.org/abs/2510.18550">JAUNT</a><br>
+      </div>
     </td>
   </tr>
 </table>
