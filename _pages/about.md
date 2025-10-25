@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor at the Department of Electrical and Electronic Engineering, the University of Hong Kong (HKU). I received Ph.D. degree at the College of Computing and Data Science, Nanyang Technological University, Singapore, and B.Eng. degree at Beijing Jiaotong University, China. I am now the Principal Investigator (PI) of the <b>Network Intelligence and <font color=green>C</font>omputing <font color=green>E</font>cosystem (NI<font color=green>CE</font>) Lab</b> @ HKU. The [NICE lab](https://hongyangdu.github.io/nice/) focuses on the integration of *Generative AI in Intelligent Networks*. We pursue two complementary directions: *"<font color=green>Network for AI</font> - Unfold Intelligence by Horizontally Scaling It Across the Network"*, and *"<font color=green>AI for Network</font> - Specialize Intelligence by Vertically Optimizing It for Networks and Domain Systems"*. These two directions converge toward a unified goal: *"<font color=green>Ubiquitous Intelligence</font>, where intelligence is woven into every interaction, every environment, and every moment."*
-
+I am an assistant professor at the Department of Electrical and Electronic Engineering, the University of Hong Kong (HKU). I received Ph.D. degree at Nanyang Technological University, Singapore, and B.Eng. degree at Beijing Jiaotong University, China. I am now the Principal Investigator (PI) of the <b>Network Intelligence and <font color=green>C</font>omputing <font color=green>E</font>cosystem (NI<font color=green>CE</font>) Lab</b> @ HKU. The [NICE lab](https://hongyangdu.github.io/nice/) focuses on the integration of *Generative AI in Intelligent Networks*. We pursue two complementary directions: *"<font color=green>Network for AI</font> - Unfold Intelligence by Horizontally Scaling It Across the Network"*, and *"<font color=green>AI for Network</font> - Specialize Intelligence by Vertically Optimizing It for Networks and Domain Systems"*. These two directions converge toward a unified goal: *"<font color=green>Ubiquitous Intelligence</font>, where intelligence is woven into every interaction, every environment, and every moment."*
 
 <img src='/images/directions.png' width = "900"><br/>
-
 
 Toward this goal, we explore:
 
@@ -27,8 +25,6 @@ Toward this goal, we explore:
    - Connected large language models
    - Next-generation wireless transmission technologies
    - Edge intelligence
-
-
 
 >*For potential students and researchers interested in joining our lab: Please refer to [NICE](https://hongyangdu.github.io/nice/) for openings, research opportunities, and application details.*
 
