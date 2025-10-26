@@ -258,6 +258,7 @@ Academic Services
 1. **Associate Editor, IEEE Transactions on Communications** (Impact Factor: 7.7) (2024-)
 1. **Associate Editor, IEEE Transactions on Vehicular Technology (Impact Factor: 6.8)** (2024-)
 1. **Guest Editor, IEEE Vehicular Technology Magazine**, *"Integrating Generative AI into Future Internet of Vehicles (IoV)"*, 2024
+1. Local Chair, *Open and AI RAN Workshop* with ACM MobiCom, 2025
 1. Assistant to the Editor-in Chief, IEEE Communications Surveys & Tutorials (2022-2024)
 1. Workshop Co-chair, "Empowering Wireless Communications and Networking with Generative AI" in IEEE ICCC 2024
 1. Contributor, “IEEE ComSoc Best Readings in Generative AI and Large Language Models for Networking”
