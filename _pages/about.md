@@ -32,7 +32,7 @@ Toward this goal, we explore:
 
 News
 ======
-1. [Nov/2025] I served as the Local Chair of *The 2nd ACM workshop on Open and AI RAN Workshop* with **ACM MobiCom 2025**.
+1. [Nov/2025] I served as the Local Chair of *The 2nd ACM workshop on Open and AI RAN Workshop*.
 
 1. [Aug/2025] I am happy to participate in the *IEEE/CIC International Conference on Communications in China* and deliver tutorial 1, **'TUT-1: Toward Artificial General Intelligent (AGl)-Driven Communications with Generative Al and Large Language Models'**.
 
