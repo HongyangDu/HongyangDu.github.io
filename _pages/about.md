@@ -54,7 +54,7 @@ News
 
 <details>
 <summary><strong>More News</strong></summary>
-<ol start="10">
+<ol start="11">
         <li>[Dec/2024] Our paper "Blockchain-Aided Secure Semantic Communication for AI-Generated Content in Metaverse" has been awarded the <strong>2023 Best Paper Award</strong> from IEEE Open Journal of the Computer Society by the IEEE Computer Society Publications Board.</li>
         <li>[Nov/2024] I am invited as a keynote speaker at the <em>International Conference on the Next Generation Intelligent Networks</em>, organized by Xijiao Institute for Cyber Science and Technology.</li>
         <li>[Nov/2024] Our project "Gaiety: Generative AI-empowered Edge Hub for Accessible and Immersive Meta-Home" received a <em>Honorary Mention</em> in the 2024 ComSoc Student Competition "Communications Technology Changing the World".</li>
@@ -72,14 +72,8 @@ News
     <li>[Jun/2023] It's a great honour to have been invited by <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> to give a talk about <font color=green>Exploring the Role of Generative AI in Wireless Networks: Applications, Optimization, and Challenges</font>!</li>
     <li>[May/2023] I am delighted to be invited by the <a href="https://www.cuhk.edu.cn/en/taxonomy/term/49">Future Network of Intelligence Institute</a> in <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong-Shenzhen</a> to give a talk about <font color=green>Generative AI in Intelligent Networks</font>! The slides are available <a href="https://hongyangdu.github.io/talks/2023/05/cuhksz/">here</a>.</li>
     <li>[Apr/2023] I had the pleasure of visiting University of Technology Sydney, University of Sydney, and University of New South Wales in <font color=green>Australia</font>. Relaxing days!</li>
-    <li>[Apr/2023] Two first author JSAC papers <a href="https://arxiv.org/abs/2303.01896">"AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing,"</a> and <a href="https://arxiv.org/abs/2211.12727">"Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding,"</a> are accepted!</li>
-    <li>[Mar/2023] The definition of AI-Generated Content (AIGC) in our research <a href="https://arxiv.org/abs/2301.03220">paper</a> is identified as the "AIGC definition" in <a href="https://github.com/HongyangDu/HongyangDu.github.io/blob/master/images/aigcdef/def.png?raw=true">Google search</a>. Interesting ^_^</li>
-    <li>[Feb/2023] One first author JSAC paper <a href="https://arxiv.org/abs/2208.05438">"Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services,"</a> is accepted!</li>
-    <li>[Jan/2023] I visited <font color=green>Japan</font> and had the opportunity to explore the wonderful Tohoku University. Happy to make many new friends!</li>
     <li>[Dec/2022] I visited <a href="https://www.skku.edu/eng/index.do">Sungkyunkwan University</a> in <font color=green>Korea</font>, hosted by Prof. <a href="http://wireless.skku.edu/english/viewforum.php?f=96">Dong In Kim</a>. It was a memorable month!</li>
     <li>[Nov/2022] I am honored to receive the <font color=green>IEEE Daniel E. Nobel Fellowship Award</font> (One person each year)!</li>
-    <li>[Jun/2022] I visited <a href="https://www.cmu.ac.th/en/">Chiang Mai University</a> in <span style="color: green;">Thailand</span>, hosted by <a href="https://scholar.google.com/citations?hl=zh-CN&user=iirwtGkAAAAJ">Prof. Maggie</a>. Very happy time!</li>
-    <li>[Feb/2022] Our paper titled <a href="https://hongyangdu.github.io/files/Du%20et%20al_Performance%20Analysis%20and%20Optimization%20for%20Jammer-Aided%20Multi-Antenna%20UAV%20Covert.pdf">"Performance Analysis and Optimization for Jammer-Aided Multiantenna UAV Covert Communication"</a> is accepted by IEEE JSAC (IF: 13.08, Q1)!</li>
     <li>[Jan/2022] I am honored to be recognized as the <span style="color: green;">Exemplary Reviewer of the IEEE TCOM</span>, 2021!</li>
 </ol>
 </details>
