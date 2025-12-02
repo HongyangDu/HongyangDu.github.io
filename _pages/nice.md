@@ -232,26 +232,6 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 </table>
 
 
-## Positions
-
-### 1. PhD Students
-
-Several scholarship opportunities:
-- [Postgraduate Scholarship (PGS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships)
-- [Hong Kong PhD Fellowship Scheme (HKPFS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme)
-- [HKU Presidential Scholarship (HKU-PS)](https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme)
-
-### 2. Postdoctoral Researchers
-
-- Normal track
-- [RGC Junior Research Fellow Scheme](https://www.ugc.edu.hk/eng/rgc/funding_opport/jrfs/)
-- JC STEM Early Career Research Fellowship for Translation and Application
-- [香江學者計劃 Hong Kong Scholars Program](https://www.hkscholars.org/)
-
-### 3. Visiting Students / Research Assistants / Interns
-
-We welcome outstanding students (including qualified PhD students, master and undergraduate students, either online or in-person) to join our lab and participate in cutting-edge research projects. Priority will be given to students who can build long-term collaboration, HKU students, and those intending to apply for a PhD.
-
 
 ## Expectations
 
@@ -268,7 +248,7 @@ Our research is highly interdisciplinary, involving collaboration with experts f
 
 If you're interested in joining NICE Lab or would like more information, please contact me:
 - Email: duhy@hku.hk
-- Subject Line: PhD/PostDoc/xx Application-University-Name
+- Subject Line: PhD/xx Application-University-Name
 - Attachments: CV, undergraduate transcripts, relevant publications, and research statement (optional; one page discussing your research background and its relevance to my work)
 
 >Because of the high volume of emails I receive, I may not be able to respond to everyone, including some excellent applicants. However, please note that I do read every email and will reply to those that are most relevant to my research. I wish everyone the best of luck in finding the position that suits them best.
