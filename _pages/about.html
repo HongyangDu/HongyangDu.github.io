@@ -89,41 +89,42 @@ redirect_from:
           --gradient-bot: linear-gradient(135deg, #ebf8ff 0%, #edf2f7 100%);
       }
 
-      .infographic-container {
-          width: 100%;
-          max-width: 1200px;
-          margin: 2rem auto;
-          background-color: #ffffff;
-          padding: 24px 28px 28px 28px;
-          border-radius: 16px;
-          border: 1px solid var(--border-color);
-          box-shadow: 0 10px 25px rgba(0,0,0,0.06);
-          display: flex;
-          flex-direction: column;
-          gap: 18px;
-      }
+		.infographic-container {
+			width: 100%;
+			max-width: 1200px;
+			margin: 1.6rem auto;
+			background-color: #ffffff;
+			padding: 18px 22px 22px 22px;
+			border-radius: 16px;
+			border: 1px solid var(--border-color);
+			box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+			display: flex;
+			flex-direction: column;
+			gap: 14px;
+		}
 
       .infographic-container header {
           text-align: center;
           margin-bottom: 4px;
       }
 
-      .infographic-container h1 {
-          font-size: 1.7rem;
-          font-weight: 700;
-          color: var(--primary-blue);
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
-          margin-bottom: 4px;
-      }
+		/* 标题整体缩小一点 */
+		.infographic-container h1 {
+			font-size: 1.45rem;
+			font-weight: 700;
+			color: var(--primary-blue);
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			margin-bottom: 4px;
+		}
 
-      .infographic-subtitle {
-          font-size: 1rem;
-          color: var(--primary-green);
-          font-weight: 600;
-          letter-spacing: 0.12em;
-          text-transform: uppercase;
-      }
+		.infographic-subtitle {
+			font-size: 0.9rem;
+			color: var(--primary-green);
+			font-weight: 600;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+		}
 
       .layers-wrapper {
           display: flex;
@@ -164,18 +165,19 @@ redirect_from:
           z-index: 10;
       }
 
-      .layer-title {
-          font-size: 1rem;
-          font-weight: 700;
-          color: var(--text-dark);
-      }
+		/* 左侧标题框字体缩小 */
+		.layer-title {
+			font-size: 0.9rem;
+			font-weight: 700;
+			color: var(--text-dark);
+		}
 
-      .layer-purpose {
-          font-size: 0.85rem;
-          color: #718096;
-          margin-top: 4px;
-          font-style: italic;
-      }
+		.layer-purpose {
+			font-size: 0.78rem;
+			color: #718096;
+			margin-top: 4px;
+			font-style: italic;
+		}
 
       .layer-content {
           margin-left: 290px;
@@ -203,28 +205,31 @@ redirect_from:
       }
       .layer-bot .layer-title-box { border-left-color: #718096; }
 
-      .module {
-          background: rgba(255, 255, 255, 0.78);
-          border: 1px solid rgba(0,0,0,0.04);
-          border-radius: 10px;
-          padding: 10px 8px;
-          text-align: center;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 6px;
-          font-size: 0.86rem;
-          color: var(--text-light);
-          font-weight: 500;
-      }
+		/* 每个模块的文字缩小 */
+		.module {
+			background: rgba(255, 255, 255, 0.78);
+			border: 1px solid rgba(0,0,0,0.04);
+			border-radius: 10px;
+			padding: 8px 6px;
+			text-align: center;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+			font-size: 0.78rem;
+			color: var(--text-light);
+			font-weight: 500;
+		}
 
-      .icon {
-          font-size: 1.5rem;
-          margin-bottom: 3px;
-          display: block;
-      }
+
+		/* 图标相应缩小 */
+		.icon {
+			font-size: 1.3rem;
+			margin-bottom: 2px;
+			display: block;
+		}
 
       .math {
           font-family: "Times New Roman", serif;
@@ -265,18 +270,19 @@ redirect_from:
           padding: 0 10px;
       }
 
-      .chain-label {
-          font-size: 0.78rem;
-          font-weight: 700;
-          color: var(--primary-blue);
-          text-transform: uppercase;
-          letter-spacing: 0.08em;
-      }
+		/* 顶部链路标签缩小 */
+		.chain-label {
+			font-size: 0.72rem;
+			font-weight: 700;
+			color: var(--primary-blue);
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+		}
 
-      .chain-icon {
-          font-size: 1.1rem;
-          color: var(--primary-green);
-      }
+		.chain-icon {
+			font-size: 1rem;
+			color: var(--primary-green);
+		}
 
       @media (max-width: 960px) {
           .layer-title-box {
