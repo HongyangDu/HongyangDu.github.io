@@ -72,363 +72,387 @@ redirect_from:
     <p>From 2025 onward, our lab rethinks the new era of AI and next-generation networks, and identifies the following research projects in NI<font color="green">CE</font>:</p>
 
     <!-- NICE Lab Research Directions Infographic -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <style>
-      :root {
-          --primary-blue: #2c5282;
-          --primary-green: #2f855a;
-          --soft-blue: #ebf8ff;
-          --soft-green: #f0fff4;
-          --neutral-bg: #f7fafc;
-          --text-dark: #2d3748;
-          --text-light: #4a5568;
-          --border-color: #cbd5e0;
-          --gradient-top: linear-gradient(135deg, #e6fffa 0%, #ebf8ff 100%);
-          --gradient-mid: linear-gradient(135deg, #f0fff4 0%, #e6fffa 100%);
-          --gradient-bot: linear-gradient(135deg, #ebf8ff 0%, #edf2f7 100%);
-      }
+	<style>
+	:root {
+      /* 主色：深但不发黑的学术绿 */
+      --primary-blue: #0c3b32;
 
-		.infographic-container {
-			width: 100%;
-			max-width: 1200px;
-			margin: 1.6rem auto;
-			background-color: #ffffff;
-			padding: 18px 22px 22px 22px;
-			border-radius: 16px;
-			border: 1px solid var(--border-color);
-			box-shadow: 0 10px 25px rgba(0,0,0,0.06);
-			display: flex;
-			flex-direction: column;
-			gap: 14px;
-		}
+      /* 辅助浅绿：略偏灰，适合图标和文字 */
+      --primary-green: #5b8f78;
 
-      .infographic-container header {
-          text-align: center;
-          margin-bottom: 4px;
-      }
+      /* 柔和浅绿背景，用在卡片和中间层过渡 */
+      --soft-blue: #dde8e2;
+      --soft-green: #f3f6f4;
 
-		/* 标题整体缩小一点 */
-		.infographic-container h1 {
-			font-size: 1.15rem;
-			font-weight: 700;
-			color: var(--primary-blue);
-			letter-spacing: 0.08em;
-			text-transform: uppercase;
-			margin-bottom: 4px;
-		}
+      /* 底部和整体背景：暖浅灰，偏“纸张色” */
+      --neutral-bg: #f3f1ec;
 
-		.infographic-subtitle {
-			font-size: 0.9rem;
-			color: var(--primary-green);
-			font-weight: 600;
-			letter-spacing: 0.12em;
-			text-transform: uppercase;
-		}
+      --text-dark: #1f2933;
+      --text-light: #4b5563;
+      --border-color: #d5d0c7;
 
-      .layers-wrapper {
-          display: flex;
-          flex-direction: column;
-          gap: 12px;
-          position: relative;
-          z-index: 2;
-      }
+/* 顶层：浅墨绿 → 灰绿 */
+--gradient-top: linear-gradient(135deg, #7da99b 0%, #a8beb5 100%);
 
-      .layer {
-          border-radius: 12px;
-          border: 1px solid var(--border-color);
-          padding: 18px 18px 18px 18px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          position: relative;
-          transition: all 0.3s ease;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
-      }
+/* 中层：灰绿 → 浅灰绿 */
+--gradient-mid: linear-gradient(135deg, #a8beb5 0%, #d6ddd8 100%);
 
-      .layer:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
-      }
-
-      .layer-title-box {
-          position: absolute;
-          left: 18px;
-          top: 50%;
-          transform: translateY(-50%);
-          background: white;
-          padding: 10px 16px;
-          border-radius: 10px;
-          border-left: 5px solid;
-          box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-          width: 230px;
-          z-index: 10;
-      }
-
-		/* 左侧标题框字体缩小 */
-		.layer-title {
-			font-size: 0.8rem;
-			font-weight: 700;
-			color: var(--text-dark);
-		}
-
-		.layer-purpose {
-			font-size: 0.7rem;
-			color: #718096;
-			margin-top: 4px;
-			font-style: italic;
-		}
-
-      .layer-content {
-          margin-left: 260px;
-          display: flex;
-          justify-content: space-between;
-          align-items: stretch;
-          gap: 14px;
-      }
-
-      .layer-top {
-          background: var(--gradient-top);
-          border-left: 5px solid var(--primary-blue);
-      }
-      .layer-top .layer-title-box { border-left-color: var(--primary-blue); }
-
-      .layer-mid {
-          background: var(--gradient-mid);
-          border-left: 5px solid var(--primary-green);
-      }
-      .layer-mid .layer-title-box { border-left-color: var(--primary-green); }
-
-      .layer-bot {
-          background: var(--gradient-bot);
-          border-left: 5px solid #718096;
-      }
-      .layer-bot .layer-title-box { border-left-color: #718096; }
-
-		/* 每个模块的文字缩小 */
-		.module {
-			background: rgba(255, 255, 255, 0.78);
-			border: 1px solid rgba(0,0,0,0.04);
-			border-radius: 10px;
-			padding: 8px 6px;
-			text-align: center;
-			flex: 1;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			gap: 3px;
-			font-size: 0.7rem;
-			color: var(--text-light);
-			font-weight: 500;
-		}
+/* 底层：浅灰绿 → 暖浅灰 */
+--gradient-bot: linear-gradient(135deg, #d6ddd8 0%, #e9e6df 100%);
 
 
-		/* 图标相应缩小 */
-		.icon {
-			font-size: 1.3rem;
-			margin-bottom: 2px;
-			display: block;
-		}
 
-      .math {
-          font-family: "Times New Roman", serif;
-          font-style: italic;
-      }
+  }
 
-      .connectivity-chain {
-          margin-top: 6px;
-          margin-bottom: 4px;
-          background: #ffffff;
-          border-radius: 40px;
-          border: 1px dashed var(--border-color);
-          padding: 10px 28px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          position: relative;
-      }
+	  .infographic-container {
+		  width: 100%;
+		  max-width: 1200px;
+		  margin: 1.6rem auto;
+		  background-color: #ffffff;
+		  padding: 18px 22px 22px 22px;
+		  border-radius: 16px;
+		  border: 1px solid var(--border-color);
+		  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+		  display: flex;
+		  flex-direction: column;
+		  gap: 14px;
+	  }
 
-      .chain-line {
-          position: absolute;
-          top: 50%;
-          left: 32px;
-          right: 32px;
-          height: 2px;
-          background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
-          z-index: 1;
-          opacity: 0.25;
-      }
+	  .infographic-container header {
+		  text-align: center;
+		  margin-bottom: 4px;
+	  }
 
-      .chain-node {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 4px;
-          z-index: 2;
-          background: #ffffff;
-          padding: 0 10px;
-      }
+	  /* 标题整体缩小一点 */
+	  .infographic-container h1 {
+		  font-size: 1.15rem;
+		  font-weight: 700;
+		  color: var(--primary-blue);
+		  letter-spacing: 0.08em;
+		  text-transform: uppercase;
+		  margin-bottom: 4px;
+	  }
 
-		/* 顶部链路标签缩小 */
-		.chain-label {
-			font-size: 0.52rem;
-			font-weight: 700;
-			color: var(--primary-blue);
-			text-transform: uppercase;
-			letter-spacing: 0.08em;
-		}
+	  .infographic-subtitle {
+		  font-size: 0.9rem;
+		  color: var(--primary-green);
+		  font-weight: 600;
+		  letter-spacing: 0.12em;
+		  text-transform: uppercase;
+	  }
 
-		.chain-icon {
-			font-size: 1rem;
-			color: var(--primary-green);
-		}
+	  .layers-wrapper {
+		  display: flex;
+		  flex-direction: column;
+		  gap: 12px;
+		  position: relative;
+		  z-index: 2;
+	  }
 
-      @media (max-width: 960px) {
-          .layer-title-box {
-              position: static;
-              transform: none;
-              width: auto;
-              margin-bottom: 10px;
-          }
-          .layer-content {
-              margin-left: 0;
-              flex-wrap: wrap;
-          }
-          .module {
-              flex: 1 1 calc(50% - 10px);
-          }
-          .connectivity-chain {
-              flex-wrap: wrap;
-              row-gap: 8px;
-          }
-      }
+	  .layer {
+		  border-radius: 12px;
+		  border: 1px solid var(--border-color);
+		  padding: 18px 18px 18px 18px;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  position: relative;
+		  transition: all 0.3s ease;
+		  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+	  }
 
-      @media (max-width: 640px) {
-          .infographic-container {
-              padding: 18px 16px;
-          }
-          .module {
-              flex: 1 1 100%;
-          }
-      }
-    </style>
+	  .layer:hover {
+		  transform: translateY(-2px);
+		  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
+	  }
 
-    <div class="infographic-container">
-      <header>
-          <h1>TOWARD UBIQUITOUS INTELLIGENCE</h1>
-          <div class="infographic-subtitle">NETWORK FOR AI × AI FOR NETWORK</div>
-      </header>
+	  .layer-title-box {
+		  position: absolute;
+		  left: 18px;
+		  top: 50%;
+		  transform: translateY(-50%);
+		  background: white;
+		  padding: 10px 16px;
+		  border-radius: 10px;
+		  border-left: 5px solid;
+		  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+		  width: 230px;
+		  z-index: 10;
+	  }
 
-      <div class="connectivity-chain">
-          <div class="chain-line"></div>
+	  /* 左侧标题框字体缩小 */
+	  .layer-title {
+		  font-size: 0.8rem;
+		  font-weight: 700;
+		  color: var(--text-dark);
+	  }
 
-          <div class="chain-node">
-              <i class="chain-icon fa-solid fa-user"></i>
-              <span class="chain-label">Users</span>
-          </div>
+	  .layer-purpose {
+		  font-size: 0.7rem;
+		  color: #718096;
+		  margin-top: 4px;
+		  font-style: italic;
+	  }
 
-          <div class="chain-node">
-              <i class="chain-icon fa-solid fa-wifi"></i>
-              <span class="chain-label">Wireless Links</span>
-          </div>
+	  .layer-content {
+		  margin-left: 260px;
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: stretch;
+		  gap: 14px;
+	  }
 
-          <div class="chain-node">
-              <i class="chain-icon fa-solid fa-server"></i>
-              <span class="chain-label">Radio Access</span>
-          </div>
+	  .layer-top {
+		  background: var(--gradient-top);
+		  border-left: 5px solid var(--primary-blue);
+	  }
+	  .layer-top .layer-title-box { border-left-color: var(--primary-blue); }
 
-          <div class="chain-node">
-              <i class="chain-icon fa-solid fa-microchip"></i>
-              <span class="chain-label">Core</span>
-          </div>
+	  .layer-mid {
+		  background: var(--gradient-mid);
+		  border-left: 5px solid var(--primary-green);
+	  }
+	  .layer-mid .layer-title-box { border-left-color: var(--primary-green); }
 
-          <div class="chain-node">
-              <i class="chain-icon fa-solid fa-rocket"></i>
-              <span class="chain-label">Applications</span>
-          </div>
-      </div>
+	  .layer-bot {
+		  background: var(--gradient-bot);
+		  border-left: 5px solid #9ca3af; /* 浅灰 */
+	  }
+	  .layer-bot .layer-title-box { border-left-color: #9ca3af; }
 
-      <div class="layers-wrapper">
-          <!-- Top layer -->
-          <div class="layer layer-top">
-              <div class="layer-title-box">
-                  <div class="layer-title">Ubiquitous Intelligent Systems</div>
-                  <div class="layer-purpose">Embedded intelligence in large-scale environments</div>
-              </div>
-              <div class="layer-content">
-                  <div class="module">
-                      <i class="icon fa-solid fa-city" style="color: #4299e1;"></i>
-                      <span>Smart Cities<br>& Environments</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-robot" style="color: #2b6cb0;"></i>
-                      <span>Autonomous<br>Industrial Systems</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-cloud-arrow-up" style="color: #3182ce;"></i>
-                      <span>Self-Organizing<br>Integration</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-mobile-screen" style="color: #63b3ed;"></i>
-                      <span>Real-world<br>Service Intelligence</span>
-                  </div>
-              </div>
-          </div>
+	  /* 每个模块的文字缩小 */
+	  .module {
+		  background: rgba(255, 255, 255, 0.78);
+		  border: 1px solid rgba(0,0,0,0.04);
+		  border-radius: 10px;
+		  padding: 8px 6px;
+		  text-align: center;
+		  flex: 1;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+		  gap: 3px;
+		  font-size: 0.7rem;
+		  color: var(--text-light);
+		  font-weight: 500;
+	  }
 
-          <!-- Middle layer -->
-          <div class="layer layer-mid">
-              <div class="layer-title-box">
-                  <div class="layer-title">Networked Intelligence Orchestration</div>
-                  <div class="layer-purpose">Collaboration across agents, humans, and networks</div>
-              </div>
-              <div class="layer-content">
-                  <div class="module">
-                      <i class="icon fa-solid fa-circle-nodes" style="color: #38a169;"></i>
-                      <span>Multi-Agent<br>Cooperation</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-brain" style="color: #2f855a;"></i>
-                      <span>LLM Agents<br>& Operations</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-user-gear" style="color: #48bb78;"></i>
-                      <span>Human–Computer<br>Interaction</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-diagram-project" style="color: #276749;"></i>
-                      <span>Distributed<br>Decision Making</span>
-                  </div>
-              </div>
-          </div>
+	  /* 图标相应缩小 */
+	  .icon {
+		  font-size: 1.3rem;
+		  margin-bottom: 2px;
+		  display: block;
+	  }
 
-          <!-- Bottom layer -->
-          <div class="layer layer-bot">
-              <div class="layer-title-box">
-                  <div class="layer-title">Algorithmic Intelligence Foundations</div>
-                  <div class="layer-purpose">Fundamental AI modeling, training, and inference</div>
-              </div>
-              <div class="layer-content">
-                  <div class="module">
-                      <span class="icon math">&nabla;f(x)</span>
-                      <span>Optimization<br>Algorithms</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-layer-group" style="color: #718096;"></i>
-                      <span>Generative &<br>Representation Learning</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-chart-simple" style="color: #718096;"></i>
-                      <span>Efficient<br>Inference</span>
-                  </div>
-                  <div class="module">
-                      <i class="icon fa-solid fa-shield-halved" style="color: #4a5568;"></i>
-                      <span>Model<br>Robustness</span>
-                  </div>
-              </div>
-          </div>
-      </div>
+	  .math {
+		  font-family: "Times New Roman", serif;
+		  font-style: italic;
+	  }
+
+	  .connectivity-chain {
+		  margin-top: 6px;
+		  margin-bottom: 4px;
+		  background: #ffffff;
+		  border-radius: 40px;
+		  border: 1px dashed var(--border-color);
+		  padding: 10px 28px;
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		  position: relative;
+	  }
+
+	  .chain-line {
+		  position: absolute;
+		  top: 50%;
+		  left: 32px;
+		  right: 32px;
+		  height: 2px;
+		  background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+		  z-index: 1;
+		  opacity: 0.25;
+	  }
+
+	  .chain-node {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  gap: 4px;
+		  z-index: 2;
+		  background: #ffffff;
+		  padding: 0 10px;
+	  }
+
+	  /* 顶部链路标签缩小 */
+	  .chain-label {
+		  font-size: 0.52rem;
+		  font-weight: 700;
+		  color: var(--primary-blue);
+		  text-transform: uppercase;
+		  letter-spacing: 0.08em;
+	  }
+
+	  .chain-icon {
+		  font-size: 1rem;
+		  color: var(--primary-green);
+	  }
+
+	  @media (max-width: 960px) {
+		  .layer-title-box {
+			  position: static;
+			  transform: none;
+			  width: auto;
+			  margin-bottom: 10px;
+		  }
+		  .layer-content {
+			  margin-left: 0;
+			  flex-wrap: wrap;
+		  }
+		  .module {
+			  flex: 1 1 calc(50% - 10px);
+		  }
+		  .connectivity-chain {
+			  flex-wrap: wrap;
+			  row-gap: 8px;
+		  }
+	  }
+
+	  @media (max-width: 640px) {
+		  .infographic-container {
+			  padding: 18px 16px;
+		  }
+		  .module {
+			  flex: 1 1 100%;
+		  }
+	  }
+	</style>
+
+	<div class="infographic-container">
+	  <header style="display:flex; align-items:center; gap:16px;">
+    <img src="/images/logo.png" 
+         alt="NICE Lab Logo"
+         style="height:55px; width:auto;">
+
+    <div>
+        <h1>TOWARD UBIQUITOUS INTELLIGENCE</h1>
+        <div class="infographic-subtitle">NETWORK FOR AI × AI FOR NETWORK</div>
     </div>
+</header>
+
+
+	  <div class="connectivity-chain">
+		  <div class="chain-line"></div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-user"></i>
+			  <span class="chain-label">Users</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-wifi"></i>
+			  <span class="chain-label">Wireless Links</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-server"></i>
+			  <span class="chain-label">Radio Access</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-microchip"></i>
+			  <span class="chain-label">Core</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-rocket"></i>
+			  <span class="chain-label">Applications</span>
+		  </div>
+	  </div>
+
+	  <div class="layers-wrapper">
+		  <!-- Top layer -->
+		  <div class="layer layer-top">
+			  <div class="layer-title-box">
+				  <div class="layer-title">Ubiquitous Intelligent Systems</div>
+				  <div class="layer-purpose">Embedded intelligence in large-scale environments</div>
+			  </div>
+			  <div class="layer-content">
+				  <div class="module">
+					  <i class="icon fa-solid fa-city" style="color: #2f6f4f;"></i>
+					  <span>Smart Cities<br>&amp; Environments</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-robot" style="color: #24513f;"></i>
+					  <span>Autonomous<br>Industrial Systems</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-cloud-arrow-up" style="color: #3f8f63;"></i>
+					  <span>Self-Organizing<br>Integration</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-mobile-screen" style="color: #6fbf7a;"></i>
+					  <span>Real-world<br>Service Intelligence</span>
+				  </div>
+			  </div>
+		  </div>
+
+		  <!-- Middle layer -->
+		  <div class="layer layer-mid">
+			  <div class="layer-title-box">
+				  <div class="layer-title">Networked Intelligence Orchestration</div>
+				  <div class="layer-purpose">Collaboration across agents, humans, and networks</div>
+			  </div>
+			  <div class="layer-content">
+				  <div class="module">
+					  <i class="icon fa-solid fa-circle-nodes" style="color: #3f8f63;"></i>
+					  <span>Multi-Agent<br>Cooperation</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-brain" style="color: #2f855a;"></i>
+					  <span>LLM Agents<br>&amp; Operations</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-user-gear" style="color: #4caf7b;"></i>
+					  <span>Human–Computer<br>Interaction</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-diagram-project" style="color: #2f6f4f;"></i>
+					  <span>Distributed<br>Decision Making</span>
+				  </div>
+			  </div>
+		  </div>
+
+		  <!-- Bottom layer -->
+		  <div class="layer layer-bot">
+			  <div class="layer-title-box">
+				  <div class="layer-title">Algorithmic Intelligence Foundations</div>
+				  <div class="layer-purpose">Fundamental AI modeling, training, and inference</div>
+			  </div>
+			  <div class="layer-content">
+				  <div class="module">
+					  <span class="icon math">&nabla;f(x)</span>
+					  <span>Optimization<br>Algorithms</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-layer-group" style="color: #8b9aa5;"></i>
+					  <span>Generative &amp;<br>Representation Learning</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-chart-simple" style="color: #8b9aa5;"></i>
+					  <span>Efficient<br>Inference</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-shield-halved" style="color: #6b7280;"></i>
+					  <span>Model<br>Robustness</span>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+
 
 	<p>These projects cover two complementary directions:</p>
 	<ul>
