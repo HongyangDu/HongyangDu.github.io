@@ -92,15 +92,9 @@ redirect_from:
       --text-dark: #1f2933;
       --text-light: #4b5563;
       --border-color: #d5d0c7;
-
-/* 顶层：亮浅墨绿 → 亮灰绿 */
---gradient-top: linear-gradient(135deg, #97bfb1 0%, #bdd1ca 100%);
-
-/* 中层：亮灰绿 → 更亮浅灰绿 */
---gradient-mid: linear-gradient(135deg, #bdd1ca 0%, #e3e7e4 100%);
-
-/* 底层：亮浅灰绿 → 暖白灰 */
---gradient-bot: linear-gradient(135deg, #d6ddd8 0%, #f2f0eb 100%);
+--gradient-top: linear-gradient(135deg, #96c1b3 0%, #e7f2ee 100%);
+--gradient-mid: linear-gradient(135deg, #e7f2ee 40%, #c9dced 100%);
+--gradient-bot: linear-gradient(135deg, #f1f5f4 0%, #c9dced 100%);
 
 
 
@@ -292,11 +286,10 @@ redirect_from:
 			padding: 16px 0;
 		}
 
-		/* 左侧固定 Logo，强制高度 */
 		.infographic-container .nice-logo {
 			position: absolute;
 			left: 0.05rem;            /* 稍微往里一点，避免贴边 */
-			top: 90%;
+			top: 10%;
 			transform: translateY(-50%);
 			height: 32px !important;  /* 控制实际高度：你想多大就改这里 */
 			width: auto !important;   /* 保持比例 */
