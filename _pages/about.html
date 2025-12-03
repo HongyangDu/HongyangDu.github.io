@@ -289,20 +289,20 @@ redirect_from:
 		.nice-header {
 			position: relative;
 			text-align: center;
-			padding: 20px 0;
+			padding: 16px 0;
 		}
 
-		/* 左侧固定 Logo */
-		.nice-logo {
+		/* 左侧固定 Logo，强制高度 */
+		.infographic-container .nice-logo {
 			position: absolute;
-			left: 0;
+			left: 0.75rem;            /* 稍微往里一点，避免贴边 */
 			top: 50%;
 			transform: translateY(-50%);
-			height: 10px;
-			width: auto;
+			height: 52px !important;  /* 控制实际高度：你想多大就改这里 */
+			width: auto !important;   /* 保持比例 */
 		}
 
-		/* 让标题保持完美居中 */
+		/* 让标题保持居中 */
 		.nice-title {
 			display: inline-block;
 		}
