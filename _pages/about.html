@@ -285,6 +285,28 @@ redirect_from:
 		  background: #ffffff;
 		  padding: 0 10px;
 	  }
+	  
+		.nice-header {
+			position: relative;
+			text-align: center;
+			padding: 20px 0;
+		}
+
+		/* 左侧固定 Logo */
+		.nice-logo {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			height: 45px;
+			width: auto;
+		}
+
+		/* 让标题保持完美居中 */
+		.nice-title {
+			display: inline-block;
+		}
+
 
 	  /* 顶部链路标签缩小 */
 	  .chain-label {
@@ -331,16 +353,13 @@ redirect_from:
 	</style>
 
 	<div class="infographic-container">
-	  <header style="display:flex; align-items:center; gap:16px;">
-    <img src="/images/logo.png" 
-         alt="NICE Lab Logo"
-         style="height:30px; width:auto;">
-
-    <div>
-        <h1>TOWARD UBIQUITOUS INTELLIGENCE</h1>
-        <div class="infographic-subtitle">NETWORK FOR AI × AI FOR NETWORK</div>
-    </div>
-</header>
+	<header class="nice-header">
+		<img class="nice-logo" src="/images/nice_logo.png" alt="NICE Lab Logo">
+		<div class="nice-title">
+			<h1>TOWARD UBIQUITOUS INTELLIGENCE</h1>
+			<div class="infographic-subtitle">NETWORK FOR AI × AI FOR NETWORK</div>
+		</div>
+	</header>
 
 
 	  <div class="connectivity-chain">
