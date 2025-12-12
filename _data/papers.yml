@@ -6,7 +6,7 @@
   image: "./images/npj.png"
   summary: "We introduce ubiquitous intelligence as a paradigm where LLMs evolve within wireless network-driven ecosystems."
   tag: "🧬 Ubiquitous Intelligence: \"When networks breathe, intelligence grows.\""
-  category: "AI for Network"
+  category: "Network for AI"
 
 - title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
   authors: "Feiran You, Hongyang Du*"
