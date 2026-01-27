@@ -1,0 +1,825 @@
+---
+permalink: /
+title: "Hi, I am Hongyang Du ( 杜泓阳 )"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<style>
+.about-page {
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.about-page section {
+  margin-bottom: 2.5rem;
+}
+
+.about-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+}
+
+.about-page h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-page ol {
+  padding-left: 1.1rem;
+}
+
+.about-page li {
+  margin-bottom: 0.6rem;
+}
+
+.about-page table {
+  margin-bottom: 1.5rem;
+}
+
+.about-page img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-page blockquote {
+  border-left: 4px solid #e0e0e0;
+  padding-left: 1rem;
+  color: #555555;
+  font-style: italic;
+}
+
+.about-page details {
+  margin-top: 0.5rem;
+}
+
+.about-page details summary {
+  cursor: pointer;
+  font-size: 0.98rem;
+}
+</style>
+
+<div class="about-page">
+
+  <section id="intro">
+    <p>I am an assistant professor at the Department of Electrical and Electronic Engineering, the University of Hong Kong (HKU). I received my Ph.D. degree from Nanyang Technological University, Singapore, and my B.Eng. degree from Beijing Jiaotong University, China. I am the Principal Investigator (PI) of the <a href="https://hongyangdu.github.io/nice/"><b>Network Intelligence and <font color="green">C</font>omputing <font color="green">E</font>cosystem (NI<font color="green">CE</font>) Lab</b> @ HKU</a>.</p>
+
+    <p>In response to the evolving era of artificial intelligence and next-generation networks, we identify the following research projects in NI<font color="green">CE</font>:</p>
+
+    <!-- NICE Lab Research Directions Infographic -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<style>
+	:root {
+      --primary-blue: #0c3b32;
+
+      --primary-green: #5b8f78;
+
+      --soft-blue: #dde8e2;
+      --soft-green: #f3f6f4;
+
+      --neutral-bg: #f3f1ec;
+
+      --text-dark: #1f2933;
+      --text-light: #4b5563;
+      --border-color: #d5d0c7;
+--gradient-top: linear-gradient(135deg, #96c1b3 0%, #e7f2ee 100%);
+--gradient-mid: linear-gradient(135deg, #e7f2ee 45%, #c9dced 100%);
+--gradient-bot: linear-gradient(135deg, #f1f5f4 0%, #c9dced 100%);
+  }
+
+	  .infographic-container {
+		  width: 100%;
+		  max-width: 1200px;
+		  margin: 1.6rem auto;
+		  background-color: #ffffff;
+		  padding: 18px 22px 22px 22px;
+		  border-radius: 16px;
+		  border: 1px solid var(--border-color);
+		  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+		  display: flex;
+		  flex-direction: column;
+		  gap: 14px;
+	  }
+
+	  .infographic-container header {
+		  text-align: center;
+		  margin-bottom: 4px;
+	  }
+
+	  .infographic-container h1 {
+		  font-size: 1.15rem;
+		  font-weight: 700;
+		  color: var(--primary-blue);
+		  letter-spacing: 0.08em;
+		  text-transform: uppercase;
+		  margin-bottom: 4px;
+	  }
+
+	  .infographic-subtitle {
+		  font-size: 0.9rem;
+		  color: var(--primary-green);
+		  font-weight: 600;
+		  letter-spacing: 0.12em;
+		  text-transform: uppercase;
+	  }
+
+	  .layers-wrapper {
+		  display: flex;
+		  flex-direction: column;
+		  gap: 12px;
+		  position: relative;
+		  z-index: 2;
+	  }
+
+	  .layer {
+		  border-radius: 12px;
+		  border: 1px solid var(--border-color);
+		  padding: 18px 18px 18px 18px;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  position: relative;
+		  transition: all 0.3s ease;
+		  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+	  }
+
+	  .layer:hover {
+		  transform: translateY(-2px);
+		  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
+	  }
+
+	  .layer-title-box {
+		  position: absolute;
+		  left: 18px;
+		  top: 50%;
+		  transform: translateY(-50%);
+		  background: white;
+		  padding: 10px 16px;
+		  border-radius: 10px;
+		  border-left: 5px solid;
+		  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+		  width: 230px;
+		  z-index: 10;
+	  }
+
+	  .layer-title {
+		  font-size: 0.8rem;
+		  font-weight: 700;
+		  color: var(--text-dark);
+	  }
+
+	  .layer-purpose {
+		  font-size: 0.7rem;
+		  color: #718096;
+		  margin-top: 4px;
+		  font-style: italic;
+	  }
+
+	  .layer-content {
+		  margin-left: 260px;
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: stretch;
+		  gap: 14px;
+	  }
+
+	  .layer-top {
+		  background: var(--gradient-top);
+		  border-left: 5px solid var(--primary-blue);
+	  }
+	  .layer-top .layer-title-box { border-left-color: var(--primary-blue); }
+
+	  .layer-mid {
+		  background: var(--gradient-mid);
+		  border-left: 5px solid var(--primary-green);
+	  }
+	  .layer-mid .layer-title-box { border-left-color: var(--primary-green); }
+
+	  .layer-bot {
+		  background: var(--gradient-bot);
+		  border-left: 5px solid #9ca3af; /* 浅灰 */
+	  }
+	  .layer-bot .layer-title-box { border-left-color: #9ca3af; }
+
+	  .module {
+		  background: rgba(255, 255, 255, 0.78);
+		  border: 1px solid rgba(0,0,0,0.04);
+		  border-radius: 10px;
+		  padding: 8px 6px;
+		  text-align: center;
+		  flex: 1;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+		  gap: 3px;
+		  font-size: 0.7rem;
+		  color: var(--text-light);
+		  font-weight: 500;
+	  }
+
+	  /* 图标相应缩小 */
+	  .icon {
+		  font-size: 1.3rem;
+		  margin-bottom: 2px;
+		  display: block;
+	  }
+
+	  .math {
+		  font-family: "Times New Roman", serif;
+		  font-style: italic;
+	  }
+
+	  .connectivity-chain {
+		  margin-top: 6px;
+		  margin-bottom: 4px;
+		  background: #ffffff;
+		  border-radius: 40px;
+		  border: 1px dashed var(--border-color);
+		  padding: 10px 28px;
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		  position: relative;
+	  }
+
+	  .chain-line {
+		  position: absolute;
+		  top: 50%;
+		  left: 32px;
+		  right: 32px;
+		  height: 2px;
+		  background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+		  z-index: 1;
+		  opacity: 0.25;
+	  }
+
+	  .chain-node {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  gap: 4px;
+		  z-index: 2;
+		  background: #ffffff;
+		  padding: 0 10px;
+	  }
+	  
+		.nice-header {
+			position: relative;
+			text-align: center;
+			padding: 16px 0;
+		}
+
+		.infographic-container .nice-logo {
+			position: absolute;
+			left: 0.01rem;            /* 稍微往里一点，避免贴边 */
+			top: 40%;
+			transform: translateY(-50%);
+			height: 32px !important;  /* 控制实际高度：你想多大就改这里 */
+			width: auto !important;   /* 保持比例 */
+		}
+
+		/* 让标题保持居中 */
+		.nice-title {
+			display: inline-block;
+		}
+
+
+	  /* 顶部链路标签缩小 */
+	  .chain-label {
+		  font-size: 0.52rem;
+		  font-weight: 700;
+		  color: var(--primary-blue);
+		  text-transform: uppercase;
+		  letter-spacing: 0.08em;
+	  }
+
+	  .chain-icon {
+		  font-size: 1rem;
+		  color: var(--primary-green);
+	  }
+
+	  @media (max-width: 960px) {
+		  .layer-title-box {
+			  position: static;
+			  transform: none;
+			  width: auto;
+			  margin-bottom: 10px;
+		  }
+		  .layer-content {
+			  margin-left: 0;
+			  flex-wrap: wrap;
+		  }
+		  .module {
+			  flex: 1 1 calc(50% - 10px);
+		  }
+		  .connectivity-chain {
+			  flex-wrap: wrap;
+			  row-gap: 8px;
+		  }
+	  }
+
+	  @media (max-width: 640px) {
+		  .infographic-container {
+			  padding: 18px 16px;
+		  }
+		  .module {
+			  flex: 1 1 100%;
+		  }
+	  }
+	</style>
+
+	<div class="infographic-container">
+	<header class="nice-header">
+		<img class="nice-logo" src="/images/logo.png" alt="NICE Lab Logo">
+		<div class="nice-title">
+			<h1>TOWARD UBIQUITOUS INTELLIGENCE</h1>
+			<div class="infographic-subtitle">NETWORK FOR AI × AI FOR NETWORK</div>
+		</div>
+	</header>
+
+
+	  <div class="connectivity-chain">
+		  <div class="chain-line"></div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-user"></i>
+			  <span class="chain-label">Users</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-wifi"></i>
+			  <span class="chain-label">Wireless Links</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-server"></i>
+			  <span class="chain-label">Radio Access</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-microchip"></i>
+			  <span class="chain-label">Core</span>
+		  </div>
+
+		  <div class="chain-node">
+			  <i class="chain-icon fa-solid fa-rocket"></i>
+			  <span class="chain-label">Applications</span>
+		  </div>
+	  </div>
+
+	  <div class="layers-wrapper">
+		  <!-- Top layer -->
+		  <div class="layer layer-top">
+			  <div class="layer-title-box">
+				  <div class="layer-title">Ubiquitous Intelligent Systems</div>
+				  <div class="layer-purpose">Embedded intelligence in large-scale environments</div>
+			  </div>
+			  <div class="layer-content">
+				  <div class="module">
+					  <i class="icon fa-solid fa-city" style="color: #2f6f4f;"></i>
+					  <span>Smart Cities<br>&amp; Environments</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-robot" style="color: #2f6f4f;"></i>
+					  <span>Autonomous<br>Industrial Systems</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-cloud-arrow-up" style="color: #2f6f4f;"></i>
+					  <span>Self-Organizing<br>Integration</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-mobile-screen" style="color: #2f6f4f;"></i>
+					  <span>Real-world<br>Service Intelligence</span>
+				  </div>
+			  </div>
+		  </div>
+
+		  <!-- Middle layer -->
+		  <div class="layer layer-mid">
+			  <div class="layer-title-box">
+				  <div class="layer-title">Networked Intelligence Orchestration</div>
+				  <div class="layer-purpose">Collaboration across agents, humans, and networks</div>
+			  </div>
+			  <div class="layer-content">
+				  <div class="module">
+					  <i class="icon fa-solid fa-circle-nodes" style="color: #3f8f63;"></i>
+					  <span>Multi-Agent<br>Cooperation</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-brain" style="color: #3f8f63;"></i>
+					  <span>LLM Agents<br>&amp; Operations</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-user-gear" style="color: #3f8f63;"></i>
+					  <span>Human–Computer<br>Interaction</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-diagram-project" style="color: #3f8f63;"></i>
+					  <span>Distributed<br>Decision Making</span>
+				  </div>
+			  </div>
+		  </div>
+
+		  <!-- Bottom layer -->
+		  <div class="layer layer-bot">
+			  <div class="layer-title-box">
+				  <div class="layer-title">Algorithmic Intelligence Foundation</div>
+				  <div class="layer-purpose">Fundamental AI modeling, training, and inference</div>
+			  </div>
+			  <div class="layer-content">
+				  <div class="module">
+					  <i class="icon fa-solid fa-square-root-variable" style="color: #6b7280;"></i>
+						<span>Optimization<br>Algorithms</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-layer-group" style="color: #6b7280;"></i>
+					  <span>Generative &amp;<br>Representation Learning</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-chart-simple" style="color: #6b7280;"></i>
+					  <span>Efficient<br>Inference</span>
+				  </div>
+				  <div class="module">
+					  <i class="icon fa-solid fa-shield-halved" style="color: #6b7280;"></i>
+					  <span>Model<br>Robustness</span>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+
+
+	<p>These projects cover two complementary directions:</p>
+	<ul>
+	  <li>
+		<em><font color="green">Network for AI</font> - Unfold Intelligence by Horizontally Scaling It Across the Network</em>
+	  </li>
+	  <li>
+		<em><font color="green">AI for Network</font> - Specialize Intelligence by Vertically Optimizing It for Network Systems</em>
+	  </li>
+	</ul>
+	<p>
+	  They converge toward a unified goal:
+	  <em>"<font color="green">Ubiquitous Intelligence</font>, where intelligence is woven into every interaction, every environment, and every moment."</em>
+	</p>
+
+    <blockquote>
+      <p><em>Given the shift in our research style starting in 2025, our methodology and focus have changed. To align with our current vision, you may check our work established from 2025 onwards. Please refer to <a href="https://hongyangdu.github.io/nice/">NICE</a> for openings, research opportunities, and application details.</em></p>
+    </blockquote>
+  </section>
+  
+  <hr>
+
+  <section id="news">
+    <h2>News</h2>
+    <ol class="news-list">
+      <li>[Nov/2025] I served as the Local Chair of <em>The 2nd ACM Workshop on Open and AI RAN</em> in conjunction with Mobicom 2025.</li>
+
+      <li>[Aug/2025] I am happy to participate in the <em>IEEE/CIC International Conference on Communications in China</em> and deliver tutorial 1, <strong>"TUT-1: Toward Artificial General Intelligent (AGI)-Driven Communications with Generative AI and Large Language Models"</strong>.</li>
+
+      <li>[Apr/2025] I am invited to deliver Lecture 5, <strong>Generative Diffusion Model with Its Applications</strong>, for the <em>Communication-Specific Large AI Models Master Class</em> organized by <a href="https://www.chaspark.com/">Chaspark</a>.</li>
+
+      <li>[Mar/2025] We organize a workshop <a href="https://events.vtsociety.org/vtc2025-fall/conference-sessions/workshops-currently-available/w8-embracing-generative-ai-towards-6g-ran/">"Embracing Generative AI towards 6G RAN"</a> in the 2025 IEEE 102nd Vehicular Technology Conference <strong>VTC2025-Fall</strong> in Chengdu, China, October 19–22, 2025.</li>
+
+      <li>[Feb/2025] We organize a workshop <a href="https://events.vtsociety.org/vtc2025-spring/conference-sessions/workshops-available/w19-multi-modal-and-generative-semantic-communications-towards-cloud-edge-end-intelligence/">"Multi-modal and Generative Semantic Communications Towards Cloud-Edge-End Intelligence"</a> in the 2025 IEEE 101st Vehicular Technology Conference <strong>VTC2025-Spring</strong>, Norway, 17–20 June 2025.</li>
+
+      <li>[Jan/2025] I am honored to join as an <strong>Associate Editor</strong> for the <em>Intelligent Communications: Modelling, Operation and Digital Twin</em> track of IEEE Communications Surveys & Tutorials (IEEE COMST). I am eager to contribute to advancing research in this field.</li>
+
+      <li>[Jan/2025] As the corresponding author, I am happy that our paper <em>"Supervised Score-Based Modeling by Gradient Boosting"</em> has been accepted to the <strong>Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)</strong>. See you in Philadelphia, Pennsylvania.</li>
+
+      <li>[Jan/2025] I am honored to join as an <strong>Associate Editor</strong> for the <em>Big Data and Machine Learning for Communications</em> track of IEEE Open Journal of the Communications Society (IEEE OJ-COMS). I look forward to serving the research community in this role.</li>
+
+      <li>[Dec/2024] I am honored to join as an <strong>Associate Editor</strong> for the <em>Machine Learning and Communications</em> track of IEEE Transactions on Communications (IEEE TCOM). I look forward to serving our research community and advancing the field in this new role.</li>
+
+      <li>[Dec/2024] I am honored to receive the <strong>IEEE ComSoc Best Young Professional Award</strong> in the "Best Early Career" category for <strong>the contributions to the integration of Generative AI with communication networks</strong>.</li>
+    </ol>
+
+    <details>
+      <summary><strong>More News</strong></summary>
+      <ol start="11">
+        <li>[Dec/2024] Our paper "Blockchain-Aided Secure Semantic Communication for AI-Generated Content in Metaverse" has been awarded the <strong>2023 Best Paper Award</strong> from IEEE Open Journal of the Computer Society by the IEEE Computer Society Publications Board.</li>
+        <li>[Nov/2024] I am invited as a keynote speaker at the <em>International Conference on the Next Generation Intelligent Networks</em>, organized by Xijiao Institute for Cyber Science and Technology.</li>
+        <li>[Nov/2024] Our project "Gaiety: Generative AI-empowered Edge Hub for Accessible and Immersive Meta-Home" received an <em>Honorary Mention</em> in the 2024 ComSoc Student Competition "Communications Technology Changing the World".</li>
+        <li>[Oct/2024] Our paper "DIsFU: Protecting Innocent Clients in Federated Unlearning" has been awarded the <strong>Best Paper Award</strong> in <em>International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP)</em>.</li>
+        <li>[Sept/2024] I am honored to join as an <strong>Associate Editor</strong> for the Wireless Networks and Mobile Services track of IEEE Transactions on Vehicular Technology (TVT) and am excited to contribute to our community in this capacity.</li>
+        <li>[Aug/2024] I have accepted a Letter of Appointment from the University of Hong Kong (HKU) as an Assistant Professor in the Department of Electrical and Electronic Engineering (EEE). I look forward to contributing to cutting-edge research and collaborating with distinguished colleagues and talented students.</li>
+        <li>[July/2024] I am honored to receive the NTU Graduate College's <span class="green-text">Research Excellence Award</span>.</li>
+        <li>[Jun/2024] Our paper, <em>"Mixture of Experts for Intelligent Networks: A Large Language Model-enabled Approach"</em>, was selected for the <strong>Best Paper Award</strong> in International Wireless Communications & Mobile Computing Conference (IWCMC), Ayia Napa, Cyprus, 27–31 May 2024.</li>
+        <li>[Apr/2024] We will organize a workshop <a href="https://iccc2024.ieee-iccc.org/program/workshops-0">"Empowering Wireless Communications and Networking with Generative AI"</a> in IEEE/CIC International Conference on Communications in China (ICCC 2024), welcome to submit papers.</li>
+        <li>[Mar/2024] We will give a tutorial <a href="https://iccc2024.ieee-iccc.org/program/tutorials-0">"Generative Artificial Intelligence-empowered Networks: Optimization and Applications"</a> in IEEE/CIC International Conference on Communications in China (ICCC 2024), welcome to participate.</li>
+        <li>[Dec/2023] I am honored to receive the <font color="green">Singapore Data Science Consortium (SDSC) Dissertation Research Fellowship</font>.</li>
+        <li>[Dec/2023] My two projects got the <font color="green">FIRST PRIZE</font> and <font color="green">SECOND PRIZE</font> in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition, respectively. We will give presentations in IEEE ICC 2024. See you in Denver, CO, USA.</li>
+        <li>[Nov/2023] Our project, "<i>Artificial Intelligence-driven Eyewear: Keys to Metaverse</i>" received an <font color="green">Honorary Mention</font> in the 2023 ComSoc Student Competition "Communications Technology Changing the World." As the team leader, I am happy to witness our project to be recognized as one of the top 16 projects globally.</li>
+        <li>[Jun/2023] It is a great honour to have been invited by <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> to give a talk about <font color="green">Exploring the Role of Generative AI in Wireless Networks: Applications, Optimization, and Challenges</font>.</li>
+        <li>[May/2023] I am delighted to be invited by the <a href="https://www.cuhk.edu.cn/en/taxonomy/term/49">Future Network of Intelligence Institute</a> in <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong-Shenzhen</a> to give a talk about <font color="green">Generative AI in Intelligent Networks</font>. The slides are available <a href="https://hongyangdu.github.io/talks/2023/05/cuhksz/">here</a>.</li>
+        <li>[Apr/2023] I had the pleasure of visiting University of Technology Sydney, University of Sydney, and University of New South Wales in <font color="green">Australia</font>. Relaxing days.</li>
+        <li>[Dec/2022] I visited <a href="https://www.skku.edu/eng/index.do">Sungkyunkwan University</a> in <font color="green">Korea</font>, hosted by Prof. <a href="http://wireless.skku.edu/english/viewforum.php?f=96">Dong In Kim</a>. It was a memorable month.</li>
+        <li>[Nov/2022] I am honored to receive the <font color="green">IEEE Daniel E. Nobel Fellowship Award</font> (One person each year).</li>
+        <li>[Jan/2022] I am honored to be recognized as the <span style="color: green;">Exemplary Reviewer of the IEEE TCOM</span>, 2021.</li>
+      </ol>
+    </details>
+  </section>
+
+  <hr>
+
+  <section id="highlighted-work">
+    <h2>Highlighted NI<font color="green"><b>CE</b></font> Lab Work</h2>
+
+    <h3>AI for Network</h3>
+
+    {% assign papers_genai = site.data.papers | where: "category", "AI for Network" %}
+    {% for paper in papers_genai %}
+    <table>
+      <tr>
+        <td width="280">
+          <a href="{{ paper.arxiv }}">
+            <img src="{{ paper.image }}" width="270">
+          </a>
+        </td>
+        <td>
+          <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+          {{ paper.authors }}<br>
+          {{ paper.venue }}<br>
+          <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+          <span style="color:green">{{ paper.summary }}</span><br>
+          <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+          {% if paper.code %}
+          | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
+          {% endif %}
+        </td>
+      </tr>
+    </table>
+    {% endfor %}
+
+    <h3>Network for AI</h3>
+
+    {% assign papers_genai = site.data.papers | where: "category", "Network for AI" %}
+    {% for paper in papers_genai %}
+    <table>
+      <tr>
+        <td width="280">
+          <a href="{{ paper.arxiv }}">
+            <img src="{{ paper.image }}" width="270">
+          </a>
+        </td>
+        <td>
+          <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+          {{ paper.authors }}<br>
+          {{ paper.venue }}<br>
+          <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+          <span style="color:green">{{ paper.summary }}</span><br>
+          <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+          {% if paper.code %}
+          | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
+          {% endif %}
+        </td>
+      </tr>
+    </table>
+    {% endfor %}
+
+    <h3>Ongoing Work</h3>
+
+    {% assign papers_genai = site.data.papers | where: "category", "Ongoing Work" %}
+    {% for paper in papers_genai %}
+    <table>
+      <tr>
+        <td width="280">
+          <a href="{{ paper.arxiv }}">
+            <img src="{{ paper.image }}" width="270">
+          </a>
+        </td>
+        <td>
+          <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+          {{ paper.authors }}<br>
+          {{ paper.venue }}<br>
+          <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+          <span style="color:green">{{ paper.summary }}</span><br>
+          <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+          {% if paper.code %}
+          | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
+          {% endif %}
+        </td>
+      </tr>
+    </table>
+    {% endfor %}
+  </section>
+
+  <hr>
+
+  <section id="first-author-papers">
+    <h2>Previous First-author Papers</h2>
+
+    <ol>
+      <li>
+        <a href="https://arxiv.org/abs/2311.11094">"Reinforcement Learning With LLMs Interaction For Distributed Diffusion Model Services"</a>,
+        <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence</strong>, 2025.<br>
+        <font color="green">With a distributed generative diffusion model-based AIGC framework, we propose an Interactive AI (IAI) approach, that is, Reinforcement Learning With Large Language Models Interaction (RLLI), which utilizes LLM-empowered generative agents to replicate users interaction, providing real-time and subjective QoE feedback that reflects a spectrum of user personalities.</font>
+      <a href="https://github.com/HongyangDu/DistributedDiffusion"><br>
+		  <i class="fa-brands fa-github"></i> Code</a><br>
+		</li>
+
+		<li>
+		  <a href="https://arxiv.org/abs/2303.01896">"AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing"</a>,
+		  <strong>IEEE Journal on Selected Areas in Communications</strong> (Q1, CCF A), 2023.
+		  <font color="green">We analyze the performance of full-duplex D2D communications. To facilitate semantic information sharing among users, we design a contract theoretic AI-generated incentive mechanism that generates the optimal contract design, outperforming two DRL algorithms.</font>
+		<a href="https://github.com/HongyangDu/SemSharing"><br>
+		  <i class="fa-brands fa-github"></i> Code</a><br>
+		  <font color="#CC5500"><i>&bull; Selected by IEEE JSAC Popular Documents - October 2023</i></font>
+		</li>
+
+      <li>
+        <a href="https://arxiv.org/abs/2211.12727">"Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding"</a>,
+        <strong>IEEE Journal on Selected Areas in Communications</strong> (Q1, CCF A), 2023.
+        <font color="green">We propose the inverse semantic communications as a new paradigm. Using the sensing data collected from real-world, we show that our framework can reduce the data volume by 95% compared to that before encoding, without affecting the accomplishment of sensing tasks.</font>
+        <a href="https://github.com/HongyangDu/SemSensing"><br>
+		<i class="fa-brands fa-github"></i> Code</a> <br>
+        <font color="#CC5500"><i>&bull; Selected by IEEE JSAC Popular Documents - August 2023</i></font>
+      </li>
+
+      <li>
+        <a href="https://arxiv.org/abs/2208.05438">"Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services"</a>,
+        <strong>IEEE Journal on Selected Areas in Communications</strong> (Q1, CCF A), 2023.
+        <font color="green">We propose a novel metric named Meta-Immersion that incorporates both the objective KPIs and subjective feelings of Metaverse users. We develop an attention-aware rendering capacity allocation scheme to improve QoE in xURLLC.</font>
+        <a href="https://github.com/HongyangDu/AttentionQoE"><br>
+		<i class="fa-brands fa-github"></i> Code</a><br>
+        <font color="#CC5500"><i>&bull; Selected by IEEE JSAC Popular Documents - July 2023</i></font><br>
+        <font color="#CC5500"><i>&bull; First Price of Outstanding Papers of Computer Academy of Guangdong (China)</i></font>
+      </li>
+
+
+      <li>
+        <a href="https://arxiv.org/abs/2303.13052">"Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services"</a>,
+        <strong>IEEE Transactions on Mobile Computing</strong> (Q1, CCF A), 2024.
+        <font color="green">We propose a diffusion model-based AI-generated optimal decision (AGOD) algorithm, which can generate the optimal ASP selection decisions.</font>
+        <a href="https://github.com/HongyangDu/AGOD"><br>
+		<i class="fa-brands fa-github"></i> Code</a><br>
+        <font color="#CC5500"><i>&bull; ESI highly cited paper</i></font><br>
+        <font color="#CC5500"><i>&bull; ESI hot cited paper</i></font>
+      </li>
+    </ol>
+  </section>
+
+  <hr>
+
+  <section id="awards">
+    <h2>Awards</h2>
+    <ol class="awards-list">
+      <li>
+        <strong>IEEE ComSoc Best Young Professional Award for Best Early Career Researcher</strong>, 2024<br>
+        <font color="#CC5500"><i>&bull; IEEE Communications Society</i></font><br>
+        <font color="#CC5500"><i>&bull; Only six person is selected globally each year; only one person for “Best Early Career Researcher” category</i></font><br>
+        <img src="/images/ber.jpg" width="400" alt="IEEE ComSoc Best Young Professional Award">
+      </li>
+
+      <li>
+        <strong>IEEE Daniel E. Nobel Fellowship Award</strong>, 2022<br>
+        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Vehicular Technology Society</i></font><br>
+        <font color="#CC5500"><i>&bull; Only one person is selected globally each year</i></font><br>
+        <img src="/images/VTS.jpg" width="400" alt="IEEE Daniel E. Nobel Fellowship Award">
+      </li>
+
+      <li>
+        <strong>IEEE Signal Processing Society Scholarship</strong>, 2023<br>
+        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Signal Processing Society</i></font><br>
+        <img src="/images/sps.png" width="400" alt="IEEE Signal Processing Society Scholarship">
+      </li>
+
+      <li>
+        <strong>Singapore Data Science Consortium (SDSC) Dissertation Research Fellowship</strong>, 2023<br>
+        <font color="#CC5500"><i>&bull; Only ten students are selected in Singapore each year</i></font><br>
+        <img src="/images/sdscaward.jpg" width="400" alt="SDSC Dissertation Research Fellowship">
+      </li>
+
+      <li>
+        <strong>Chinese Government Award for Outstanding Students Abroad</strong>, 2022<br>
+        <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font><br>
+        <font color="#CC5500"><i>&bull; Prestigious Award presented to 650 Ph.D. students worldwide each year</i></font>
+      </li>
+
+      <li>
+        <strong>NTU Graduate College's Research Excellence Award</strong>, 2024<br>
+        <font color="#CC5500"><i>&bull; Only one student is selected each year.</i></font><br>
+        <img src="/images/Award/gcresearch.png" width="400" alt="NTU Graduate College Research Excellence Award">
+      </li>
+
+      <li>
+        <strong>Best Paper Award</strong> of IEEE Open Journal of the Computer Society<br>
+        <img src="/images/bpojcs.png" width="400" alt="Best Paper Award OJ-CS">
+      </li>
+
+      <li>
+        <strong>Best Paper Award</strong> in the IWCMC 2024 Conference Ayia Napa, Cyprus, May 27th–31st 2024<br>
+        <img src="/images/Award/iwcmcbp.png" width="400" alt="Best Paper Award IWCMC 2024">
+      </li>
+
+      <li>
+        <strong>First Prize</strong> in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition<br>
+        <font color="#CC5500"><i>&bull; Project leader of "Enhancing Metaverse Social Networking via User-Centric AI-Driven Eyewear"</i></font><br>
+        <img src="/images/Award/student.jpg" width="400" alt="SNTC First Prize">
+      </li>
+
+      <li>
+        <strong>Second Prize</strong> in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition
+      </li>
+
+      <li>
+        <strong>Honorary Mention</strong> in the 2023 ComSoc Student Competition "Communications Technology Changing the World."<br>
+        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Communications Society</i></font><br>
+        <img src="/images/stucom.png" width="400" alt="ComSoc Student Competition 2023 Honorary Mention">
+      </li>
+
+      <li>
+        <strong>Honorary Mention</strong> in the 2024 ComSoc Student Competition "Communications Technology Changing the World.", 2024<br>
+        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Communications Society, <b>Team Advisor</b></i></font><br>
+        <img src="/images/2024stuw.png" width="400" alt="ComSoc Student Competition 2024 Honorary Mention">
+      </li>
+
+      <li>
+        <strong>Exemplary Editor</strong> of the IEEE Open Journal of the Communications Society, 2025<br>
+        <img src="/images/Award/ojcoms.png" width="400" alt="Exemplary Editor OJCOMS">
+      </li>
+	  
+	  <li>
+        <strong>Exemplary Reviewer</strong> of the IEEE TRANSACTIONS ON COMMUNICATIONS, 2021<br>
+        <img src="/images/ReTCOM.jpg" width="400" alt="Exemplary Reviewer TCOM">
+      </li>
+
+      <li>
+        <strong>Exemplary Reviewer</strong> of the IEEE COMMUNICATIONS LETTERS, 2021<br>
+        <img src="/images/communlett.jpg" width="400" alt="Exemplary Reviewer Communications Letters">
+      </li>
+
+      <li>
+        <strong>Research Scholarship</strong>, NTU, 2021–2025
+      </li>
+
+      <li>
+        <strong>National Scholarship</strong>, Ministry of Education of China, 2020<br>
+        <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font>
+      </li>
+
+      <li>
+        <strong>National Scholarship</strong>, Ministry of Education of China, 2018<br>
+        <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font>
+      </li>
+    </ol>
+  </section>
+
+  <hr>
+
+  <section id="services">
+    <h2>Academic Services</h2>
+    <ol>
+      <li><strong>Associate Editor, IEEE Communications Surveys & Tutorials</strong> (Impact Factor: 34.4) (2025–)</li>
+      <li><strong>Associate Editor, IEEE Open Journal of the Communications Society</strong> (Impact Factor: 6.3) (2025–)</li>
+      <li><strong>Associate Editor, IEEE Transactions on Communications</strong> (Impact Factor: 7.7) (2024–)</li>
+      <li><strong>Associate Editor, IEEE Transactions on Vehicular Technology</strong> (Impact Factor: 6.8) (2024–)</li>
+      <li><strong>Guest Editor, IEEE Vehicular Technology Magazine</strong>, "Integrating Generative AI into Future Internet of Vehicles (IoV)", 2024</li>
+      <li>Local Chair, <em>Open and AI RAN Workshop</em> with ACM MobiCom, 2025</li>
+      <li>Assistant to the Editor-in Chief, IEEE Communications Surveys & Tutorials (2022–2024)</li>
+      <li>Workshop Co-chair, "Empowering Wireless Communications and Networking with Generative AI" in IEEE ICCC 2024</li>
+      <li>Contributor, "IEEE ComSoc Best Readings in Generative AI and Large Language Models for Networking"</li>
+      <li>Senior Program Committee: The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)</li>
+      <li>
+        TPC Member: IEEE WCNC 2026 Track 3-Machine Learning and Optimization for Wireless Systems; PIMRC 2025 MAC and Cross-Layer Design; IEEE ICC 2025 IoTSN Symposium; IEEE Globecom 2025 CRAEN, SAC-BD, and SAC-ISAC; IEEE ICNC 2025 MCC; IEEE Globecom 2024 Workshop - IMMLLM6G; IEEE VTC2024-Fall Washington DC: Machine Learning for Communications; IEEE VTC2024-Fall Washington DC: Electric Vehicles, Vehicular Electronics and Intelligent Transportation; IEEE Globecom 2024-SAC BD; IEEE Globecom 2024-SAC ISC; IEEE ICC 2024-CRAIN Symposium (Cognitive Radio and AI-Enabled Networks); IEEE WCNC 2024-Track 3-Machine Learning and Optimization for Wireless Systems; IEEE WCNC 2024-Track 4-Emerging Technologies, Standards, and Applications; IEEE WCNC 2024-Workshop on The Impact of Large Language Models on 6G Networks; IEEE VTC2023-Fall: Hong Kong, Machine Learning and AI for Communications; IEEE VTC2023-Fall: Hong Kong-Electric Vehicles, Vehicular Electronics and Intelligent Transportation; IEEE VTC2023-Fall: Hong Kong-Recent Results and Workshops; IEEE WCNC 2023-Track 3-Machine Learning and Optimization for Wireless Systems; IEEE WCNC 2022-Track 2-Networking and MAC
+      </li>
+      <li>Reviewer: IEEE TPAMI, COMST, JSAC, TMC, TSP, TWC, TIFS, TCOM, TVT, WCM, IoTJ, Network, WCL, CL, ICLR, and more.</li>
+    </ol>
+  </section>
+
+  <hr>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ol>
+      <li>ELEC3342 Digital system design, Fall 2025</li>
+      <li>ELEC3846 Numerical methods and optimization, Spring 2025</li>
+      <li>SC1005 Digital Logic, Fall 2023</li>
+      <li>SC2103 Digital Systems Design, Spring 2023</li>
+      <li>CE3006 Digital Communications, Fall 2022</li>
+    </ol>
+  </section>
+
+  <hr>
+
+  <section id="quotes">
+    <blockquote>
+      <p><em>"Life does not always go your way. Looking back will not bring joy. Dreams may fade, but what you hold now is real. Do not waste the moonlit night; raise your cup and treasure those beside you."</em></p>
+      <p><em>“生活中有很多的不如意，如果一不开心，就寄希望于当初，那你永远不会开心。<br>
+      幻境再美终是梦，珍惜眼前始为真，莫使金樽空对月，举杯幸会有缘人。”</em></p>
+      <p><em>---------《武林外传》</em></p>
+    </blockquote>
+  </section>
+
+</div>
+
+<hr>
+
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=080808&amp;w=500&amp;t=n&amp;d=9r_p46Ijorlwx2n68MARRySVjg1N4XSqArSzELC-UFw&amp;co=ffffff&amp;cmo=3acc3a&amp;cmn=ff5353&amp;ct=808080"></script>

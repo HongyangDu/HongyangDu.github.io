@@ -1,0 +1,175 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<style>
+    .about {
+
+    }
+
+    .card-body {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        transition: all 0.2s ease-out;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+        padding: 1em;
+    }
+
+    .card {
+        margin-bottom: 1em;
+        padding: 0.5rem;
+    }
+
+    .right {
+        float: right !important;
+    }
+
+    h4.title {
+        font-size: 0.9rem;
+        text-transform: none !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    h4.card {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        font-weight: normal !important;
+        text-transform: none !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .card-description {
+        font-size: smaller;
+        margin-top: 1em;
+    }
+
+    a.card-link {
+        font-size: larger;
+        color: darkcyan;
+    }
+    .archive__item-title {
+        margin-top: 0.25em;
+    }
+    .top-container {
+        display: table;
+    }
+    .left-title {
+        width: 70%;
+        display: table-cell;
+        vertical-align: top;
+    }
+    .thumbnail {
+        width: 30%;
+        display: table-cell;
+    }
+
+    .pub-venue {
+    }
+    p.archive__item-excerpt, .archive__item-excerpt+p {
+        margin-bottom: 0;
+    }
+</style>
+
+
+<div class="{{ include.type | default: 'list' }}__item card">
+    <article class="archive__item card-body" itemscope itemtype="http://schema.org/CreativeWork"
+    >
+        {% if include.type == "grid" and teaser %}
+        <div class="archive__item-teaser">
+            <img src=
+                {% if teaser contains "://" %}
+                    "{{ teaser }}"
+                {% else %}
+                    "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+                    {% endif %}
+            alt="">
+        </div>
+        {% endif %}
+
+        <div class="top-container">
+            <div class="left-title">
+                <h2 class="archive__item-title" itemprop="headline">
+                {% if post.link %}
+                    <a href="{{ post.link }}">{{ title }}</a>
+                    <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+                        <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
+                        <span class="sr-only">Permalink</span>
+                    </a>
+                {% else %}
+                    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+                {% endif %}
+                </h2>
+                {% if post.read_time %}
+                    <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+                {% endif %}
+
+                {% if post.collection == 'teaching' %}
+                    <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+                {% elsif post.collection == 'publications' %}
+					<p class="page__date">
+                        <strong>
+                            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
+                        </strong>
+						<b>{{ post.venue}}</b>
+                        <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">
+                            {{post.date | default: "1900-01-01" | date: ", %B, %Y" }}
+                        </time>
+                    </p>
+                {% elsif post.date %}
+                    <p class="page__date">
+                        <strong>
+                            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                            {{ Uploaded: | default: "Uploaded:" }}
+                        </strong>
+						{{ post.venue}}
+                        <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">
+                            {{post.date | default: "1900-01-01" | date: ", %B, %Y" }}
+                        </time>
+                    </p>
+                {% endif %}
+
+                {% if post.excerpt and site.read_more != 'enabled' %}
+                    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+                {% elsif post.excerpt and site.read_more == 'enabled' %}
+                    <p class="archive__item-excerpt" itemprop="description"><p>
+                            {{ post.excerpt | markdownify | remove: '
+                        <p>' | remove: '</p>' }}
+                        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+                    </p></p>
+                {% endif %}
+            </div>
+            <div class="thumbnail">
+                <img src='{{ post.thumbnail }}' alt="Thumbnail">
+            </div>
+        </div>
+
+
+        {% if post.citation and post.paperurl %}
+            <p style="margin-top: 0">
+                <b>Citation:</b> {{ post.citation }} <br><b>Paper Link</b>: <a href="{{ post.paperurl }}"
+                                                                                          target="_blank">
+                <u>{{ post.paperurl }}</u></a>
+            </p>
+        {% elsif post.citation %}
+        <p><b>Recommended citation:</b> {{ post.citation }} </p>
+        {% elsif post.paperurl %}
+        <p>Download <a href=" {{ post.paperurl }} " target="_blank"><u>here</u></a></p>
+        {% endif %}
+    </article>
+</div>
