@@ -759,21 +759,21 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-{% if paper.tag %}
-<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
-{% endif %}
+		{% if paper.tag %}
+		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+		{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
-{% if paper.awards and paper.awards.size > 0 %}
-<div class="paper-awards">
-  <span class="paper-awards-label">Highlight:</span>
-  {% for a in paper.awards %}
-    <span class="paper-award-item">{{ a }}</span>
-    {% unless forloop.last %}
-      <span class="paper-award-sep"> · </span>
-    {% endunless %}
-  {% endfor %}
-</div>
-{% endif %}
+		{% if paper.awards and paper.awards.size > 0 %}
+		<div class="paper-awards">
+		<span class="paper-awards-label">Highlight:</span>
+		{% for a in paper.awards %}
+		<span class="paper-award-item">{{ a }}</span>
+		{% unless forloop.last %}
+		<span class="paper-award-sep"> · </span>
+		{% endunless %}
+		{% endfor %}
+		</div>
+		{% endif %}
 		<span class="paper-links">
 		<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
 		{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
@@ -817,6 +817,7 @@ redirect_from:
 		</a>
 		{% endfor %}
 		</div>
+		</div>
 
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
@@ -829,9 +830,9 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-{% if paper.tag %}
-<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
-{% endif %}
+		{% if paper.tag %}
+		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+		{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
@@ -885,6 +886,7 @@ redirect_from:
 		</a>
 		{% endfor %}
 		</div>
+		</div>
 
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
@@ -897,9 +899,9 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-{% if paper.tag %}
-<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
-{% endif %}
+		{% if paper.tag %}
+		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+		{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
@@ -953,6 +955,7 @@ redirect_from:
 		</a>
 		{% endfor %}
 		</div>
+		</div>
 
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
@@ -965,9 +968,9 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-{% if paper.tag %}
-<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
-{% endif %}
+		{% if paper.tag %}
+		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+		{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
