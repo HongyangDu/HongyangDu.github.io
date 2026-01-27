@@ -1,4 +1,5 @@
 - title: "U-MASK: User-adaptive Spatio-Temporal Masking for Personalized Mobile AI Applications"
+  authors: "Shiyuan Zhang, Yilai Liu, Yuwei Du, Ruoxuan Yang, Dong In Kim, Hongyang Du*"
   venue: "Submitted"
   arxiv: "https://arxiv.org/abs/2601.06867"
   pdf: "https://arxiv.org/pdf/2601.06867"
@@ -42,7 +43,6 @@
   category: "AI for Network"
   project: "env_spatial_urban"
 
-
 - title: "NetMCP: Network-Aware Model Context Protocol Platform for LLM Capability Extension"
   authors: "Enhan Li, Hongyang Du*, Kaibin Huang"
   venue: "2025"
@@ -54,7 +54,6 @@
   category: "Ongoing Work"
   project: "infra_llm_network"
   
- 
 - title: "JAUNT: Joint Alignment of User Intent and Network State for QoE-centric LLM Tool Routing"
   authors: "Enhan Li, Hongyang Du*"
   venue: "2025"
@@ -98,7 +97,6 @@
   tag: "⚙️ Less to send, more to think."
   category: "Network for AI"
   project: "infra_llm_network"
-  
 
 - title: "MAD-SPEAR: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems"
   authors: "Yu Cui, Hongyang Du*"
@@ -112,6 +110,7 @@
   project: "exec_reliable_agent"
 
 - title: "Reinforcement Learning With LLMs Interaction For Distributed Diffusion Model Services"
+  authors: "Hongyang Du, et al"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025"
   arxiv: "https://arxiv.org/abs/2311.11094"
   pdf: "https://arxiv.org/pdf/2311.11094"
@@ -121,8 +120,8 @@
   category: "AI for Network"
   project: "exec_reliable_agent"
  
-
 - title: "Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services"
+  authors: "Hongyang Du, et al"
   venue: "IEEE Transactions on Mobile Computing, 2024"
   arxiv: "https://arxiv.org/abs/2303.13052"
   pdf: "https://arxiv.org/pdf/2303.13052"
@@ -136,12 +135,13 @@
   - "ESI hot cited paper"
   
 - title: "Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services"
+  authors: "Hongyang Du, et al"
   venue: "IEEE Journal on Selected Areas in Communications, 2023"
   arxiv: "https://arxiv.org/abs/2208.05438"
   pdf: "https://arxiv.org/pdf/2208.05438"
   code: "https://github.com/HongyangDu/AttentionQoE"
   image: "./images/1atten.png"
-  summary: "A novel metric named Meta-Immersion that incorporates both the objective KPIs and subjective feelings of Metaverse users. An attention-aware rendering capacity allocation scheme to improve QoE in xURLLC."
+  summary: "An attention-aware rendering capacity allocation scheme to improve QoE in xURLLC."
   category: "AI for Network"
   project: "resilience_extreme"
   awards:
@@ -149,24 +149,26 @@
   - "First Price of Outstanding Papers of Computer Academy of Guangdong (China)"
   
 - title: "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding"
+  authors: "Hongyang Du, et al"
   venue: "IEEE Journal on Selected Areas in Communications, 2023"
   arxiv: "https://arxiv.org/abs/2211.12727"
   pdf: "https://arxiv.org/pdf/2211.12727"
   code: "https://github.com/HongyangDu/SemSensing"
   image: "./images/1semcom.png"
-  summary: "We propose the inverse semantic communications as a new paradigm. Using the sensing data collected from real-world, we show that our framework can reduce the data volume by 95% compared to that before encoding, without affecting the accomplishment of sensing tasks."
+  summary: "We propose the inverse semantic communications as a new paradigm. Using the sensing data collected from real-world, we show that our framework can reduce the data volume by 95%."
   category: "AI for Network"
   project: "resilience_extreme"
   awards:
   - "Selected by IEEE JSAC Popular Documents - August 2023"
   
 - title: "AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing"
+  authors: "Hongyang Du, et al"
   venue: "IEEE Journal on Selected Areas in Communications, 2023"
   arxiv: "https://arxiv.org/abs/2303.01896"
   pdf: "https://arxiv.org/pdf/2303.01896"
   code: "https://github.com/HongyangDu/SemSharing"
   image: "./images/1aig.png"
-  summary: "We analyze the performance of full-duplex D2D communications. To facilitate semantic information sharing among users, we design a contract theoretic AI-generated incentive mechanism that generates the optimal contract design, outperforming two DRL algorithms."
+  summary: "To facilitate semantic information sharing among users, we design a contract theoretic AI-generated incentive mechanism that generates the optimal contract design."
   category: "AI for Network"
   project: "resilience_extreme"
   awards:
