@@ -1,63 +1,11 @@
-- title: "Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services"
-  venue: "IEEE Transactions on Mobile Computing, 2024"
-  arxiv: "https://arxiv.org/abs/2303.13052"
-  pdf: "https://arxiv.org/pdf/2303.13052"
-  code: "https://github.com/HongyangDu/AGOD"
-  image: "./images/1diff.png"
-  summary: "We propose a diffusion model-based AI-generated optimal decision (AGOD) algorithm, which can generate the optimal ASP selection decisions."
+- title: "U-MASK: User-adaptive Spatio-Temporal Masking for Personalized Mobile AI Applications"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2601.06867"
+  pdf: "https://arxiv.org/pdf/2601.06867"
+  image: "./images/umask.png"
+  summary: "A user-adaptive spatiotemporal masking method that allocates evidence budgets based on user reliability and task sensitivity."
   category: "AI for Network"
-  project: "resilience_extreme"
-  awards:
-  - "ESI highly cited paper"
-  - "ESI hot cited paper"
-  
-- title: "Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services"
-  venue: "IEEE Journal on Selected Areas in Communications, 2023"
-  arxiv: "https://arxiv.org/abs/2208.05438"
-  pdf: "https://arxiv.org/pdf/2208.05438"
-  code: "https://github.com/HongyangDu/AttentionQoE"
-  image: "./images/1atten.png"
-  summary: "A novel metric named Meta-Immersion that incorporates both the objective KPIs and subjective feelings of Metaverse users. An attention-aware rendering capacity allocation scheme to improve QoE in xURLLC."
-  category: "AI for Network"
-  project: "resilience_extreme"
-  awards:
-  - "Selected by IEEE JSAC Popular Documents - July 2023"
-  - "First Price of Outstanding Papers of Computer Academy of Guangdong (China)"
-  
-- title: "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding"
-  venue: "IEEE Journal on Selected Areas in Communications, 2023"
-  arxiv: "https://arxiv.org/abs/2211.12727"
-  pdf: "https://arxiv.org/pdf/2211.12727"
-  code: "https://github.com/HongyangDu/SemSensing"
-  image: "./images/1semcom.png"
-  summary: "We propose the inverse semantic communications as a new paradigm. Using the sensing data collected from real-world, we show that our framework can reduce the data volume by 95% compared to that before encoding, without affecting the accomplishment of sensing tasks."
-  category: "AI for Network"
-  project: "resilience_extreme"
-  awards:
-  - "Selected by IEEE JSAC Popular Documents - August 2023"
-  
-- title: "AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing"
-  venue: "IEEE Journal on Selected Areas in Communications, 2023"
-  arxiv: "https://arxiv.org/abs/2303.01896"
-  pdf: "https://arxiv.org/pdf/2303.01896"
-  code: "https://github.com/HongyangDu/SemSharing"
-  image: "./images/1aig.png"
-  summary: "We analyze the performance of full-duplex D2D communications. To facilitate semantic information sharing among users, we design a contract theoretic AI-generated incentive mechanism that generates the optimal contract design, outperforming two DRL algorithms."
-  category: "AI for Network"
-  project: "resilience_extreme"
-  awards:
-  - "Selected by IEEE JSAC Popular Documents - October 2023"
-
-
-- title: "Reinforcement Learning With LLMs Interaction For Distributed Diffusion Model Services"
-  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025"
-  arxiv: "https://arxiv.org/abs/2311.11094"
-  pdf: "https://arxiv.org/pdf/2311.11094"
-  code: "https://github.com/HongyangDu/DistributedDiffusion"
-  image: "./images/1pami.png"
-  summary: "A novel user-centric Interactive AI (IAI) approach for service management, with a distributed GDM-based AIGC framework that emphasizes efficient and cooperative deployment."
-  category: "AI for Network"
-  project: "exec_reliable_agent"
+  project: "env_spatial_urban"
   
 - title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
   authors: "Feiran You, Hongyang Du*"
@@ -164,3 +112,80 @@
   tag: "🎭 Corrupt few, conform all.\"
   category: "Ongoing Work"
   project: "exec_reliable_agent"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- title: "Reinforcement Learning With LLMs Interaction For Distributed Diffusion Model Services"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025"
+  arxiv: "https://arxiv.org/abs/2311.11094"
+  pdf: "https://arxiv.org/pdf/2311.11094"
+  code: "https://github.com/HongyangDu/DistributedDiffusion"
+  image: "./images/1pami.png"
+  summary: "A novel user-centric Interactive AI approach for service management, with a distributed GDM-based AIGC framework that emphasizes efficient and cooperative deployment."
+  category: "AI for Network"
+  project: "exec_reliable_agent"
+ 
+
+- title: "Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services"
+  venue: "IEEE Transactions on Mobile Computing, 2024"
+  arxiv: "https://arxiv.org/abs/2303.13052"
+  pdf: "https://arxiv.org/pdf/2303.13052"
+  code: "https://github.com/HongyangDu/AGOD"
+  image: "./images/1diff.png"
+  summary: "We propose a diffusion model-based AI-generated optimal decision (AGOD) algorithm, which can generate the optimal ASP selection decisions."
+  category: "AI for Network"
+  project: "resilience_extreme"
+  awards:
+  - "ESI highly cited paper"
+  - "ESI hot cited paper"
+  
+- title: "Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services"
+  venue: "IEEE Journal on Selected Areas in Communications, 2023"
+  arxiv: "https://arxiv.org/abs/2208.05438"
+  pdf: "https://arxiv.org/pdf/2208.05438"
+  code: "https://github.com/HongyangDu/AttentionQoE"
+  image: "./images/1atten.png"
+  summary: "A novel metric named Meta-Immersion that incorporates both the objective KPIs and subjective feelings of Metaverse users. An attention-aware rendering capacity allocation scheme to improve QoE in xURLLC."
+  category: "AI for Network"
+  project: "resilience_extreme"
+  awards:
+  - "Selected by IEEE JSAC Popular Documents - July 2023"
+  - "First Price of Outstanding Papers of Computer Academy of Guangdong (China)"
+  
+- title: "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding"
+  venue: "IEEE Journal on Selected Areas in Communications, 2023"
+  arxiv: "https://arxiv.org/abs/2211.12727"
+  pdf: "https://arxiv.org/pdf/2211.12727"
+  code: "https://github.com/HongyangDu/SemSensing"
+  image: "./images/1semcom.png"
+  summary: "We propose the inverse semantic communications as a new paradigm. Using the sensing data collected from real-world, we show that our framework can reduce the data volume by 95% compared to that before encoding, without affecting the accomplishment of sensing tasks."
+  category: "AI for Network"
+  project: "resilience_extreme"
+  awards:
+  - "Selected by IEEE JSAC Popular Documents - August 2023"
+  
+- title: "AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing"
+  venue: "IEEE Journal on Selected Areas in Communications, 2023"
+  arxiv: "https://arxiv.org/abs/2303.01896"
+  pdf: "https://arxiv.org/pdf/2303.01896"
+  code: "https://github.com/HongyangDu/SemSharing"
+  image: "./images/1aig.png"
+  summary: "We analyze the performance of full-duplex D2D communications. To facilitate semantic information sharing among users, we design a contract theoretic AI-generated incentive mechanism that generates the optimal contract design, outperforming two DRL algorithms."
+  category: "AI for Network"
+  project: "resilience_extreme"
+  awards:
+  - "Selected by IEEE JSAC Popular Documents - October 2023"
