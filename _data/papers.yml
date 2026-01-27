@@ -1,4 +1,3 @@
-
 - title: "Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services"
   venue: "IEEE Journal on Selected Areas in Communications, 2023"
   arxiv: "https://arxiv.org/abs/2208.05438"
@@ -39,7 +38,6 @@
   summary: "A novel user-centric Interactive AI (IAI) approach for service management, with a distributed GDM-based AIGC framework that emphasizes efficient and cooperative deployment."
   category: "AI for Network"
   project: "exec_reliable_agent"
-  
   
 - title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
   authors: "Feiran You, Hongyang Du*"
@@ -102,7 +100,7 @@
   category: "Ongoing Work"
   project: "infra_llm_network"
   
- - title: "Ubiquitous Intelligence Via Wireless Network-Driven LLMs Evolution"
+- title: "Ubiquitous Intelligence Via Wireless Network-Driven LLMs Evolution"
   authors: "Xingkun Yin, Feiran You, Hongyang Du*, Kaibin Huang"
   venue: "Nature npj Wireless Technology, 2025"
   arxiv: "https://arxiv.org/abs/2509.08400"
