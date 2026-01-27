@@ -523,6 +523,27 @@ redirect_from:
 		color: var(--text-light, #4b5563);
 		margin: 0;
 		}
+		.projects-page .paper-awards{
+		  margin-top: 6px;
+		  font-size: 0.88rem;
+		  line-height: 1.35;
+		}
+
+		.projects-page .paper-awards-label{
+		  color: #c2410c;      /* 深橙色 */
+		  font-weight: 600;
+		  margin-right: 4px;
+		}
+
+		.projects-page .paper-award-item{
+		  color: #ea580c;      /* 主橙色 */
+		  font-weight: 500;
+		}
+
+		.projects-page .paper-award-sep{
+		  color: #f59e0b;      /* 淡橙分隔点 */
+		}
+
 
 		/* ========= Project-local works carousel ========= */
 		.projects-page .works-carousel {
@@ -660,7 +681,7 @@ redirect_from:
 		}
 
 		.projects-page .paper-meta b { color: #111827; }
-		.projects-page .paper-tag { color:#CC5500; font-weight: 800; }
+		.projects-page .paper-tag { color:#CC5500; font-weight: 500; }
 		.projects-page .paper-summary { color: green; }
 
 		.projects-page .paper-links img { vertical-align: middle; }
@@ -738,16 +759,21 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-		<span class="paper-tag"><i>{{ paper.tag}}</i></span><br>
+{% if paper.tag %}
+<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
-		{% if paper.awards and paper.awards.size > 0 %}
-		<div class="paper-awards">
-		<span class="paper-awards-label">Highlight:</span>
-		{% for a in paper.awards %}
-		<span class="paper-award-item">{{ a }}</span>{% unless forloop.last %}<span class="paper-award-sep"> · </span>{% endunless %}
-		{% endfor %}
-		</div>
-		{% endif %}
+{% if paper.awards and paper.awards.size > 0 %}
+<div class="paper-awards">
+  <span class="paper-awards-label">Highlight:</span>
+  {% for a in paper.awards %}
+    <span class="paper-award-item">{{ a }}</span>
+    {% unless forloop.last %}
+      <span class="paper-award-sep"> · </span>
+    {% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
 		<span class="paper-links">
 		<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
 		{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
@@ -803,7 +829,9 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-		<span class="paper-tag"><i>{{ paper.tag}}</i></span><br>
+{% if paper.tag %}
+<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
@@ -869,7 +897,9 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-		<span class="paper-tag"><i>{{ paper.tag}}</i></span><br>
+{% if paper.tag %}
+<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
@@ -935,7 +965,9 @@ redirect_from:
 		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
-		<span class="paper-tag"><i>{{ paper.tag}}</i></span><br>
+{% if paper.tag %}
+<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
+{% endif %}
 		<span class="paper-summary">{{ paper.summary }}</span><br>
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
