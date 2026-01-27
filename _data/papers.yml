@@ -1,13 +1,46 @@
-- title: "Ubiquitous Intelligence Via Wireless Network-Driven LLMs Evolution"
-  authors: "Xingkun Yin, Feiran You, Hongyang Du*, Kaibin Huang"
-  venue: "Nature npj Wireless Technology, 2025"
-  arxiv: "https://arxiv.org/abs/2509.08400"
-  pdf: "https://arxiv.org/pdf/2509.08400"
-  image: "./images/npj.png"
-  summary: "We introduce ubiquitous intelligence as a paradigm where LLMs evolve within wireless network-driven ecosystems."
-  tag: "🧬 Ubiquitous Intelligence: \"When networks breathe, intelligence grows.\""
-  category: "Network for AI"
 
+- title: "Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services"
+  venue: "IEEE Journal on Selected Areas in Communications, 2023"
+  arxiv: "https://arxiv.org/abs/2208.05438"
+  pdf: "https://arxiv.org/pdf/2208.05438"
+  code: "https://github.com/HongyangDu/AttentionQoE"
+  image: "./images/1semcom.png"
+  summary: "A novel metric named Meta-Immersion that incorporates both the objective KPIs and subjective feelings of Metaverse users. An attention-aware rendering capacity allocation scheme to improve QoE in xURLLC."
+  category: "AI for Network"
+  project: "exec_reliable_agent"
+  
+- title: "Semantic Communications for Wireless Sensing: RIS-aided Encoding and Self-supervised Decoding"
+  venue: "IEEE Journal on Selected Areas in Communications, 2023"
+  arxiv: "https://arxiv.org/abs/2211.12727"
+  pdf: "https://arxiv.org/pdf/2211.12727"
+  code: "https://github.com/HongyangDu/SemSensing"
+  image: "./images/1semcom.png"
+  summary: "We propose the inverse semantic communications as a new paradigm. Using the sensing data collected from real-world, we show that our framework can reduce the data volume by 95% compared to that before encoding, without affecting the accomplishment of sensing tasks."
+  category: "AI for Network"
+  project: "exec_reliable_agent"
+  
+- title: "AI-Generated Incentive Mechanism and Full-Duplex Semantic Communications for Information Sharing"
+  venue: "IEEE Journal on Selected Areas in Communications, 2023"
+  arxiv: "https://arxiv.org/abs/2303.01896"
+  pdf: "https://arxiv.org/pdf/2303.01896"
+  code: "https://github.com/HongyangDu/SemSharing"
+  image: "./images/1aig.png"
+  summary: "We analyze the performance of full-duplex D2D communications. To facilitate semantic information sharing among users, we design a contract theoretic AI-generated incentive mechanism that generates the optimal contract design, outperforming two DRL algorithms."
+  category: "AI for Network"
+  project: "exec_reliable_agent"
+
+
+- title: "Reinforcement Learning With LLMs Interaction For Distributed Diffusion Model Services"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025"
+  arxiv: "https://arxiv.org/abs/2311.11094"
+  pdf: "https://arxiv.org/pdf/2311.11094"
+  code: "https://github.com/HongyangDu/DistributedDiffusion"
+  image: "./images/1pami.png"
+  summary: "A novel user-centric Interactive AI (IAI) approach for service management, with a distributed GDM-based AIGC framework that emphasizes efficient and cooperative deployment."
+  category: "AI for Network"
+  project: "exec_reliable_agent"
+  
+  
 - title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
   authors: "Feiran You, Hongyang Du*"
   venue: "submitted to IEEE Transactions on Mobile Computing, major revision, 2025"
@@ -17,6 +50,8 @@
   summary: "ReaCritic is a large reasoning transformer-based DRL critic-model scaling scheme that brings LLMs' reasoning ability into DRL, performing horizontal reasoning over parallel state-action inputs and vertical reasoning through deep transformer stacks."
   tag: "🤔 ReaCritic: \"Learning without thought is labor lost. 学而不思则罔。\""
   category: "AI for Network"
+  project: "resilience_extreme"
+  
 
 - title: "DRESS: Diffusion Reasoning-based Reward Shaping Scheme For Intelligent Networks"
   authors: "Feiran You, Hongyang Du*, Xiangwang Hou, Yong Ren, Kaibin Huang"
@@ -28,6 +63,7 @@
   summary: "DRESS is designed for seamless integration with any DRL framework, allowing DRESS-aided DRL (DRESSed-DRL) to enable stable and efficient DRL training even under extreme network environments."
   tag: "🥼 DRESS: \"If your DRL's a mess, DRESS it!\""
   category: "AI for Network"
+  project: "resilience_extreme"
   
  
 - title: "LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction"
@@ -40,16 +76,8 @@
   summary: "An LLM-Enhanced Spatio-temporal Diffusion Model (LSDM) to achieve SOTA service-level mobile traffic prediction for individual users."
   tag: "🗺️ LSDM: \"Your traffic tells a story.\""
   category: "AI for Network"
+  project: "env_spatial_urban"
 
-- title: "JAUNT: Joint Alignment of User Intent and Network State for QoE-centric LLM Tool Routing"
-  authors: "Enhan Li, Hongyang Du*"
-  venue: "2025"
-  arxiv: "https://arxiv.org/abs/2510.18550"
-  pdf: "https://arxiv.org/pdf/2510.18550"
-  image: "./images/jaunt.png"
-  summary: "We propose the JAUNT framework, which achieves dual-view alignment between semantic intent and network performance for LLM tool routing."
-  tag: "🚶 JAUNT: \"Intent travels through the network.\""
-  category: "Ongoing Work"
 
 - title: "NetMCP: Network-Aware Model Context Protocol Platform for LLM Capability Extension"
   authors: "Enhan Li, Hongyang Du*, Kaibin Huang"
@@ -60,6 +88,30 @@
   summary: "A platform for testing and developing MCP tool routing algorithms with real-time awareness of network and server conditions."
   tag: "🔗 NetMCP: \"Testing intelligence under real networks.\""
   category: "Ongoing Work"
+  project: "infra_llm_network"
+  
+ 
+- title: "JAUNT: Joint Alignment of User Intent and Network State for QoE-centric LLM Tool Routing"
+  authors: "Enhan Li, Hongyang Du*"
+  venue: "2025"
+  arxiv: "https://arxiv.org/abs/2510.18550"
+  pdf: "https://arxiv.org/pdf/2510.18550"
+  image: "./images/jaunt.png"
+  summary: "We propose the JAUNT framework, which achieves dual-view alignment between semantic intent and network performance for LLM tool routing."
+  tag: "🚶 JAUNT: \"Intent travels through the network.\""
+  category: "Ongoing Work"
+  project: "infra_llm_network"
+  
+ - title: "Ubiquitous Intelligence Via Wireless Network-Driven LLMs Evolution"
+  authors: "Xingkun Yin, Feiran You, Hongyang Du*, Kaibin Huang"
+  venue: "Nature npj Wireless Technology, 2025"
+  arxiv: "https://arxiv.org/abs/2509.08400"
+  pdf: "https://arxiv.org/pdf/2509.08400"
+  image: "./images/npj.png"
+  summary: "We introduce ubiquitous intelligence as a paradigm where LLMs evolve within wireless network-driven ecosystems."
+  tag: "🧬 Ubiquitous Intelligence: \"When networks breathe, intelligence grows.\""
+  category: "Network for AI"
+  project: "infra_llm_network"
 
 - title: "Experience Scaling: Post-Deployment Evolution For Large Language Models"
   authors: "Xingkun Yin, Kaibin Huang, Dong In Kim, Hongyang Du*"
@@ -70,6 +122,7 @@
   summary: "We propose experience scaling, a framework for continuous post-deployment evolution for LLMs through autonomous interaction with the environment and collaborative sharing of accumulated experience."
   tag: "📑 Experience Scaling: \"The learning never stops.\""
   category: "Ongoing Work"
+  project: "exec_reliable_agent"
 
 - title: "JPPO++: Joint Power and Denoising-inspired Prompt Optimization for Mobile LLM Services"
   authors: "Feiran You, Hongyang Du*, Kaibin Huang, Abbas Jamalipour"
@@ -80,6 +133,7 @@
   summary: "JPPO++ is a framework that jointly optimizes prompt compression and wireless transmission power for mobile LLM services. A denoising-inspired compression scheme performs iterative prompt refinement by progressively removing less informative tokens."
   tag: "⚙️ JPPO++: \"Less to send, more to think.\""
   category: "Network for AI"
+  project: "infra_llm_network"
   
 
 - title: "MAD-SPEAR: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems"
@@ -91,4 +145,4 @@
   summary: "We introduce MAD-SPEAR, a targeted prompt injection attack that compromises a small subset of agents but significantly disrupts the overall multi-agent debate (MAD) process."
   tag: "🎭 MAD-SPEAR: \"Corrupt few, conform all.\""
   category: "Ongoing Work"
-  
+  project: "exec_reliable_agent"

@@ -404,7 +404,7 @@ redirect_from:
 		  <!-- Middle layer -->
 		  <div class="layer layer-mid">
 			  <div class="layer-title-box">
-				  <div class="layer-title">Networked Intelligence Orchestration</div>
+				  <div class="layer-title">Networked AI Infrastructure</div>
 				  <div class="layer-purpose">Collaboration across agents, humans, and networks</div>
 			  </div>
 			  <div class="layer-content">
@@ -529,87 +529,529 @@ redirect_from:
 
   <hr>
 
-  <section id="highlighted-work">
-    <h2>Highlighted NI<font color="green"><b>CE</b></font> Lab Work</h2>
+<!-- =========================
+     Projects (Constraint Surfaces)
+     - Full-width stacked blocks
+     - "Dimension: Project" headline + 1-line explanation + works list
+     - Jekyll/Liquid: filter papers by paper.project (recommended)
+     ========================= -->
 
-    <h3>AI for Network</h3>
+<style>
+  .projects-page { font-size: 0.98rem; line-height: 1.7; }
+  .projects-page section { margin-bottom: 2.5rem; }
 
-    {% assign papers_genai = site.data.papers | where: "category", "AI for Network" %}
-    {% for paper in papers_genai %}
-    <table>
-      <tr>
-        <td width="280">
-          <a href="{{ paper.arxiv }}">
-            <img src="{{ paper.image }}" width="270">
-          </a>
-        </td>
-        <td>
-          <b>{{ forloop.index }}. {{ paper.title }}</b><br>
-          {{ paper.authors }}<br>
-          {{ paper.venue }}<br>
-          <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
-          <span style="color:green">{{ paper.summary }}</span><br>
-          <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
-          {% if paper.code %}
-          | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
-          {% endif %}
-        </td>
-      </tr>
-    </table>
-    {% endfor %}
+  .projects-page h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.3rem;
+  }
 
-    <h3>Network for AI</h3>
+  /* Visual language aligned with your palette */
+  .projects-page .project-block {
+    border: 1px solid var(--border-color, #d5d0c7);
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 16px 18px;
+    margin: 14px 0;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+  }
 
-    {% assign papers_genai = site.data.papers | where: "category", "Network for AI" %}
-    {% for paper in papers_genai %}
-    <table>
-      <tr>
-        <td width="280">
-          <a href="{{ paper.arxiv }}">
-            <img src="{{ paper.image }}" width="270">
-          </a>
-        </td>
-        <td>
-          <b>{{ forloop.index }}. {{ paper.title }}</b><br>
-          {{ paper.authors }}<br>
-          {{ paper.venue }}<br>
-          <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
-          <span style="color:green">{{ paper.summary }}</span><br>
-          <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
-          {% if paper.code %}
-          | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
-          {% endif %}
-        </td>
-      </tr>
-    </table>
-    {% endfor %}
+  .projects-page .project-head {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
 
-    <h3>Ongoing Work</h3>
+  .projects-page .project-title {
+    font-weight: 800;
+    color: var(--primary-blue, #0c3b32);
+    letter-spacing: 0.02em;
+  }
 
-    {% assign papers_genai = site.data.papers | where: "category", "Ongoing Work" %}
-    {% for paper in papers_genai %}
-    <table>
-      <tr>
-        <td width="280">
-          <a href="{{ paper.arxiv }}">
-            <img src="{{ paper.image }}" width="270">
-          </a>
-        </td>
-        <td>
-          <b>{{ forloop.index }}. {{ paper.title }}</b><br>
-          {{ paper.authors }}<br>
-          {{ paper.venue }}<br>
-          <span style="color:#CC5500"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
-          <span style="color:green">{{ paper.summary }}</span><br>
-          <img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
-          {% if paper.code %}
-          | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>
-          {% endif %}
-        </td>
-      </tr>
-    </table>
-    {% endfor %}
+  .projects-page .project-title .dim {
+    color: var(--primary-green, #5b8f78);
+    font-weight: 800;
+  }
+
+  .projects-page .project-one-liner {
+    color: var(--text-light, #4b5563);
+    margin: 0;
+  }
+  
+  /* ========= Project-local works carousel ========= */
+.projects-page .works-carousel {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  padding: 12px 12px;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.projects-page .works-carousel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.projects-page .works-carousel-head .label {
+  font-weight: 800;
+  color: var(--primary-blue, #0c3b32);
+  letter-spacing: 0.02em;
+}
+
+.projects-page .works-carousel-head .hint {
+  color: var(--text-light, #4b5563);
+  font-size: 0.86rem;
+}
+
+.projects-page .works-track {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.projects-page .works-track::-webkit-scrollbar { height: 8px; }
+.projects-page .works-track::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.12);
+  border-radius: 8px;
+}
+
+.projects-page .work-card {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.06);
+  background: var(--soft-green, #f3f6f4);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projects-page .work-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
+}
+
+.projects-page .work-card-thumb {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  background: #ffffff;
+}
+
+.projects-page .work-card-body {
+  padding: 10px 12px 12px 12px;
+}
+
+.projects-page .work-card-title {
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.25;
+  margin: 0 0 6px 0;
+  font-size: 0.95rem;
+}
+
+.projects-page .work-card-meta {
+  color: var(--text-light, #4b5563);
+  font-size: 0.86rem;
+  line-height: 1.35;
+  margin: 0 0 8px 0;
+}
+
+.projects-page .work-card-tag {
+  color: #CC5500;
+  font-weight: 800;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.projects-page .work-card-links {
+  margin-top: 8px;
+  color: var(--primary-blue, #0c3b32);
+  font-size: 0.86rem;
+}
+
+.projects-page .work-card-links a { text-decoration: none; }
+.projects-page .work-card-links a:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+  .projects-page .work-card { flex: 0 0 86%; }
+  .projects-page .work-card-thumb { height: 150px; }
+}
+
+
+  /* Works list uses your existing table layout for consistency */
+  .projects-page .work-table { width: 100%; margin-top: 10px; margin-bottom: 0; }
+  .projects-page .work-table td { vertical-align: top; }
+
+  .projects-page .work-table img.paper-thumb {
+    width: 270px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .projects-page .paper-meta b { color: #111827; }
+  .projects-page .paper-tag { color:#CC5500; font-weight: 800; }
+  .projects-page .paper-summary { color: green; }
+
+  .projects-page .paper-links img { vertical-align: middle; }
+  .projects-page .paper-links a { text-decoration: none; }
+
+  @media (max-width: 960px) {
+    .projects-page .work-table td { display: block; width: 100% !important; }
+    .projects-page .work-table td:first-child { margin-bottom: 10px; }
+  }
+</style>
+
+<div class="projects-page">
+  <section id="projects">
+    <h2>Research Projects</h2>
+
+    <!-- =========================================================
+         IMPORTANT DATA NOTE (recommended)
+         Add a field "project" to each entry in _data/papers.yml, e.g.
+           project: "resilience_extreme"
+         Then this page can filter precisely by project, not by old category.
+         ========================================================= -->
+
+    {% comment %}
+      PROJECT KEY LIST (you can rename keys freely, just keep consistent)
+      - world_repr_fm        -> Foundation Models for Network Intelligence
+      - infra_llm_network    -> Network-as-Infrastructure for LLM Systems
+      - env_spatial_urban    -> Spatial Intelligence for Wireless Urban Ecosystems
+      - exec_reliable_agent  -> Agentic Artificial Intelligence with Reliable Execution
+      - resilience_extreme   -> Resilient Intelligence under Extreme Conditions
+    {% endcomment %}
+
+
+    <!-- 2) Deployable System Infrastructure -->
+    <div class="project-block" id="proj-infra">
+      <div class="project-head">
+        <div class="project-title">
+          <span class="dim">Networked AI Infrastructure</span>:
+          <span>Network-as-AI-Infrastructure for LLM Systems</span>
+        </div>
+        <p class="project-one-liner">
+          We treat the network as the execution and scaling infrastructure for large AI services, e.g., LLMs, and co-design communication, inference, and tool routing under real network constraints.
+        </p>
+      </div>
+      {% assign proj = "infra_llm_network" %}
+      {% assign proj_papers = site.data.papers | where: "project", proj %}
+	  
+	<!-- Project-local overview carousel -->
+	<div class="works-carousel">
+	  <div class="works-carousel-head">
+		<div class="label">Selected Works</div>
+		<div class="hint">Scroll. Click a card for details.</div>
+	  </div>
+	  <div class="works-track">
+		{% for paper in proj_papers %}
+		<a class="work-card" href="#paper-{{ proj }}-{{ forloop.index }}">
+		  <img class="work-card-thumb" src="{{ paper.image }}" alt="{{ paper.title }}">
+		  <div class="work-card-body">
+			<div class="work-card-title">{{ paper.title }}</div>
+			<p class="work-card-meta">{{ paper.venue }}</p>
+			<p class="work-card-tag">{{ paper.tag | split: ":" | first }}</p>
+
+			<div class="work-card-links">
+			  <span>PDF</span>
+			  {% if paper.code %} | <span>Code</span>{% endif %}
+			</div>
+		  </div>
+		</a>
+		{% endfor %}
+	  </div>
+	</div>
+	{% for paper in proj_papers %}
+	<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
+	<table class="work-table">
+	  <tr>
+		<td width="280">
+		  <a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
+		</td>
+		<td class="paper-meta">
+		  <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		  {{ paper.authors }}<br>
+		  {{ paper.venue }}<br>
+		  <span class="paper-tag"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+		  <span class="paper-summary">{{ paper.summary }}</span><br>
+		  <span class="paper-links">
+			<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+			{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
+		  </span>
+		</td>
+	  </tr>
+	</table>
+	{% endfor %}
+    </div>
+
+
+    <!-- 1) Native World Representation -->
+    <div class="project-block" id="proj-world-repr">
+      <div class="project-head">
+        <div class="project-title">
+          <span class="dim">Native World Representation</span>:
+          <span>Foundation Models for Network Intelligence</span>
+        </div>
+        <p class="project-one-liner">
+          We learn native, generalizable representations directly from raw network traffic and dynamics, treating network behavior as a first-class modality for foundation modeling.
+        </p>
+      </div>
+
+      {% assign proj = "world_repr_fm" %}
+      {% assign proj_papers = site.data.papers | where: "project", proj %}
+      {% for paper in proj_papers %}
+<!-- Project-local overview carousel -->
+	<div class="works-carousel">
+	  <div class="works-carousel-head">
+		<div class="label">Selected Works</div>
+		<div class="hint">Scroll. Click a card for details.</div>
+	  </div>
+	  <div class="works-track">
+		{% for paper in proj_papers %}
+		<a class="work-card" href="#paper-{{ proj }}-{{ forloop.index }}">
+		  <img class="work-card-thumb" src="{{ paper.image }}" alt="{{ paper.title }}">
+		  <div class="work-card-body">
+			<div class="work-card-title">{{ paper.title }}</div>
+			<p class="work-card-meta">{{ paper.venue }}</p>
+			<p class="work-card-tag">{{ paper.tag | split: ":" | first }}</p>
+
+			<div class="work-card-links">
+			  <span>PDF</span>
+			  {% if paper.code %} | <span>Code</span>{% endif %}
+			</div>
+		  </div>
+		</a>
+		{% endfor %}
+	  </div>
+	</div>
+	{% for paper in proj_papers %}
+	<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
+	<table class="work-table">
+	  <tr>
+		<td width="280">
+		  <a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
+		</td>
+		<td class="paper-meta">
+		  <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		  {{ paper.authors }}<br>
+		  {{ paper.venue }}<br>
+		  <span class="paper-tag"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+		  <span class="paper-summary">{{ paper.summary }}</span><br>
+		  <span class="paper-links">
+			<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+			{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
+		  </span>
+		</td>
+	  </tr>
+	</table>
+	{% endfor %}
+    </div>
+	
+    <!-- 3) Environment-Aware Intelligence -->
+    <div class="project-block" id="proj-env">
+      <div class="project-head">
+        <div class="project-title">
+          <span class="dim">Environment-Aware Intelligence</span>:
+          <span>Spatial Intelligence for Wireless Urban Ecosystems</span>
+        </div>
+        <p class="project-one-liner">
+          We model and exploit spatial structure from heterogeneous sensing and mobility signals to support prediction, planning, and control in city-scale wireless ecosystems.
+        </p>
+      </div>
+
+      {% assign proj = "env_spatial_urban" %}
+      {% assign proj_papers = site.data.papers | where: "project", proj %}
+      {% for paper in proj_papers %}
+<!-- Project-local overview carousel -->
+	<div class="works-carousel">
+	  <div class="works-carousel-head">
+		<div class="label">Selected Works</div>
+		<div class="hint">Scroll. Click a card for details.</div>
+	  </div>
+	  <div class="works-track">
+		{% for paper in proj_papers %}
+		<a class="work-card" href="#paper-{{ proj }}-{{ forloop.index }}">
+		  <img class="work-card-thumb" src="{{ paper.image }}" alt="{{ paper.title }}">
+		  <div class="work-card-body">
+			<div class="work-card-title">{{ paper.title }}</div>
+			<p class="work-card-meta">{{ paper.venue }}</p>
+			<p class="work-card-tag">{{ paper.tag | split: ":" | first }}</p>
+
+			<div class="work-card-links">
+			  <span>PDF</span>
+			  {% if paper.code %} | <span>Code</span>{% endif %}
+			</div>
+		  </div>
+		</a>
+		{% endfor %}
+	  </div>
+	</div>
+	{% for paper in proj_papers %}
+	<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
+	<table class="work-table">
+	  <tr>
+		<td width="280">
+		  <a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
+		</td>
+		<td class="paper-meta">
+		  <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		  {{ paper.authors }}<br>
+		  {{ paper.venue }}<br>
+		  <span class="paper-tag"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+		  <span class="paper-summary">{{ paper.summary }}</span><br>
+		  <span class="paper-links">
+			<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+			{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
+		  </span>
+		</td>
+	  </tr>
+	</table>
+	{% endfor %}
+    </div>
+
+    <!-- 4) Reliable Task Execution -->
+    <div class="project-block" id="proj-exec">
+      <div class="project-head">
+        <div class="project-title">
+          <span class="dim">Reliable Task Execution</span>:
+          <span>Agentic Artificial Intelligence with Reliable Execution</span>
+        </div>
+        <p class="project-one-liner">
+          We design mechanisms that make agentic systems reliably executable, using verification, memory realignment, and experience reuse to stabilize long-horizon task completion.
+        </p>
+      </div>
+
+      {% assign proj = "exec_reliable_agent" %}
+      {% assign proj_papers = site.data.papers | where: "project", proj %}
+      {% for paper in proj_papers %}
+<!-- Project-local overview carousel -->
+	<div class="works-carousel">
+	  <div class="works-carousel-head">
+		<div class="label">Selected Works</div>
+		<div class="hint">Scroll. Click a card for details.</div>
+	  </div>
+	  <div class="works-track">
+		{% for paper in proj_papers %}
+		<a class="work-card" href="#paper-{{ proj }}-{{ forloop.index }}">
+		  <img class="work-card-thumb" src="{{ paper.image }}" alt="{{ paper.title }}">
+		  <div class="work-card-body">
+			<div class="work-card-title">{{ paper.title }}</div>
+			<p class="work-card-meta">{{ paper.venue }}</p>
+			<p class="work-card-tag">{{ paper.tag | split: ":" | first }}</p>
+
+			<div class="work-card-links">
+			  <span>PDF</span>
+			  {% if paper.code %} | <span>Code</span>{% endif %}
+			</div>
+		  </div>
+		</a>
+		{% endfor %}
+	  </div>
+	</div>
+	{% for paper in proj_papers %}
+	<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
+	<table class="work-table">
+	  <tr>
+		<td width="280">
+		  <a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
+		</td>
+		<td class="paper-meta">
+		  <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		  {{ paper.authors }}<br>
+		  {{ paper.venue }}<br>
+		  <span class="paper-tag"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+		  <span class="paper-summary">{{ paper.summary }}</span><br>
+		  <span class="paper-links">
+			<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+			{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
+		  </span>
+		</td>
+	  </tr>
+	</table>
+	{% endfor %}
+    </div>
+
+    <!-- 5) Survivability under Adversity -->
+    <div class="project-block" id="proj-resilience">
+      <div class="project-head">
+        <div class="project-title">
+          <span class="dim">Survivability under Adversity</span>:
+          <span>Resilient Intelligence under Extreme Conditions</span>
+        </div>
+        <p class="project-one-liner">
+          We develop learning and reasoning mechanisms that remain stable and effective under sparse feedback, high-dimensional decision spaces, and harsh or non-stationary conditions.
+        </p>
+      </div>
+
+      {% assign proj = "resilience_extreme" %}
+      {% assign proj_papers = site.data.papers | where: "project", proj %}
+      {% for paper in proj_papers %}
+<!-- Project-local overview carousel -->
+	<div class="works-carousel">
+	  <div class="works-carousel-head">
+		<div class="label">Selected Works</div>
+		<div class="hint">Scroll. Click a card for details.</div>
+	  </div>
+	  <div class="works-track">
+		{% for paper in proj_papers %}
+		<a class="work-card" href="#paper-{{ proj }}-{{ forloop.index }}">
+		  <img class="work-card-thumb" src="{{ paper.image }}" alt="{{ paper.title }}">
+		  <div class="work-card-body">
+			<div class="work-card-title">{{ paper.title }}</div>
+			<p class="work-card-meta">{{ paper.venue }}</p>
+			<p class="work-card-tag">{{ paper.tag | split: ":" | first }}</p>
+
+			<div class="work-card-links">
+			  <span>PDF</span>
+			  {% if paper.code %} | <span>Code</span>{% endif %}
+			</div>
+		  </div>
+		</a>
+		{% endfor %}
+	  </div>
+	</div>
+	{% for paper in proj_papers %}
+	<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
+	<table class="work-table">
+	  <tr>
+		<td width="280">
+		  <a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
+		</td>
+		<td class="paper-meta">
+		  <b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		  {{ paper.authors }}<br>
+		  {{ paper.venue }}<br>
+		  <span class="paper-tag"><b>{{ paper.tag | split: ":" | first }}</b>: <i>{{ paper.tag | split: ":" | last | strip }}</i></span><br>
+		  <span class="paper-summary">{{ paper.summary }}</span><br>
+		  <span class="paper-links">
+			<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
+			{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
+		  </span>
+		</td>
+	  </tr>
+	</table>
+	{% endfor %}
+    </div>
+
   </section>
+
+  <hr>
+</div>
+
 
   <hr>
 
