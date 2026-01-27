@@ -585,41 +585,45 @@ redirect_from:
 		box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
 		}
 
-		.projects-page .work-card-thumb {
-		width: 100%;
-		height: 190px;            /* 你可以调 170–220 之间 */
-		object-fit: cover;
-		display: block;
-		background: #ffffff;
+		.projects-page .work-card-thumb{
+		  display: block;
+		  width: 100%;
+		  height: 160px;        /* 你觉得图不够大就加高，比如 170-190 */
+		  object-fit: cover;
+		  border-top-left-radius: 14px;
+		  border-top-right-radius: 14px;
 		}
-		/* shallow gradient, does not cover much image */
-		.projects-page .work-card-title-overlay {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		padding: 10px 12px;
-		font-size: 0.92rem;
-		line-height: 1.25;
-		font-weight: 400;              /* 不加粗 */
-		color: #111827;
-		background: linear-gradient(
-		to top,
-		rgba(243, 246, 244, 0.92) 0%,
-		rgba(243, 246, 244, 0.70) 45%,
-		rgba(243, 246, 244, 0.00) 100%
-		);
-		border-bottom-left-radius: 14px;
-		border-bottom-right-radius: 14px;
-		}
+/* 只压住底部一小条，不要盖太多图 */
+.projects-page .work-card-title-overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 8px 10px;
+  font-size: 0.88rem;
+  line-height: 1.25;
+  font-weight: 600;     /* 你说不需要加粗，就用 600/500，不用 800 */
+  color: #ffffff;
+
+  /* 更不透明的渐变，底部更实，上部更透明 */
+  background: linear-gradient(
+    to top,
+    rgba(12, 59, 50, 0.92) 0%,
+    rgba(12, 59, 50, 0.78) 55%,
+    rgba(12, 59, 50, 0.00) 100%
+  );
+
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
 
 		.projects-page .work-card-body { display: none; }
 
 		.projects-page .work-card-title { font-weight: 400; } /* in case any old title remains */
 
-		.projects-page .work-card-media {
+		.projects-page .work-card-media{
 		position: relative;
-		width: 100%;
 		}
 
 		.projects-page .work-card-tag {
@@ -721,6 +725,7 @@ redirect_from:
 		</a>
 		{% endfor %}
 		</div>
+		</div>
 
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
@@ -752,7 +757,7 @@ redirect_from:
 		</table>
 		{% endfor %}
 		</div>
-
+		</div>
 
 		<!-- Wireless Spatial Intelligence： AI for Wireless Urban Ecosystems -->
 		<div class="project-block" id="proj-env">
@@ -787,6 +792,7 @@ redirect_from:
 		</a>
 		{% endfor %}
 		</div>
+		</div>
 
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
@@ -817,6 +823,7 @@ redirect_from:
 		</tr>
 		</table>
 		{% endfor %}
+		</div>
 		</div>
 
 		<!-- Agentic AI: Reliable Task Execution Mechanism -->
@@ -883,6 +890,7 @@ redirect_from:
 		</table>
 		{% endfor %}
 		</div>
+		</div>
 
 		<!-- Resilient Intelligence: Intelligent Networks across Complex Scenarios -->
 		<div class="project-block" id="proj-resilience">
@@ -948,7 +956,7 @@ redirect_from:
 		</table>
 		{% endfor %}
 		</div>
-
+		</div>
 		</section>
 
 		<hr>
