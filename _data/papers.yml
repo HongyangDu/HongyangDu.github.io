@@ -6,7 +6,7 @@
   summary: "A user-adaptive spatiotemporal masking method that allocates evidence budgets based on user reliability and task sensitivity."
   category: "AI for Network"
   project: "env_spatial_urban"
-  
+
 - title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
   authors: "Feiran You, Hongyang Du*"
   venue: "submitted to IEEE Transactions on Mobile Computing, major revision, 2025"
@@ -14,11 +14,10 @@
   pdf: "https://arxiv.org/pdf/2505.10992.pdf"
   image: "./images/F0.png"
   summary: "ReaCritic is a large reasoning transformer-based DRL critic-model scaling scheme that brings LLMs' reasoning ability into DRL, performing horizontal reasoning over parallel state-action inputs and vertical reasoning through deep transformer stacks."
-  tag: "🤔 Learning without thought is labor lost. 学而不思则罔。\"
+  tag: "🤔 Learning without thought is labor lost. 学而不思则罔。"
   category: "AI for Network"
   project: "resilience_extreme"
   
-
 - title: "DRESS: Diffusion Reasoning-based Reward Shaping Scheme For Intelligent Networks"
   authors: "Feiran You, Hongyang Du*, Xiangwang Hou, Yong Ren, Kaibin Huang"
   venue: "IEEE Transactions on Signal Processing, 2025"
@@ -27,11 +26,10 @@
   code: "https://github.com/NICE-HKU/DRESS"
   image: "./images/frameworkdress.jpg"
   summary: "DRESS is designed for seamless integration with any DRL framework, allowing DRESS-aided DRL (DRESSed-DRL) to enable stable and efficient DRL training even under extreme network environments."
-  tag: "🥼 If your DRL's a mess, DRESS it!\"
+  tag: "🥼 If your DRL is a mess, DRESS it!"
   category: "AI for Network"
   project: "resilience_extreme"
   
- 
 - title: "LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction"
   authors: "Shiyuan Zhang, Tong Li*, Zhu Xiao, Hongyang Du*, Kaibin Huang"
   venue: "submitted to IEEE/ACM Transactions on Networking, major revision, 2025"
@@ -40,7 +38,7 @@
   code: "https://github.com/SoftYuaneR/LSDM"
   image: "./images/lsdmframe.jpg"
   summary: "An LLM-Enhanced Spatio-temporal Diffusion Model (LSDM) to achieve SOTA service-level mobile traffic prediction for individual users."
-  tag: "🗺️ Your traffic tells a story.\"
+  tag: "🗺️ Your traffic tells a story."
   category: "AI for Network"
   project: "env_spatial_urban"
 
@@ -52,7 +50,7 @@
   pdf: "https://arxiv.org/pdf/2510.13467"
   image: "./images/netmcp.png"
   summary: "A platform for testing and developing MCP tool routing algorithms with real-time awareness of network and server conditions."
-  tag: "🔗 Testing intelligence under real networks.\"
+  tag: "🔗 Testing intelligence under real networks."
   category: "Ongoing Work"
   project: "infra_llm_network"
   
@@ -64,7 +62,7 @@
   pdf: "https://arxiv.org/pdf/2510.18550"
   image: "./images/jaunt.png"
   summary: "We propose the JAUNT framework, which achieves dual-view alignment between semantic intent and network performance for LLM tool routing."
-  tag: "🚶 Intent travels through the network.\"
+  tag: "🚶 Intent travels through the network."
   category: "Ongoing Work"
   project: "infra_llm_network"
   
@@ -75,7 +73,7 @@
   pdf: "https://arxiv.org/pdf/2509.08400"
   image: "./images/npj.png"
   summary: "We introduce ubiquitous intelligence as a paradigm where LLMs evolve within wireless network-driven ecosystems."
-  tag: "🧬 When networks breathe, intelligence grows.\"
+  tag: "🧬 When networks breathe, intelligence grows."
   category: "Network for AI"
   project: "infra_llm_network"
 
@@ -86,7 +84,7 @@
   pdf: "https://arxiv.org/pdf/2509.18771"
   image: "./images/nmi.png"
   summary: "We propose experience scaling, a framework for continuous post-deployment evolution for LLMs through autonomous interaction with the environment and collaborative sharing of accumulated experience."
-  tag: "📑 The learning never stops.\"
+  tag: "📑 The learning never stops."
   category: "Ongoing Work"
   project: "exec_reliable_agent"
 
@@ -97,7 +95,7 @@
   pdf: "https://arxiv.org/pdf/2412.03621v4"
   image: "./images/JPPOPLUS.png"
   summary: "JPPO++ is a framework that jointly optimizes prompt compression and wireless transmission power for mobile LLM services. A denoising-inspired compression scheme performs iterative prompt refinement by progressively removing less informative tokens."
-  tag: "⚙️ Less to send, more to think.\"
+  tag: "⚙️ Less to send, more to think."
   category: "Network for AI"
   project: "infra_llm_network"
   
@@ -109,7 +107,7 @@
   pdf: "https://arxiv.org/pdf/2507.13038"
   image: "./images/madsys.jpg"
   summary: "We introduce MAD-SPEAR, a targeted prompt injection attack that compromises a small subset of agents but significantly disrupts the overall multi-agent debate (MAD) process."
-  tag: "🎭 Corrupt few, conform all.\"
+  tag: "🎭 Corrupt few, conform all."
   category: "Ongoing Work"
   project: "exec_reliable_agent"
 
