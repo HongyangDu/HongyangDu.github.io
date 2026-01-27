@@ -121,13 +121,7 @@ redirect_from:
 		  margin-bottom: 4px;
 	  }
 
-	  .infographic-subtitle {
-		  font-size: 0.9rem;
-		  color: var(--primary-green);
-		  font-weight: 600;
-		  letter-spacing: 0.12em;
-		  text-transform: uppercase;
-	  }
+
 
 	  .layers-wrapper {
 		  display: flex;
@@ -270,25 +264,39 @@ redirect_from:
 		  padding: 0 10px;
 	  }
 	  
-		.nice-header {
-			position: relative;
-			text-align: center;
-			padding: 16px 0;
-		}
+.nice-header {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:20px 16px;
+  gap:10px;                 /* logo 和标题的间距 */
+}
 
-		.infographic-container .nice-logo {
-			position: absolute;
-			left: 0.01rem;            /* 稍微往里一点，避免贴边 */
-			top: 40%;
-			transform: translateY(-50%);
-			height: 32px !important;  /* 控制实际高度：你想多大就改这里 */
-			width: auto !important;   /* 保持比例 */
-		}
+.infographic-container .nice-logo{
+  position:static;          /* 去掉 absolute */
+  height:44px;              /* 40–56px 一般比较合适 */
+  width:auto;
+}
 
-		/* 让标题保持居中 */
-		.nice-title {
-			display: inline-block;
-		}
+.nice-title{
+  max-width:720px;          /* 防止标题区域过宽像横幅 */
+}
+.nice-title h1{
+  margin:0;
+  font-size:28px;           /* 你可按整体字号体系调 */
+  font-weight:700;
+  letter-spacing:0.3px;     /* 少量即可，不要太“广告” */
+  text-transform:none;      /* 不用全大写 */
+  line-height:1.15;
+}
+.infographic-subtitle{
+  margin-top:6px;
+  font-size:14px;
+  letter-spacing:0.2px;
+  opacity:0.75;             /* 用弱化体现层级 */
+}
 
 
 	  /* 顶部链路标签缩小 */
