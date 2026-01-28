@@ -3,6 +3,7 @@
   venue: "Submitted"
   arxiv: "https://arxiv.org/abs/2601.19249"
   pdf: "https://arxiv.org/pdf/2601.19249"
+  code: "https://github.com/NICE-HKU/GLOVE"
   image: "./images/glove.png"
   summary: "A framework that introduces a new design dimension for LLM memory systems by establishing a relative notion of truth."
   category: "AI for Network"
