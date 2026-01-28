@@ -508,6 +508,26 @@ redirect_from:
 		margin: 14px 0;
 		box-shadow: 0 8px 18px rgba(0,0,0,0.05);
 		}
+		
+.projects-page .paper-meta-wrap{
+  position: relative;
+}
+
+.projects-page .paper-badge{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #7c2d12;                 /* 深橙字 */
+  background: rgba(251, 191, 36, 0.25);  /* 橙色底，非透明到看不见 */
+  border: 1px solid rgba(234, 88, 12, 0.35);
+  pointer-events: none;           /* 不影响点击 PDF/Code */
+}
+
 
 		.projects-page .project-head {
 		display: flex;
@@ -862,29 +882,39 @@ redirect_from:
 		<a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
 		</td>
 		<td class="paper-meta">
-		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		<div class="paper-meta-wrap">
+		<div class="paper-meta-main">
+		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
+
 		{% if paper.tag %}
 		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
 		{% endif %}
+
 		<span class="paper-summary">{{ paper.summary }}</span><br>
+
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
 		<span class="paper-awards-label">Highlight:</span>
 		{% for a in paper.awards %}
-		<span class="paper-award-item">{{ a }}</span>
-		{% unless forloop.last %}
-		<span class="paper-award-sep"> · </span>
-		{% endunless %}
+		<span class="paper-award-item">{{ a }}</span>{% unless forloop.last %}<span class="paper-award-sep"> · </span>{% endunless %}
 		{% endfor %}
 		</div>
 		{% endif %}
+
 		<span class="paper-links">
 		<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
 		{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
 		</span>
+		</div>
+
+		{% if paper.badge %}
+		<span class="paper-badge">{{ paper.badge }}</span>
+		{% endif %}
+		</div>
 		</td>
+
 		</tr>
 		</table>
 		{% endfor %}
@@ -933,13 +963,18 @@ redirect_from:
 		<a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
 		</td>
 		<td class="paper-meta">
-		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		<div class="paper-meta-wrap">
+		<div class="paper-meta-main">
+		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
+
 		{% if paper.tag %}
 		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
 		{% endif %}
+
 		<span class="paper-summary">{{ paper.summary }}</span><br>
+
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
 		<span class="paper-awards-label">Highlight:</span>
@@ -948,11 +983,19 @@ redirect_from:
 		{% endfor %}
 		</div>
 		{% endif %}
+
 		<span class="paper-links">
 		<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
 		{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
 		</span>
+		</div>
+
+		{% if paper.badge %}
+		<span class="paper-badge">{{ paper.badge }}</span>
+		{% endif %}
+		</div>
 		</td>
+
 		</tr>
 		</table>
 		{% endfor %}
@@ -1001,13 +1044,18 @@ redirect_from:
 		<a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
 		</td>
 		<td class="paper-meta">
-		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		<div class="paper-meta-wrap">
+		<div class="paper-meta-main">
+		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
+
 		{% if paper.tag %}
 		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
 		{% endif %}
+
 		<span class="paper-summary">{{ paper.summary }}</span><br>
+
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
 		<span class="paper-awards-label">Highlight:</span>
@@ -1016,11 +1064,19 @@ redirect_from:
 		{% endfor %}
 		</div>
 		{% endif %}
+
 		<span class="paper-links">
 		<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
 		{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
 		</span>
+		</div>
+
+		{% if paper.badge %}
+		<span class="paper-badge">{{ paper.badge }}</span>
+		{% endif %}
+		</div>
 		</td>
+
 		</tr>
 		</table>
 		{% endfor %}
@@ -1069,13 +1125,18 @@ redirect_from:
 		<a href="{{ paper.arxiv }}"><img class="paper-thumb" src="{{ paper.image }}" alt="{{ paper.title }}"></a>
 		</td>
 		<td class="paper-meta">
-		<b>{{ forloop.index }}. {{ paper.title }}</b><br>
+		<div class="paper-meta-wrap">
+		<div class="paper-meta-main">
+		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
 		{{ paper.authors }}<br>
 		{{ paper.venue }}<br>
+
 		{% if paper.tag %}
 		<span class="paper-tag"><i>{{ paper.tag }}</i></span><br>
 		{% endif %}
+
 		<span class="paper-summary">{{ paper.summary }}</span><br>
+
 		{% if paper.awards and paper.awards.size > 0 %}
 		<div class="paper-awards">
 		<span class="paper-awards-label">Highlight:</span>
@@ -1084,11 +1145,19 @@ redirect_from:
 		{% endfor %}
 		</div>
 		{% endif %}
+
 		<span class="paper-links">
 		<img src="accessories/pdf.jpg" width="12"> <a href="{{ paper.pdf }}">PDF</a>
 		{% if paper.code %} | <img src="accessories/github_icon.jpg" width="15"> <a href="{{ paper.code }}">Code</a>{% endif %}
 		</span>
+		</div>
+
+		{% if paper.badge %}
+		<span class="paper-badge">{{ paper.badge }}</span>
+		{% endif %}
+		</div>
 		</td>
+
 		</tr>
 		</table>
 		{% endfor %}

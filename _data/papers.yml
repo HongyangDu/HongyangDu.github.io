@@ -7,6 +7,7 @@
   image: "./images/glove.png"
   summary: "A framework that introduces a new design dimension for LLM memory systems by establishing a relative notion of truth."
   category: "AI for Network"
+  badge: "NEW"
   project: "exec_reliable_agent"
 
 - title: "U-MASK: User-adaptive Spatio-Temporal Masking for Personalized Mobile AI Applications"
@@ -17,6 +18,7 @@
   image: "./images/umask.png"
   summary: "A user-adaptive spatiotemporal masking method that allocates evidence budgets based on user reliability and task sensitivity."
   category: "AI for Network"
+  badge: "NEW"
   project: "env_spatial_urban"
 
 - title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
