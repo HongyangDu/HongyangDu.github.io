@@ -1,3 +1,13 @@
+- title: "GLOVE: Global Verifier for LLM Memory-Environment Realignment"
+  authors: "Xingkun Yin, Hongyang Du*"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2601.19249"
+  pdf: "https://arxiv.org/pdf/2601.19249"
+  image: "./images/glove.png"
+  summary: "A framework that introduces a new design dimension for LLM memory systems by establishing a relative notion of truth."
+  category: "AI for Network"
+  project: "exec_reliable_agent"
+
 - title: "U-MASK: User-adaptive Spatio-Temporal Masking for Personalized Mobile AI Applications"
   authors: "Shiyuan Zhang, Yilai Liu, Yuwei Du, Ruoxuan Yang, Dong In Kim, Hongyang Du*"
   venue: "Submitted"
