@@ -123,6 +123,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: M.S., Tsinghua University
 	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
+		🌐 2026: <a href="https://arxiv.org/pdf/2601.06867">U-MASK</a>
         🌐 2025: <a href="https://arxiv.org/abs/2507.17795">LSDM</a><br>
       </div>
     </td>
