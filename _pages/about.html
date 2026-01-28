@@ -699,6 +699,104 @@ redirect_from:
 		.projects-page .work-table td { display: block; width: 100% !important; }
 		.projects-page .work-table td:first-child { margin-bottom: 10px; }
 		}
+		
+		
+		
+
+
+.awards{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+/* 每条是两栏：左文字，右图片。无图时右栏自动消失 */
+.award{
+  display:grid;
+  grid-template-columns: 1fr 240px;
+  column-gap:18px;
+  padding:10px 0;
+  border-top:1px solid rgba(0,0,0,0.08);
+}
+
+.award:first-child{
+  border-top:none;
+}
+
+.award.no-media{
+  grid-template-columns: 1fr;
+}
+
+.award-title{
+  font-weight:700;
+  font-size:16px;
+  line-height:1.35;
+  margin:0 0 6px 0;
+}
+
+.award-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+  font-size:13px;
+  opacity:0.8;
+}
+
+.award-year{
+  font-weight:700;
+  opacity:0.9;
+}
+
+.award-org{
+  opacity:0.9;
+}
+
+.award-tag{
+  font-size:12px;
+  padding:2px 8px;
+  border:1px solid rgba(204,85,0,0.35);
+  border-radius:999px;
+  color:#CC5500;
+  opacity:1;
+}
+
+.award-notes{
+  margin:8px 0 0 0;
+  padding-left:16px;
+  font-size:13px;
+  line-height:1.45;
+  color:#CC5500;           /* 统一你现在的强调色 */
+}
+
+.award-media{
+  margin:0;
+  align-self:start;
+}
+
+.award-media img{
+  width:100%;
+  height:auto;
+  border-radius:10px;      /* 不算“框”，但显得更干净 */
+  display:block;
+  border:1px solid rgba(0,0,0,0.08);
+}
+
+/* 小屏：图片换到下面 */
+@media (max-width: 860px){
+  .award{
+    grid-template-columns: 1fr;
+    row-gap:10px;
+  }
+  .award-media{
+    max-width:420px;
+  }
+}
+
+
 		</style>
 
 		<div class="projects-page">
@@ -1058,122 +1156,229 @@ redirect_from:
 
   <hr>
 
+<section id="awards">
+  <h2>Selected Recognitions</h2>
 
+  <ol class="awards">
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">IEEE ComSoc Best Young Professional Award for Best Early Career Researcher</div>
+        <div class="award-meta">
+          <span class="award-year">2024</span>
+          <span class="award-org">IEEE Communications Society</span>
+        </div>
+        <ul class="award-notes">
+          <li>Only six persons are selected globally each year; only one person is selected for the Best Early Career Researcher category.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/ber.jpg" alt="IEEE ComSoc Best Young Professional Award">
+      </figure>
+    </li>
 
-  <section id="awards">
-    <h2>Awards</h2>
-    <ol class="awards-list">
-      <li>
-        <strong>IEEE ComSoc Best Young Professional Award for Best Early Career Researcher</strong>, 2024<br>
-        <font color="#CC5500"><i>&bull; IEEE Communications Society</i></font><br>
-        <font color="#CC5500"><i>&bull; Only six person is selected globally each year; only one person for “Best Early Career Researcher” category</i></font><br>
-        <img src="/images/ber.jpg" width="400" alt="IEEE ComSoc Best Young Professional Award">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">IEEE Daniel E. Nobel Fellowship Award</div>
+        <div class="award-meta">
+          <span class="award-year">2022</span>
+          <span class="award-org">IEEE Vehicular Technology Society</span>
+          <span class="award-tag">IEEE society-level</span>
+        </div>
+        <ul class="award-notes">
+          <li>Only one person is selected globally each year.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/VTS.jpg" alt="IEEE Daniel E. Nobel Fellowship Award">
+      </figure>
+    </li>
 
-      <li>
-        <strong>IEEE Daniel E. Nobel Fellowship Award</strong>, 2022<br>
-        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Vehicular Technology Society</i></font><br>
-        <font color="#CC5500"><i>&bull; Only one person is selected globally each year</i></font><br>
-        <img src="/images/VTS.jpg" width="400" alt="IEEE Daniel E. Nobel Fellowship Award">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">IEEE Signal Processing Society Scholarship</div>
+        <div class="award-meta">
+          <span class="award-year">2023</span>
+          <span class="award-org">IEEE Signal Processing Society</span>
+          <span class="award-tag">IEEE society-level</span>
+        </div>
+      </div>
+      <figure class="award-media">
+        <img src="/images/sps.png" alt="IEEE Signal Processing Society Scholarship">
+      </figure>
+    </li>
 
-      <li>
-        <strong>IEEE Signal Processing Society Scholarship</strong>, 2023<br>
-        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Signal Processing Society</i></font><br>
-        <img src="/images/sps.png" width="400" alt="IEEE Signal Processing Society Scholarship">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Singapore Data Science Consortium (SDSC) Dissertation Research Fellowship</div>
+        <div class="award-meta">
+          <span class="award-year">2023</span>
+          <span class="award-org">Singapore Data Science Consortium</span>
+        </div>
+        <ul class="award-notes">
+          <li>Only ten students are selected in Singapore each year.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/sdscaward.jpg" alt="SDSC Dissertation Research Fellowship">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Singapore Data Science Consortium (SDSC) Dissertation Research Fellowship</strong>, 2023<br>
-        <font color="#CC5500"><i>&bull; Only ten students are selected in Singapore each year</i></font><br>
-        <img src="/images/sdscaward.jpg" width="400" alt="SDSC Dissertation Research Fellowship">
-      </li>
+    <li class="award no-media">
+      <div class="award-main">
+        <div class="award-title">Chinese Government Award for Outstanding Students Abroad</div>
+        <div class="award-meta">
+          <span class="award-year">2022</span>
+          <span class="award-org">China</span>
+          <span class="award-tag">National-level</span>
+        </div>
+        <ul class="award-notes">
+          <li>Prestigious award presented to 650 Ph.D. students worldwide each year.</li>
+        </ul>
+      </div>
+    </li>
 
-      <li>
-        <strong>Chinese Government Award for Outstanding Students Abroad</strong>, 2022<br>
-        <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font><br>
-        <font color="#CC5500"><i>&bull; Prestigious Award presented to 650 Ph.D. students worldwide each year</i></font>
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">NTU Graduate College Research Excellence Award</div>
+        <div class="award-meta">
+          <span class="award-year">2024</span>
+          <span class="award-org">NTU Graduate College</span>
+        </div>
+        <ul class="award-notes">
+          <li>Only one student is selected each year.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/Award/gcresearch.png" alt="NTU Graduate College Research Excellence Award">
+      </figure>
+    </li>
 
-      <li>
-        <strong>NTU Graduate College's Research Excellence Award</strong>, 2024<br>
-        <font color="#CC5500"><i>&bull; Only one student is selected each year.</i></font><br>
-        <img src="/images/Award/gcresearch.png" width="400" alt="NTU Graduate College Research Excellence Award">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Best Paper Award, IEEE Open Journal of the Computer Society</div>
+      </div>
+      <figure class="award-media">
+        <img src="/images/bpojcs.png" alt="Best Paper Award, IEEE Open Journal of the Computer Society">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Best Paper Award</strong> of IEEE Open Journal of the Computer Society<br>
-        <img src="/images/bpojcs.png" width="400" alt="Best Paper Award OJ-CS">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Best Paper Award, IWCMC 2024 Conference</div>
+        <div class="award-meta">
+          <span class="award-year">2024</span>
+          <span class="award-org">Ayia Napa, Cyprus</span>
+        </div>
+        <ul class="award-notes">
+          <li>May 27–31, 2024.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/Award/iwcmcbp.png" alt="Best Paper Award, IWCMC 2024">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Best Paper Award</strong> in the IWCMC 2024 Conference Ayia Napa, Cyprus, May 27th–31st 2024<br>
-        <img src="/images/Award/iwcmcbp.png" width="400" alt="Best Paper Award IWCMC 2024">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">First Prize, ComSoc Social Network Technical Committee (SNTC) Student Competition</div>
+        <div class="award-meta">
+          <span class="award-year">2024</span>
+          <span class="award-org">IEEE ComSoc SNTC</span>
+        </div>
+        <ul class="award-notes">
+          <li>Project leader of Enhancing Metaverse Social Networking via User-Centric AI-Driven Eyewear.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/Award/student.jpg" alt="SNTC Student Competition First Prize">
+      </figure>
+    </li>
 
-      <li>
-        <strong>First Prize</strong> in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition<br>
-        <font color="#CC5500"><i>&bull; Project leader of "Enhancing Metaverse Social Networking via User-Centric AI-Driven Eyewear"</i></font><br>
-        <img src="/images/Award/student.jpg" width="400" alt="SNTC First Prize">
-      </li>
+    <li class="award no-media">
+      <div class="award-main">
+        <div class="award-title">Second Prize, ComSoc Social Network Technical Committee (SNTC) Student Competition</div>
+        <div class="award-meta">
+          <span class="award-year">2024</span>
+          <span class="award-org">IEEE ComSoc SNTC</span>
+        </div>
+      </div>
+    </li>
 
-      <li>
-        <strong>Second Prize</strong> in the 2024 ComSoc Social Network Technical Committee (SNTC) Student Competition
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Honorary Mention, ComSoc Student Competition: Communications Technology Changing the World</div>
+        <div class="award-meta">
+          <span class="award-year">2023</span>
+          <span class="award-org">IEEE Communications Society</span>
+          <span class="award-tag">IEEE society-level</span>
+        </div>
+      </div>
+      <figure class="award-media">
+        <img src="/images/stucom.png" alt="ComSoc Student Competition 2023 Honorary Mention">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Honorary Mention</strong> in the 2023 ComSoc Student Competition "Communications Technology Changing the World."<br>
-        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Communications Society</i></font><br>
-        <img src="/images/stucom.png" width="400" alt="ComSoc Student Competition 2023 Honorary Mention">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Honorary Mention, ComSoc Student Competition: Communications Technology Changing the World</div>
+        <div class="award-meta">
+          <span class="award-year">2024</span>
+          <span class="award-org">IEEE Communications Society</span>
+          <span class="award-tag">IEEE society-level</span>
+        </div>
+        <ul class="award-notes">
+          <li>Team advisor.</li>
+        </ul>
+      </div>
+      <figure class="award-media">
+        <img src="/images/2024stuw.png" alt="ComSoc Student Competition 2024 Honorary Mention">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Honorary Mention</strong> in the 2024 ComSoc Student Competition "Communications Technology Changing the World.", 2024<br>
-        <font color="#CC5500"><i>&bull; <b>IEEE society-level</b> award from IEEE Communications Society, <b>Team Advisor</b></i></font><br>
-        <img src="/images/2024stuw.png" width="400" alt="ComSoc Student Competition 2024 Honorary Mention">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Exemplary Editor, IEEE Open Journal of the Communications Society</div>
+        <div class="award-meta">
+          <span class="award-year">2025</span>
+        </div>
+      </div>
+      <figure class="award-media">
+        <img src="/images/Award/ojcoms.png" alt="Exemplary Editor, IEEE Open Journal of the Communications Society">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Exemplary Editor</strong> of the IEEE Open Journal of the Communications Society, 2025<br>
-        <img src="/images/Award/ojcoms.png" width="400" alt="Exemplary Editor OJCOMS">
-      </li>
-	  
-	  <li>
-        <strong>Exemplary Reviewer</strong> of the IEEE TRANSACTIONS ON COMMUNICATIONS, 2021<br>
-        <img src="/images/ReTCOM.jpg" width="400" alt="Exemplary Reviewer TCOM">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Exemplary Reviewer, IEEE Transactions on Communications</div>
+        <div class="award-meta">
+          <span class="award-year">2021</span>
+        </div>
+      </div>
+      <figure class="award-media">
+        <img src="/images/ReTCOM.jpg" alt="Exemplary Reviewer, IEEE Transactions on Communications">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Exemplary Reviewer</strong> of the IEEE COMMUNICATIONS LETTERS, 2021<br>
-        <img src="/images/communlett.jpg" width="400" alt="Exemplary Reviewer Communications Letters">
-      </li>
+    <li class="award">
+      <div class="award-main">
+        <div class="award-title">Exemplary Reviewer, IEEE Communications Letters</div>
+        <div class="award-meta">
+          <span class="award-year">2021</span>
+        </div>
+      </div>
+      <figure class="award-media">
+        <img src="/images/communlett.jpg" alt="Exemplary Reviewer, IEEE Communications Letters">
+      </figure>
+    </li>
 
-      <li>
-        <strong>Research Scholarship</strong>, NTU, 2021–2025
-      </li>
+  </ol>
+</section>
 
-      <li>
-        <strong>National Scholarship</strong>, Ministry of Education of China, 2020<br>
-        <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font>
-      </li>
-
-      <li>
-        <strong>National Scholarship</strong>, Ministry of Education of China, 2018<br>
-        <font color="#CC5500"><i>&bull; <b>National-level</b> award from China</i></font>
-      </li>
-    </ol>
-  </section>
 
   <hr>
 
-
-
-
-
-
-
   <section id="services">
-    <h2>Academic Services</h2>
+    <h2>Selected Academic Services</h2>
     <ol>
       <li><strong>Associate Editor, IEEE Communications Surveys & Tutorials</strong> (Impact Factor: 34.4) (2025–)</li>
       <li><strong>Associate Editor, IEEE Open Journal of the Communications Society</strong> (Impact Factor: 6.3) (2025–)</li>
@@ -1185,10 +1390,7 @@ redirect_from:
       <li>Workshop Co-chair, "Empowering Wireless Communications and Networking with Generative AI" in IEEE ICCC 2024</li>
       <li>Contributor, "IEEE ComSoc Best Readings in Generative AI and Large Language Models for Networking"</li>
       <li>Senior Program Committee: The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)</li>
-      <li>
-        TPC Member: IEEE WCNC 2026 Track 3-Machine Learning and Optimization for Wireless Systems; PIMRC 2025 MAC and Cross-Layer Design; IEEE ICC 2025 IoTSN Symposium; IEEE Globecom 2025 CRAEN, SAC-BD, and SAC-ISAC; IEEE ICNC 2025 MCC; IEEE Globecom 2024 Workshop - IMMLLM6G; IEEE VTC2024-Fall Washington DC: Machine Learning for Communications; IEEE VTC2024-Fall Washington DC: Electric Vehicles, Vehicular Electronics and Intelligent Transportation; IEEE Globecom 2024-SAC BD; IEEE Globecom 2024-SAC ISC; IEEE ICC 2024-CRAIN Symposium (Cognitive Radio and AI-Enabled Networks); IEEE WCNC 2024-Track 3-Machine Learning and Optimization for Wireless Systems; IEEE WCNC 2024-Track 4-Emerging Technologies, Standards, and Applications; IEEE WCNC 2024-Workshop on The Impact of Large Language Models on 6G Networks; IEEE VTC2023-Fall: Hong Kong, Machine Learning and AI for Communications; IEEE VTC2023-Fall: Hong Kong-Electric Vehicles, Vehicular Electronics and Intelligent Transportation; IEEE VTC2023-Fall: Hong Kong-Recent Results and Workshops; IEEE WCNC 2023-Track 3-Machine Learning and Optimization for Wireless Systems; IEEE WCNC 2022-Track 2-Networking and MAC
-      </li>
-      <li>Reviewer: IEEE TPAMI, COMST, JSAC, TMC, TSP, TWC, TIFS, TCOM, TVT, WCM, IoTJ, Network, WCL, CL, ICLR, and more.</li>
+      <li>Reviewer: ICLR, TPAMI, COMST, JSAC, TMC, TSP, TWC, TIFS, TCOM, TVT, WCM, IoTJ, Network, WCL, CL, and more.</li>
     </ol>
   </section>
 
