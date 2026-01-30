@@ -149,6 +149,26 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
+      <img src='/images/Members/junhao.jpg' width="100">
+    </td>
+    <td>
+      <strong>Junhao He</strong> (Email: hjh2003@connect.hku.hk)<br>
+      Starting 2026<br>
+      Research interests: LLM infra<br>
+      Prior Degree: B.S., The University of Hong Kong <a href="https://tl.hku.hk/urfp/">(URFP)</a>
+<div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2025: <a href="https://arxiv.org/pdf/2601.21622">StarSD</a><br>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+    <td width="160">
       <img src='/images/Members/yilai.jpg' width="150">
     </td>
     <td>
@@ -187,11 +207,6 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         <strong>Highlights:</strong><br>
         🌐 2025: <a href="https://arxiv.org/abs/2507.13038">MAD-Spear</a><br>
       </div>
-    </td>
-	<td align="center" width="180">
-      <img src="/images/Members/junhao.jpg" width="100"><br>
-      <strong>Junhao He</strong><br>
-      Undergraduate Research Fellowship Programme <a href="https://tl.hku.hk/urfp/">(URFP)</a>, HKU
     </td>
     <td align="center" width="180">
       <img src="/images/Members/weiqiang.jpg" width="100"><br>
