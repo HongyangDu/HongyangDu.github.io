@@ -149,7 +149,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
-      <img src='/images/Members/junhao.jpg' width="100">
+      <img src='/images/Members/junhao.jpg' width="150">
     </td>
     <td>
       <strong>Junhao He</strong> (Email: hjh2003@connect.hku.hk)<br>
