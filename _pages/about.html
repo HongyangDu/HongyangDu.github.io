@@ -815,6 +815,7 @@ redirect_from:
     max-width:420px;
   }
 }
+
 .projects-page .project-video{
   margin: 14px 0 18px 0;
   border-radius: 14px;
@@ -947,13 +948,7 @@ redirect_from:
 		We model and exploit spatial structure from heterogeneous sensing and mobility signals to support prediction, planning, and control in city-scale wireless ecosystems.
 		</p>
 		</div>
-
-		{% assign proj = "env_spatial_urban" %}
-		{% assign proj_papers = site.data.papers | where: "project", proj %}
-
-		<!-- Project-local overview carousel -->
-		<div class="works-carousel">
-		<div class="works-carousel-head">
+		
 		<div class="project-video">
 		<video
 		controls
@@ -965,7 +960,15 @@ redirect_from:
 		Your browser does not support the video tag.
 		</video>
 		</div>
+		
 
+		{% assign proj = "env_spatial_urban" %}
+		{% assign proj_papers = site.data.papers | where: "project", proj %}
+
+		<!-- Project-local overview carousel -->
+		
+		<div class="works-carousel">
+		<div class="works-carousel-head">
 		<div class="label">Selected Works</div>
 		<div class="hint">scroll & click a card for details.</div>
 		</div>
