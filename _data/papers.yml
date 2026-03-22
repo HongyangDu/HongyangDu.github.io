@@ -22,6 +22,17 @@
   badge: "NEW"
   project: "exec_reliable_agent"
 
+- title: "NetSpatial: Spatially Conditional Traffic Generation for Cellular Planning and Operations"
+  authors: "Shiyuan Zhang, Jiale Du, Yuanwei Liu, Kaibin Huang, Hongyang Du*"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2603.13839"
+  pdf: "https://arxiv.org/pdf/2603.13839"
+  image: "./images/nets.png"
+  summary: "A unified system for cellular planning and operation through spatially conditional traffic generation."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "env_spatial_urban"
+  
 - title: "U-MASK: User-adaptive Spatio-Temporal Masking for Personalized Mobile AI Applications"
   authors: "Shiyuan Zhang, Yilai Liu, Yuwei Du, Ruoxuan Yang, Dong In Kim, Hongyang Du*"
   venue: "Submitted"
