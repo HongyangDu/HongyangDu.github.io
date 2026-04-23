@@ -87,6 +87,10 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Human–computer interaction<br>
       Prior Degree: M.S., Tsinghua University
+	<div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2026: <a href="https://dl.acm.org/doi/full/10.1145/3772318.3791174">WoZ</a>
+      </div>
     </td>
   </tr>
 </table>

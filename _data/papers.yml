@@ -1,3 +1,16 @@
+- title: "Mapping the Wizards' Path: A Systematic Review of Wizard-of-Oz in HCI"
+  authors: "Ruoxuan Yang, Yuwei Du, Hongyang Du* and Kaibin Huang"
+  venue: "CHI 2026"
+  arxiv: "https://dl.acm.org/doi/full/10.1145/3772318.3791174"
+  pdf: "https://dl.acm.org/doi/epdf/10.1145/3772318.3791174"
+  code: "https://github.com/NICE-HKU/WoZ-lib"
+  image: "./images/hcis.png"
+  summary: "This paper presents the first systematic review of WoZ in HCI, drawing on 194 papers from SIGCHI venues to identify ten application domains, five wizard control types, eight motivations, and five categories of concerns."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "exec_reliable_agent"
+
+
 - title: "StarSD: One-for-Many Speculative Decoding"
   authors: "Junhao He, Feiran You, Hongyang Du*"
   venue: "Submitted"
