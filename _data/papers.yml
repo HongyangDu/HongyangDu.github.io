@@ -68,7 +68,7 @@
   category: "AI for Network"
   project: "resilience_extreme"
   
-- title: "DRESS: Diffusion Reasoning-based Reward Shaping Scheme For Intelligent Networks"
+- title: "DRESS: Diffusion Model-based Reward Shaping Scheme For Intelligent Networks"
   authors: "Feiran You, Hongyang Du*, Xiangwang Hou, Yong Ren, Kaibin Huang"
   venue: "IEEE Transactions on Signal Processing, 2025"
   arxiv: "https://arxiv.org/abs/2503.07433"
@@ -138,7 +138,7 @@
 
 - title: "JPPO++: Joint Power and Denoising-inspired Prompt Optimization for Mobile LLM Services"
   authors: "Feiran You, Hongyang Du*, Kaibin Huang, Abbas Jamalipour"
-  venue: "submitted to IEEE Transactions on Mobile Computing, major revision, 2025"
+  venue: "IEEE Transactions on Mobile Computing, 2026"
   arxiv: "https://arxiv.org/abs/2412.03621v4"
   pdf: "https://arxiv.org/pdf/2412.03621v4"
   image: "./images/JPPOPLUS.png"
