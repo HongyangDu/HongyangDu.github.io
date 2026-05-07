@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hongyang Du's Website"
+title                    : "NICE Lab @ HKU"
 title_separator          : "-"
-name                     : &name "Hongyang Du"
-description              : &description "Assistant Professor"
+name                     : &name "NICE Lab @ HKU"
+description              : &description "Network Intelligence and Computing Ecosystem Lab at the University of Hong Kong"
 url                      :  https://hongyangdu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hongyangdu/hongyangdu.github.io"
@@ -66,9 +66,10 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Organization # Person or Organization (defaults to Person)
+  name                   : "NICE Lab @ HKU" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/NICE-HKU"
 
 
 # Analytics
@@ -82,7 +83,7 @@ analytics:
 author:
   name             : "Hongyang Du"
   avatar           : "profile2.png"
-  bio              : "Assistant Professor, Department of Electrical and Electronic Engineering, the University of Hong Kong. Email: duhy@hku.hk or duhy@eee.hku.hk"
+  bio              : "Assistant Professor, Department of Electrical and Electronic Engineering, the University of Hong Kong. PI of NICE Lab. Email: duhy@hku.hk or duhy@eee.hku.hk"
   location         :
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=QI3vo-YAAAAJ&hl=en&oi=ao"

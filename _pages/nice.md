@@ -2,7 +2,7 @@
 permalink: /nice/
 title: "Network Intelligence and Computing Ecosystem (NICE)"
 excerpt: ""
-author_profile: true
+author_profile: false
 # redirect_from: 
 #   # - /nice/
 #   - /nice.html
