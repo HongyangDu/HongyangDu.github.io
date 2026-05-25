@@ -1,254 +1,362 @@
 ---
+layout: default
 permalink: /nice/
-title: "Network Intelligence and Computing Ecosystem (NICE)"
-excerpt: ""
-author_profile: false
-# redirect_from: 
-#   # - /nice/
-#   - /nice.html
+title: "NICE Lab"
+excerpt: "Network Intelligence and Computing Ecosystem Lab at HKU"
 ---
 
-<img src='/images/NICE.png' width = "500"><br/>
+<link rel="stylesheet" href="/assets/css/lab-site.css">
 
-## Research Aim
-
-At the NICE Lab, we envision a future where AI and networks converge to create intelligent digital ecosystems. Our mission is to pioneer transformative technologies at this intersection, developing next-generation systems that are both technologically advanced and human-centric, ultimately building the foundation for a fully connected, intelligent world.
-
->NICE@HKU Github: [https://github.com/NICE-HKU](https://github.com/NICE-HKU)
-
-
-## Team Members
-### Researchers
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/feiran.jpg' width="150">
-    </td>
-    <td>
-      <strong>Feiran You</strong> (Email: youfr@hku.hk)<br>
-      Postdoctoral researcher, since 03/2025<br>
-      Research interests: Edge intelligence, reinforcement learning<br>
-      Prior Degree: Ph.D., The University of Sydney
-	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a>
-        🌐 2025: <a href="https://arxiv.org/pdf/2503.07433.pdf">DRESS</a>
-	🌐 2025: <a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a><br>
+<main class="lab-site">
+  <nav class="lab-nav" aria-label="Primary navigation">
+    <div class="lab-nav__inner">
+      <a class="lab-brand" href="/">
+        <img src="/images/logo.png" alt="NICE Lab logo">
+        <span>NICE Lab | HKU</span>
+      </a>
+      <div class="lab-nav__links">
+        <a href="/">Home</a>
+        <a href="/#programs">Projects</a>
+        <a href="#team">Team</a>
+        <a href="#expectations">Expectations</a>
+        <a class="lab-btn lab-btn--primary lab-btn--small" href="#apply">Apply</a>
       </div>
-    </td>
-  </tr>
-</table>
+    </div>
+  </nav>
 
-<br>
+  <header class="lab-hero" id="top">
+    <div class="lab-shell">
+      <div class="lab-hero__grid">
+        <div>
+          <div class="lab-eyebrow"><span class="lab-dot"></span> NICE Lab people and opportunities</div>
+          <h1 class="lab-title">A research group for <strong>AI-native networks</strong> and networked intelligence.</h1>
+          <p class="lab-lede">
+            We envision a future where AI and networks converge into intelligent digital ecosystems that are technologically advanced, reliable, and human-centric.
+          </p>
+          <p class="lab-copy">
+            NICE combines AI, networking systems, human-computer interaction, and electrical engineering to build the foundation for connected intelligent worlds.
+          </p>
+          <div class="lab-hero__actions">
+            <a class="lab-btn lab-btn--primary" href="#team">View team</a>
+            <a class="lab-btn lab-btn--secondary" href="https://github.com/NICE-HKU">NICE@HKU GitHub</a>
+          </div>
+        </div>
 
-### PhD Students
-(in alphabetical order by last name)
-
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/enhan.jpg' width="150">
-    </td>
-    <td>
-      <strong>Enhan Li</strong> (Email: lienhan_eee@connect.hku.hk)<br>
-      Starting 2025<br>
-      Research interests: Networking system<br>
-      Prior Degree: M.S., University of Chinese Academy of Sciences
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/abs/2510.13467">NetMCP</a>
-	🌐 2025: <a href="https://arxiv.org/abs/2510.18550">JAUNT</a><br>
+        <aside class="lab-visual" aria-label="NICE Lab overview">
+          <div class="lab-visual__top">
+            <img src="/images/NICE.png" alt="Network Intelligence and Computing Ecosystem">
+            <div class="lab-visual__title">Network Intelligence and Computing Ecosystem</div>
+            <div class="lab-visual__subtitle">Network for AI. AI for Network. Ubiquitous intelligence.</div>
+          </div>
+          <div class="lab-layers">
+            <div class="lab-layer">
+              <strong>Networked AI Infrastructure</strong>
+              <span>Distributed LLM systems, MCP routing, and AI service execution</span>
+            </div>
+            <div class="lab-layer">
+              <strong>Agentic and Spatial Intelligence</strong>
+              <span>Reliable agents, mobile AI, HCI, and urban wireless ecosystems</span>
+            </div>
+            <div class="lab-layer">
+              <strong>Resilient Intelligence</strong>
+              <span>Learning under sparse feedback, uncertainty, and harsh environments</span>
+            </div>
+          </div>
+        </aside>
       </div>
-    </td>
-  </tr>
-</table>
+    </div>
+  </header>
 
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/zongxi.jpg' width="150">
-    </td>
-    <td>
-      <strong>Zongxi Liu</strong> (Email: 1754627980@qq.com)<br>
-      Starting 2025<br>
-      Research interests: Wireless communications<br>
-      Prior Degree: M.S., Nanjing University
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/ruoxuan.jpg' width="150">
-    </td>
-    <td>
-      <strong>Ruoxuan Yang</strong> (Email: rosheenanea@outlook.com)<br>
-      Starting 2025<br>
-      Research interests: Human–computer interaction<br>
-      Prior Degree: M.S., Tsinghua University
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/xingkun.jpg' width="150">
-    </td>
-    <td>
-      <strong>Xingkun Yin</strong> (Email: xingkunyin@hotmail.com)<br>
-      Starting 2025<br>
-      Research interests: large language models<br>
-      Prior Degree: M.S., Boston University
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intelligence</a>
-	🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
+  <section class="lab-section lab-section--band" id="mission">
+    <div class="lab-shell">
+      <div class="lab-section-head">
+        <div>
+          <div class="lab-kicker">Research aim</div>
+          <h2 class="lab-heading">Intelligence embedded in networks, environments, and decisions</h2>
+        </div>
+        <p class="lab-section-desc">
+          Our work covers two complementary directions: horizontally scaling intelligence across networks, and vertically optimizing intelligence for network systems.
+        </p>
       </div>
-    </td>
-  </tr>
-</table>
 
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/shiyuan.jpg' width="150">
-    </td>
-    <td>
-      <strong>Shiyuan Zhang</strong> (Email: 15840095453@163.com)<br>
-      Starting 2025<br>
-      Research interests: Mobile traffic prediction, LLM, diffusion model<br>
-      Prior Degree: M.S., Tsinghua University
-	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/abs/2507.17795">LSDM</a><br>
+      <div class="theme-grid">
+        <article class="theme-card">
+          <div class="theme-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16M8 4v16M16 4v16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Network for AI</h3>
+          <p>Unfold intelligence by scaling execution, collaboration, and inference across heterogeneous networks.</p>
+          <div class="theme-tags">
+            <a class="tag" href="/#proj-infra">Infrastructure</a>
+            <a class="tag" href="/#proj-agentic">Agents</a>
+          </div>
+        </article>
+
+        <article class="theme-card">
+          <div class="theme-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9M12 7v5l3 3M19 3v6h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>AI for Network</h3>
+          <p>Specialize intelligence for wireless, mobile, and computing systems with real constraints and changing environments.</p>
+          <div class="theme-tags">
+            <a class="tag" href="/#proj-env">Spatial intelligence</a>
+            <a class="tag" href="/#proj-resilience">Robust learning</a>
+          </div>
+        </article>
+
+        <article class="theme-card">
+          <div class="theme-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 10 9-5M12 12v10M12 12 3 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Ubiquitous Intelligence</h3>
+          <p>Move beyond isolated models toward a planet-scale computer with the network as its backplane.</p>
+          <div class="theme-tags">
+            <span class="tag tag--accent">Lab-wide goal</span>
+          </div>
+        </article>
       </div>
-    </td>
-  </tr>
-</table>
+    </div>
+  </section>
 
-### MPhil Students
-
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/yunuo.jpg' width="150">
-    </td>
-    <td>
-      <strong>Yunuo Hu</strong> (Email: xiran_111@qq.com)<br>
-      Starting 2025<br>
-      Research interests: LLM<br>
-      Prior Degree: B.S., Tongji University
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/yilai.jpg' width="150">
-    </td>
-    <td>
-      <strong>Yilai Liu</strong> (Email: 2369475677@qq.com)<br>
-      Starting 2025<br>
-      Research interests: LLM, diffusion model<br>
-      Prior Degree: B.S., Beijing University of Posts and Telecommunications
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="160">
-      <img src='/images/Members/wenqi.jpg' width="150">
-    </td>
-    <td>
-      <strong>Wenqi Pei</strong> (Email: wenqipei@foxmail.com)<br>
-      Starting 2025<br>
-      Research interests: LLM<br>
-      Prior Degree: B.S., National University of Singapore
-    </td>
-  </tr>
-</table>
-
-
-### Other Supervision
-<table>
-  <tr>
-  <td align="center" width="180">
-      <img src="/images/Members/cuiyu.jpg" width="100"><br>
-      <strong>Yu Cui</strong><br>
-      Intern<br>
-      Beijing Institute of Technology
-	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/abs/2507.13038">MAD-Spear</a><br>
+  <section class="lab-section" id="team">
+    <div class="lab-shell">
+      <div class="lab-section-head">
+        <div>
+          <div class="lab-kicker">Team members</div>
+          <h2 class="lab-heading">Researchers and students</h2>
+        </div>
+        <p class="lab-section-desc">
+          Members are listed by role. Research highlights link to recent work where available.
+        </p>
       </div>
-    </td>
-	<td align="center" width="180">
-      <img src="/images/Members/junhao.jpg" width="100"><br>
-      <strong>Junhao He</strong><br>
-      Undergraduate Research Fellowship Programme <a href="https://tl.hku.hk/urfp/">(URFP)</a>, HKU
-    </td>
-    <td align="center" width="180">
-      <img src="/images/Members/weiqiang.jpg" width="100"><br>
-      <strong>Weiqiang Jin</strong><br>
-      Visiting Ph.D.<br>
-      Xi'an Jiaotong University
-	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/abs/2506.07548">CL-MARL</a><br>
+
+      <div class="lab-kicker">Researchers</div>
+      <div class="people-grid" style="margin-top: 0.8rem;">
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/feiran.jpg" alt="Feiran You">
+          <div>
+            <h3>Feiran You</h3>
+            <div class="person-meta">
+              Postdoctoral researcher, since 03/2025<br>
+              Edge intelligence, reinforcement learning<br>
+              Ph.D., The University of Sydney<br>
+              <a href="mailto:youfr@hku.hk">youfr@hku.hk</a>
+            </div>
+            <div class="highlight-links">
+              <a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a>
+              <a href="https://arxiv.org/pdf/2503.07433.pdf">DRESS</a>
+              <a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a>
+            </div>
+          </div>
+        </article>
       </div>
-    </td>
-      </tr>
-</table>
 
+      <div class="lab-kicker" style="margin-top: 2rem;">PhD students</div>
+      <div class="people-grid" style="margin-top: 0.8rem;">
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/enhan.jpg" alt="Enhan Li">
+          <div>
+            <h3>Enhan Li</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Networking systems<br>
+              M.S., University of Chinese Academy of Sciences<br>
+              <a href="mailto:lienhan_eee@connect.hku.hk">lienhan_eee@connect.hku.hk</a>
+            </div>
+            <div class="highlight-links">
+              <a href="https://arxiv.org/abs/2510.13467">NetMCP</a>
+              <a href="https://arxiv.org/abs/2510.18550">JAUNT</a>
+            </div>
+          </div>
+        </article>
 
-<table>
-  <tr>
-	<td align="center" width="180">
-      <img src="/images/Members/ziyue.jpg" width="100"><br>
-      <strong>Ziyue Zhou</strong><br>
-      Undergraduate Research Fellowship Programme <a href="https://tl.hku.hk/urfp/">(URFP)</a>, HKU
-    </td>
-	<td align="center" width="180">
-      <img src="/images/Members/jinghao.jpg" width="100"><br>
-      <strong>Jinghao Zhou</strong><br>
-      Visiting undergraduate student<br>
-      Tsinghua University
-    </td>
-    <td align="center" width="180">
-      <img src="/images/Members/yongjie.jpg" width="100"><br>
-      <strong>Yongjie Zeng</strong><br>
-      Intern<br>
-      China University of Mining and Technology
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
-        <strong>Highlights:</strong><br>
-        🌐 2025: <a href="https://arxiv.org/abs/2508.01805v1">M3LLM</a><br>
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/zongxi.jpg" alt="Zongxi Liu">
+          <div>
+            <h3>Zongxi Liu</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Wireless communications<br>
+              M.S., Nanjing University<br>
+              <a href="mailto:1754627980@qq.com">1754627980@qq.com</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/ruoxuan.jpg" alt="Ruoxuan Yang">
+          <div>
+            <h3>Ruoxuan Yang</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Human-computer interaction<br>
+              M.S., Tsinghua University<br>
+              <a href="mailto:rosheenanea@outlook.com">rosheenanea@outlook.com</a>
+            </div>
+            <div class="highlight-links">
+              <a href="https://dl.acm.org/doi/full/10.1145/3772318.3791174">WoZ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/xingkun.jpg" alt="Xingkun Yin">
+          <div>
+            <h3>Xingkun Yin</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Large language models<br>
+              M.S., Boston University<br>
+              <a href="mailto:xingkunyin@hotmail.com">xingkunyin@hotmail.com</a>
+            </div>
+            <div class="highlight-links">
+              <a href="https://arxiv.org/pdf/2601.19249">GLOVE</a>
+              <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a>
+              <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/shiyuan.jpg" alt="Shiyuan Zhang">
+          <div>
+            <h3>Shiyuan Zhang</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Mobile traffic prediction, LLM, diffusion model<br>
+              M.S., Tsinghua University<br>
+              <a href="mailto:15840095453@163.com">15840095453@163.com</a>
+            </div>
+            <div class="highlight-links">
+              <a href="https://arxiv.org/pdf/2603.13839">NetSpatial</a>
+              <a href="https://arxiv.org/pdf/2601.06867">U-MASK</a>
+              <a href="https://arxiv.org/abs/2507.17795">LSDM</a>
+            </div>
+          </div>
+        </article>
       </div>
-    </td>
-  </tr>
-</table>
 
+      <div class="lab-kicker" style="margin-top: 2rem;">MPhil students</div>
+      <div class="people-grid" style="margin-top: 0.8rem;">
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/yunuo.jpg" alt="Yunuo Hu">
+          <div>
+            <h3>Yunuo Hu</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Large language models<br>
+              B.S., Tongji University<br>
+              <a href="mailto:xiran_111@qq.com">xiran_111@qq.com</a>
+            </div>
+          </div>
+        </article>
 
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/junhao.jpg" alt="Junhao He">
+          <div>
+            <h3>Junhao He</h3>
+            <div class="person-meta">
+              Starting 2026<br>
+              LLM infrastructure<br>
+              B.S., The University of Hong Kong, URFP<br>
+              <a href="mailto:hjh2003@connect.hku.hk">hjh2003@connect.hku.hk</a>
+            </div>
+            <div class="highlight-links">
+              <a href="https://arxiv.org/pdf/2601.21622">StarSD</a>
+            </div>
+          </div>
+        </article>
 
-## Expectations
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/yilai.jpg" alt="Yilai Liu">
+          <div>
+            <h3>Yilai Liu</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              LLM, diffusion model<br>
+              B.S., Beijing University of Posts and Telecommunications<br>
+              <a href="mailto:2369475677@qq.com">2369475677@qq.com</a>
+            </div>
+          </div>
+        </article>
 
-Our research is highly interdisciplinary, involving collaboration with experts from AI, networking systems, human–computer interaction, and electrical engineering. Here's what we're looking for
+        <article class="person-card">
+          <img class="person-card__photo" src="/images/Members/wenqi.jpg" alt="Wenqi Pei">
+          <div>
+            <h3>Wenqi Pei</h3>
+            <div class="person-meta">
+              Starting 2025<br>
+              Large language models<br>
+              B.S., National University of Singapore<br>
+              <a href="mailto:wenqipei@foxmail.com">wenqipei@foxmail.com</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-- Passion for Learning: **Strong self-motivation and ability to quickly learn from new fields.**
-- Academic Foundation: Academic background in computer science, AI, electrical engineering, electronic information/communication engineering, mathematics, or related fields. Candidates with bachelor's degrees from <i>985 / QS Top 50 universities</i> or <i>211 / QS Top 80 universities + strong publication records</i> are encouraged due to HKU committee considerations.
-- Experience: Relevant research experience and coding ability demonstrated through papers, projects, or competitions.
-- Personal Qualities: Responsibility, reliability, and good communication skills.
-- Graduation Requirements: A PhD degree is just a ticket for your future career, so there is NO requirement for the NUMBER of papers. **Instead, the graduation requirement is for us to work together to help you find a satisfactory job, which marks the success of our collaborative journey.** 
+  <section class="lab-section lab-section--band" id="expectations">
+    <div class="lab-shell">
+      <div class="lab-section-head">
+        <div>
+          <div class="lab-kicker">Expectations</div>
+          <h2 class="lab-heading">What we look for</h2>
+        </div>
+        <p class="lab-section-desc">
+          NICE is interdisciplinary, so fit is defined by research motivation, ability to learn quickly, and reliability in collaborative work.
+        </p>
+      </div>
 
+      <div class="two-col">
+        <article class="note-card">
+          <h3>Research foundation</h3>
+          <p>We welcome backgrounds in computer science, AI, electrical engineering, electronic information, communications, mathematics, and related fields.</p>
+        </article>
+        <article class="note-card">
+          <h3>Evidence of readiness</h3>
+          <p>Relevant papers, projects, competitions, coding ability, and clear research statements help us understand how your experience connects to NICE.</p>
+        </article>
+        <article class="note-card">
+          <h3>Working style</h3>
+          <p>Strong self-motivation, responsibility, reliability, and communication skills matter because our work spans AI, networks, systems, and HCI.</p>
+        </article>
+        <article class="note-card">
+          <h3>Graduation philosophy</h3>
+          <p>The goal is not a fixed number of papers. The goal is to work together toward a strong next step and a satisfactory career outcome.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-## How to apply
+  <section class="lab-section" id="apply">
+    <div class="lab-shell">
+      <div class="apply-panel">
+        <div>
+          <div class="lab-kicker">How to apply</div>
+          <h2 class="lab-heading">Send a concise research-oriented application</h2>
+          <p class="lab-section-desc">
+            Due to email volume, Prof. Du may not be able to respond to every applicant, but relevant applications are read carefully.
+          </p>
+        </div>
 
-If you're interested in joining NICE Lab or would like more information, please contact me:
-- Email: duhy@hku.hk
-- Subject Line: PhD/xx Application-University-Name
-- Attachments: CV, undergraduate transcripts, relevant publications, and research statement (optional; one page discussing your research background and its relevance to my work)
+        <article class="contact-card">
+          <h3>Application materials</h3>
+          <ul>
+            <li>Email: <a href="mailto:duhy@hku.hk">duhy@hku.hk</a></li>
+            <li>Subject: PhD/xx Application-University-Name</li>
+            <li>Attachments: CV, undergraduate transcripts, relevant publications, and an optional one-page research statement</li>
+            <li>The research statement should explain your background and how it connects to NICE Lab's current work.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
 
->Because of the high volume of emails I receive, I may not be able to respond to everyone, including some excellent applicants. However, please note that I do read every email and will reply to those that are most relevant to my research. I wish everyone the best of luck in finding the position that suits them best.
+  <footer class="lab-footer">
+    <div class="lab-shell lab-footer__inner">
+      <span>NICE Lab, Department of Electrical and Electronic Engineering, The University of Hong Kong.</span>
+      <a href="/">Back to homepage</a>
+    </div>
+  </footer>
+</main>

@@ -1,0 +1,52 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'en-US' | slice: 0,2 }}" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | escape }}">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link id="all-fonts-link-font-newsreader" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..800&display=swap">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            newsreader: ['Newsreader', 'serif'],
+          },
+          colors: {
+            coffee: {
+              50: '#fdf8f6',
+              100: '#f2e8e5',
+              200: '#eaddd7',
+              300: '#e0cec7',
+              800: '#4a3b32',
+              900: '#2d241e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #fdf8f6; }
+    ::-webkit-scrollbar-thumb { background: #d6d3d1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #a8a29e; }
+    .image-swap { position: relative; overflow: hidden; }
+    .image-swap img { transition: opacity 0.5s ease-in-out; }
+    .image-swap .hover-img { position: absolute; top: 0; left: 0; opacity: 0; }
+    .image-swap:hover .base-img { opacity: 0; }
+    .image-swap:hover .hover-img { opacity: 1; }
+  </style>
+</head>
+<body class="bg-coffee-50 text-stone-800 antialiased font-sans selection:bg-stone-200 selection:text-stone-900">
+  {{ content }}
+</body>
+</html>
