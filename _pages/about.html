@@ -9,57 +9,31 @@ redirect_from:
 ---
 
 <!-- Navigation -->
-<nav class="fixed w-full z-50 top-0 start-0 border-b border-stone-200/60 bg-white/80 backdrop-blur-md">
-  <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-6 py-4">
+<nav class="fixed w-full z-50 top-0 start-0 border-b border-slate-200/70 bg-white/90 backdrop-blur-md">
+  <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 px-6 py-4">
     <a href="#top" class="flex items-center space-x-3 group">
       <img src="/images/logo.png" alt="NICE Lab logo" class="h-8 w-auto">
-      <span class="self-center whitespace-nowrap group-hover:text-stone-600 transition-colors text-lg font-semibold text-stone-900 tracking-tight">Hongyang Du | HKU</span>
+      <span class="self-center hidden sm:inline whitespace-nowrap group-hover:text-stone-600 transition-colors text-lg font-semibold text-stone-900 tracking-tight">Hongyang Du | HKU</span>
     </a>
 
-    <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
-      <a href="/nice/#apply" class="hidden sm:inline-flex hover:bg-stone-800 focus:ring-4 focus:outline-none focus:ring-stone-300 transition-all items-center gap-2 text-sm font-medium text-white text-center bg-stone-900 rounded-full pt-2.5 pr-5 pb-2.5 pl-5">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M19 8v6m3-3h-6"></path></g></svg>
-        Join NICE
-      </a>
-      <button type="button" id="menu-toggle" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-stone-500 rounded-lg md:hidden hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-stone-200">
-        <span class="sr-only">Open main menu</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5h16M4 12h16M4 19h16"></path></svg>
-      </button>
-    </div>
-
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-stone-100 rounded-lg bg-stone-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
-        <li><a href="#top" class="block py-2 px-3 text-stone-900 rounded hover:bg-stone-100 md:hover:bg-transparent md:hover:text-stone-600 md:p-0 transition-colors">About</a></li>
-        <li><a href="#research" class="block hover:bg-stone-100 md:hover:bg-transparent md:hover:text-stone-600 md:p-0 transition-colors text-stone-900 rounded pt-2 pr-3 pb-2 pl-3">Research</a></li>
-        <li><a href="#news" class="block hover:bg-stone-100 md:hover:bg-transparent md:hover:text-stone-600 md:p-0 transition-colors text-stone-900 rounded pt-2 pr-3 pb-2 pl-3">News</a></li>
-        <li><a href="#team" class="block hover:bg-stone-100 md:hover:bg-transparent md:hover:text-stone-600 md:p-0 transition-colors text-stone-900 rounded pt-2 pr-3 pb-2 pl-3">Team</a></li>
-        <li><a href="#apply" class="block hover:bg-stone-100 md:hover:bg-transparent md:hover:text-stone-600 md:p-0 transition-colors text-stone-900 rounded pt-2 pr-3 pb-2 pl-3">Apply</a></li>
-      </ul>
+    <div class="flex items-center gap-1 sm:gap-2 text-sm font-semibold">
+      <a href="#top" class="rounded-full px-3 sm:px-4 py-2 text-slate-900 hover:bg-slate-100 hover:text-cyan-800 transition-colors">About me</a>
+      <a href="#nice-lab" class="rounded-full px-3 sm:px-4 py-2 text-slate-900 hover:bg-slate-100 hover:text-cyan-800 transition-colors">Nice Lab</a>
     </div>
   </div>
 </nav>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.getElementById('menu-toggle');
-    const navbarSticky = document.getElementById('navbar-sticky');
-    if (menuToggle && navbarSticky) {
-      menuToggle.addEventListener('click', () => navbarSticky.classList.toggle('hidden'));
-    }
-  });
-</script>
-
 <!-- Hero Section -->
-<section class="lg:pt-40 lg:pb-16 overflow-hidden pt-32 pb-12 relative" id="top">
+<section class="lg:pt-40 lg:pb-16 overflow-hidden pt-32 pb-12 relative bg-[linear-gradient(135deg,#f8fafc_0%,#eff6ff_46%,#ecfeff_100%)]" id="top">
   <div class="max-w-7xl mr-auto ml-auto pr-6 pl-6">
     <div class="grid lg:grid-cols-12 items-center gap-y-12">
       <div class="lg:col-span-7 order-2 lg:order-1">
-        <div class="inline-flex gap-2 text-base font-medium text-emerald-700 bg-emerald-50 border-emerald-100 border rounded-full mb-6 px-3 py-1 gap-x-3 gap-y-3 items-center">
+        <div class="inline-flex gap-2 text-base font-medium text-cyan-800 bg-cyan-50 border-cyan-100 border rounded-full mb-6 px-3 py-1 gap-x-3 gap-y-3 items-center">
           <span class="relative flex h-2 w-2">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
           </span>
-          PI of Network Intelligence and Computing Ecosystem Lab
+          Network Intelligence and Computing Ecosystem (NICE) Lab
         </div>
 
         <h1 class="md:text-7xl leading-[1.1] text-5xl font-medium text-stone-900 tracking-tight font-newsreader mb-3">
@@ -68,8 +42,8 @@ redirect_from:
 
         <h2 class="md:text-2xl text-xl font-medium text-stone-600 tracking-tight mb-6">
           <a href="https://www.eee.hku.hk/" class="hover:text-stone-900 underline decoration-stone-700 underline-offset-4">Assistant Professor, HKU EEE</a>
-          <span class="mx-2 text-stone-450">|</span>
-          <a href="/nice/" class="hover:text-stone-900 transition-colors">NICE Lab</a>
+          <span class="mx-2 text-stone-400">|</span>
+          <a href="#nice-lab" class="hover:text-stone-900 transition-colors">NICE Lab</a>
         </h2>
 
         <div class="mb-9 max-w-2xl">
@@ -87,7 +61,7 @@ redirect_from:
         </div>
 
         <div class="flex flex-wrap gap-4">
-          <a href="#research" class="hover:bg-stone-800 transition-all hover:scale-105 flex items-center justify-center gap-2 shadow-stone-900/10 font-medium text-white bg-stone-900 rounded-full pt-3 pr-8 pb-3 pl-8 shadow-lg">
+          <a href="#projects" class="hover:bg-stone-800 transition-all hover:scale-105 flex items-center justify-center gap-2 shadow-stone-900/10 font-medium text-white bg-stone-900 rounded-full pt-3 pr-8 pb-3 pl-8 shadow-lg">
             Research Projects
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7l-7 7"></path></svg>
           </a>
@@ -108,29 +82,32 @@ redirect_from:
       </div>
 
       <div class="lg:col-span-5 order-1 lg:order-2 scale-95">
-        <div class="aspect-[3/4] overflow-hidden group w-full max-w-md border-white border-4 rounded-2xl mr-auto ml-auto relative shadow-2xl bg-white">
-          <div class="absolute inset-0 bg-gradient-to-br from-stone-50 via-white to-emerald-50"></div>
+        <div class="aspect-[3/4] overflow-hidden group w-full max-w-md border-white/80 border rounded-3xl mr-auto ml-auto relative shadow-2xl shadow-cyan-950/15 bg-white">
+          <div class="absolute inset-0 bg-[linear-gradient(145deg,#0f172a_0%,#164e63_48%,#e0f2fe_100%)]"></div>
+          <div class="absolute inset-0 opacity-35 bg-[radial-gradient(circle_at_18%_18%,#67e8f9_0,#67e8f900_36%),radial-gradient(circle_at_80%_72%,#a7f3d0_0,#a7f3d000_32%)]"></div>
           <div class="relative h-full flex flex-col p-8">
             <div class="flex items-center justify-between gap-4">
-              <img src="/images/logo.png" alt="NICE Lab logo" class="w-44 h-auto">
-              <img src="/images/profile2.png" alt="Hongyang Du" class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-md">
+              <div class="rounded-2xl bg-white/90 border border-white/80 px-4 py-3 shadow-lg">
+                <img src="/images/logo.png" alt="NICE Lab logo" class="w-44 h-auto">
+              </div>
+              <img src="/images/profile2.png" alt="Hongyang Du" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-xl">
             </div>
             <div class="mt-auto space-y-4">
-              <div class="rounded-2xl bg-stone-900 text-white p-5 shadow-lg">
-                <p class="text-xs uppercase tracking-widest text-stone-300 mb-2">NICE Lab vision</p>
+              <div class="rounded-3xl bg-white/12 text-white p-5 shadow-lg border border-white/20 backdrop-blur">
+                <p class="text-xs uppercase tracking-widest text-cyan-100 mb-2">NICE Lab vision</p>
                 <h3 class="text-2xl font-semibold font-newsreader leading-tight">Toward ubiquitous intelligence</h3>
               </div>
               <div class="grid grid-cols-2 gap-3">
-                <div class="rounded-2xl bg-white border border-stone-200 p-4">
-                  <p class="text-xs uppercase tracking-wider text-stone-400 font-bold">Network for AI</p>
-                  <p class="text-sm text-stone-700 mt-2">Scale intelligence across systems.</p>
+                <div class="rounded-2xl bg-white/90 border border-cyan-100 p-4 shadow-sm">
+                  <p class="text-xs uppercase tracking-wider text-cyan-700 font-bold">Network for AI</p>
+                  <p class="text-sm text-slate-700 mt-2">Scale intelligence across systems.</p>
                 </div>
-                <div class="rounded-2xl bg-white border border-stone-200 p-4">
-                  <p class="text-xs uppercase tracking-wider text-stone-400 font-bold">AI for Network</p>
-                  <p class="text-sm text-stone-700 mt-2">Optimize real network operations.</p>
+                <div class="rounded-2xl bg-white/90 border border-emerald-100 p-4 shadow-sm">
+                  <p class="text-xs uppercase tracking-wider text-emerald-700 font-bold">AI for Network</p>
+                  <p class="text-sm text-slate-700 mt-2">Optimize real network operations.</p>
                 </div>
               </div>
-              <div class="rounded-2xl border border-emerald-100 bg-emerald-50 p-4 text-sm text-emerald-900">
+              <div class="rounded-2xl border border-white/30 bg-white/90 p-4 text-sm text-slate-800 shadow-sm">
                 A planet-scale computer with the network as its backplane.
               </div>
             </div>
@@ -140,50 +117,75 @@ redirect_from:
     </div>
   </div>
 
-  <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[800px] h-[800px] bg-stone-100 rounded-full blur-3xl -z-10 opacity-60"></div>
-  <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-coffee-100 rounded-full blur-3xl -z-10 opacity-60"></div>
 </section>
 
-<!-- Research Direction Cards -->
-<section class="max-w-7xl z-10 mr-auto ml-auto pr-6 pb-20 pl-6 relative">
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-    <div class="group flex flex-col p-8 rounded-3xl border border-stone-200/60 bg-white/50 backdrop-blur-sm hover:bg-white hover:border-stone-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 cursor-default">
-      <iconify-icon icon="solar:cloud-network-outline" width="32" height="32" class="group-hover:text-stone-900 group-hover:scale-110 transition-all duration-500 text-stone-400 mb-8"></iconify-icon>
-      <h3 class="text-xl font-bold text-stone-900 mb-1 tracking-tight">Networked AI Infrastructure</h3>
-      <p class="text-sm font-medium text-stone-500 mb-10 italic">Networks as AI execution substrate</p>
-      <div class="mt-auto space-y-3">
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Mobile LLM Services</span></div>
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">MCP Tool Routing</span></div>
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Distributed Model Serving</span></div>
-      </div>
+<!-- NICE Research Architecture -->
+<section class="max-w-7xl z-10 mr-auto ml-auto pr-6 pb-20 pl-6 relative" id="nice-lab">
+  <div class="rounded-3xl border border-cyan-100/80 bg-white/80 backdrop-blur-sm shadow-xl shadow-cyan-950/10 overflow-hidden">
+    <div class="text-center px-6 pt-8 pb-5 bg-gradient-to-r from-slate-900 via-cyan-950 to-slate-900 text-white">
+      <img src="/images/logo.png" alt="NICE Lab logo" class="h-12 w-auto mx-auto mb-4">
+      <h2 class="text-3xl md:text-4xl font-semibold tracking-tight font-serif">Toward Ubiquitous Intelligence</h2>
+      <p class="mt-2 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-100">Network for AI x AI for Network</p>
     </div>
 
-    <div class="group flex flex-col p-8 rounded-3xl border border-stone-200/60 bg-white/50 backdrop-blur-sm hover:bg-white hover:border-stone-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 cursor-default">
-      <iconify-icon icon="solar:map-point-wave-bold-duotone" width="32" height="32" class="text-stone-400 mb-8 group-hover:text-stone-900 group-hover:scale-110 transition-all duration-500"></iconify-icon>
-      <h3 class="text-xl font-bold text-stone-900 mb-1 tracking-tight">Net-Spatial Intelligence</h3>
-      <p class="text-sm font-medium text-stone-500 mb-10 italic">Learning in wireless urban ecosystems</p>
-      <div class="mt-auto space-y-3">
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Mobile Traffic Generation</span></div>
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Spatio-Temporal Prediction</span></div>
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Personalized Mobile AI</span></div>
+    <div class="px-6 pb-6">
+      <div class="relative rounded-full border border-dashed border-cyan-200 bg-slate-50 px-6 py-4 mb-5">
+        <div class="hidden md:block absolute left-10 right-10 top-1/2 h-px bg-gradient-to-r from-cyan-700 via-slate-300 to-emerald-700"></div>
+        <div class="relative grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="flex flex-col items-center gap-1 bg-slate-50"><iconify-icon icon="solar:user-rounded-outline" width="22" height="22" class="text-cyan-700"></iconify-icon><span class="text-[11px] font-bold uppercase tracking-wider text-slate-600">Users</span></div>
+          <div class="flex flex-col items-center gap-1 bg-slate-50"><iconify-icon icon="solar:wi-fi-router-outline" width="22" height="22" class="text-cyan-700"></iconify-icon><span class="text-[11px] font-bold uppercase tracking-wider text-slate-600">Wireless Links</span></div>
+          <div class="flex flex-col items-center gap-1 bg-slate-50"><iconify-icon icon="solar:server-outline" width="22" height="22" class="text-cyan-700"></iconify-icon><span class="text-[11px] font-bold uppercase tracking-wider text-slate-600">Radio Access</span></div>
+          <div class="flex flex-col items-center gap-1 bg-slate-50"><iconify-icon icon="solar:cpu-outline" width="22" height="22" class="text-emerald-700"></iconify-icon><span class="text-[11px] font-bold uppercase tracking-wider text-slate-600">Core</span></div>
+          <div class="flex flex-col items-center gap-1 bg-slate-50"><iconify-icon icon="solar:rocket-outline" width="22" height="22" class="text-emerald-700"></iconify-icon><span class="text-[11px] font-bold uppercase tracking-wider text-slate-600">Applications</span></div>
+        </div>
       </div>
-    </div>
 
-    <div class="group flex flex-col p-8 rounded-3xl border border-stone-200/60 bg-white/50 backdrop-blur-sm hover:bg-white hover:border-stone-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 cursor-default">
-      <iconify-icon icon="solar:shield-check-bold-duotone" width="32" height="32" class="text-stone-400 mb-8 group-hover:text-stone-900 group-hover:scale-110 transition-all duration-500"></iconify-icon>
-      <h3 class="text-xl font-bold text-stone-900 mb-1 tracking-tight">Reliable and Resilient Intelligence</h3>
-      <p class="text-sm font-medium text-stone-500 mb-10 italic">Agentic execution under real constraints</p>
-      <div class="mt-auto space-y-3">
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Reliable AI Agents</span></div>
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Reward Shaping</span></div>
-        <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-stone-200 group-hover:bg-stone-800 transition-colors"></span><span class="text-xs font-semibold uppercase tracking-wider text-stone-400 group-hover:text-stone-600">Extreme Network Environments</span></div>
+      <div class="space-y-4">
+        <div class="grid lg:grid-cols-[260px_1fr] gap-4 rounded-2xl border border-cyan-100 bg-gradient-to-r from-cyan-100 to-slate-50 p-4">
+          <div class="rounded-xl bg-white/90 border-l-4 border-cyan-800 p-4 shadow-sm">
+            <h3 class="text-base font-bold text-stone-900">Ubiquitous Intelligent Systems</h3>
+            <p class="mt-1 text-xs italic text-slate-500">Embedded intelligence in large-scale environments</p>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:city-outline" width="28" height="28" class="text-cyan-800"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Smart Cities<br>& Environments</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:robot-outline" width="28" height="28" class="text-cyan-800"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Autonomous<br>Industrial Systems</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:cloud-upload-outline" width="28" height="28" class="text-cyan-800"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Self-Organizing<br>Integration</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:smartphone-outline" width="28" height="28" class="text-cyan-800"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Real-world<br>Service Intelligence</p></div>
+          </div>
+        </div>
+
+        <div class="grid lg:grid-cols-[260px_1fr] gap-4 rounded-2xl border border-blue-100 bg-gradient-to-r from-blue-100 to-cyan-50 p-4">
+          <div class="rounded-xl bg-white/90 border-l-4 border-blue-700 p-4 shadow-sm">
+            <h3 class="text-base font-bold text-stone-900">Networked AI Infrastructure</h3>
+            <p class="mt-1 text-xs italic text-slate-500">Collaboration across agents, humans, and networks</p>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:share-circle-outline" width="28" height="28" class="text-blue-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Multi-Agent<br>Cooperation</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:brain-outline" width="28" height="28" class="text-blue-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">LLM Agents<br>& Operations</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:user-hand-up-outline" width="28" height="28" class="text-blue-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Human-Computer<br>Interaction</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:diagram-up-outline" width="28" height="28" class="text-blue-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Distributed<br>Decision Making</p></div>
+          </div>
+        </div>
+
+        <div class="grid lg:grid-cols-[260px_1fr] gap-4 rounded-2xl border border-slate-200 bg-gradient-to-r from-slate-200 to-blue-50 p-4">
+          <div class="rounded-xl bg-white/90 border-l-4 border-slate-700 p-4 shadow-sm">
+            <h3 class="text-base font-bold text-stone-900">Algorithmic Intelligence Foundation</h3>
+            <p class="mt-1 text-xs italic text-slate-500">Fundamental AI modeling, training, and inference</p>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:calculator-outline" width="28" height="28" class="text-slate-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Optimization<br>Algorithms</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:layers-outline" width="28" height="28" class="text-slate-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Generative &<br>Representation Learning</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:chart-square-outline" width="28" height="28" class="text-slate-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Efficient<br>Inference</p></div>
+            <div class="rounded-xl bg-white/80 p-4 text-center border border-white/70"><iconify-icon icon="solar:shield-check-outline" width="28" height="28" class="text-slate-700"></iconify-icon><p class="mt-2 text-sm font-semibold text-slate-700">Model<br>Robustness</p></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Research Projects -->
-<section class="max-w-7xl mr-auto ml-auto pt-24 pr-6 pb-24 pl-6" id="research">
+<section class="max-w-7xl mr-auto ml-auto pt-24 pr-6 pb-24 pl-6" id="projects">
   <div class="text-center mb-16">
     <h2 class="text-3xl md:text-4xl font-semibold text-stone-900 tracking-tight mb-4 font-serif">Research Projects</h2>
     <p class="text-stone-500 max-w-lg mx-auto text-sm">
@@ -191,90 +193,110 @@ redirect_from:
     </p>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 gap-x-8 gap-y-8">
+  <div class="space-y-10">
     {% assign proj = "infra_llm_network" %}
     {% assign papers = site.data.papers | where: "project", proj %}
-    {% assign first_paper = papers[0] %}
-    <div class="group p-6 rounded-2xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-lg transition-all">
-      <div class="mb-4"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Networked AI Infrastructure</span></div>
-      <div class="flex flex-col sm:flex-row gap-6">
-        <div class="w-full h-48 sm:w-36 sm:h-36 shrink-0 bg-stone-100 rounded-lg overflow-hidden">
-          <img src="{{ first_paper.image | replace: './images/', '/images/' }}" alt="{{ first_paper.title }}" class="w-full h-full object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity">
+    <article class="rounded-3xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all">
+      <div class="grid lg:grid-cols-[0.30fr_0.70fr]">
+        <div class="p-7 border-b lg:border-b-0 lg:border-r border-stone-100">
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Networked AI Infrastructure</span>
+          <h3 class="mt-4 text-2xl font-bold text-stone-900 leading-tight">Co-design of networks and large-scale AI systems</h3>
+          <p class="mt-3 text-sm text-stone-600 leading-relaxed">We treat the network as the execution and scaling infrastructure for AI services, e.g., LLMs, and co-design communication and computing under real network constraints.</p>
+          <a href="#top" class="inline-flex mt-5 text-xs font-bold uppercase tracking-widest text-stone-400 hover:text-stone-900">Network for AI</a>
         </div>
-        <div class="flex-1">
-          <h3 class="text-lg font-bold text-stone-800 mb-2 leading-tight">Co-design of networks and large-scale AI systems</h3>
-          <p class="text-xs text-stone-600 mb-3">Communication and computing mechanisms for mobile LLM services, MCP platforms, tool routing, and distributed serving.</p>
-          <div class="space-y-2 text-xs text-stone-600">
-            {% for paper in papers limit:4 %}
-            <div class="border-t border-stone-100 pt-2"><a href="{{ paper.pdf | default: paper.arxiv }}" class="hover:text-stone-900 font-semibold">{{ paper.title }}</a><span class="text-stone-400"> - {{ paper.venue }}</span></div>
-            {% endfor %}
-          </div>
+        <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-3 p-4 bg-slate-50">
+          {% for paper in papers %}
+          <a href="{{ paper.pdf | default: paper.arxiv }}" class="group/paper rounded-2xl overflow-hidden bg-white border border-stone-200 hover:border-stone-400 transition-all">
+            <div class="h-52 bg-white">
+              <img src="{{ paper.image | replace: './images/', '/images/' }}" alt="{{ paper.title }}" class="w-full h-full object-contain p-2 group-hover/paper:scale-[1.02] transition-transform">
+            </div>
+            <div class="p-3 border-t border-stone-100">
+              <div class="text-[11px] font-bold uppercase tracking-wider text-stone-400">{{ paper.venue }}</div>
+              <div class="mt-1 text-sm font-bold leading-snug text-stone-800 line-clamp-3">{{ paper.title }}</div>
+            </div>
+          </a>
+          {% endfor %}
         </div>
       </div>
-    </div>
+    </article>
 
     {% assign proj = "env_spatial_urban" %}
     {% assign papers = site.data.papers | where: "project", proj %}
-    {% assign first_paper = papers[0] %}
-    <div class="group p-6 rounded-2xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-lg transition-all">
-      <div class="mb-4"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Net-Spatial Intelligence</span></div>
-      <div class="flex flex-col sm:flex-row gap-6">
-        <div class="w-full h-48 sm:w-36 sm:h-36 shrink-0 bg-stone-100 rounded-lg overflow-hidden">
-          <img src="{{ first_paper.image | replace: './images/', '/images/' }}" alt="{{ first_paper.title }}" class="w-full h-full object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity">
+    <article class="rounded-3xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all">
+      <div class="grid lg:grid-cols-[0.30fr_0.70fr]">
+        <div class="p-7 border-b lg:border-b-0 lg:border-r border-stone-100">
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Net-Spatial Intelligence</span>
+          <h3 class="mt-4 text-2xl font-bold text-stone-900 leading-tight">Learning and reasoning in urban wireless ecosystems</h3>
+          <p class="mt-3 text-sm text-stone-600 leading-relaxed">We model and exploit spatial structure from heterogeneous sensing and mobility signals to support prediction, planning, and control in city-scale wireless ecosystems.</p>
+          <a href="#top" class="inline-flex mt-5 text-xs font-bold uppercase tracking-widest text-stone-400 hover:text-stone-900">AI for Network</a>
         </div>
-        <div class="flex-1">
-          <h3 class="text-lg font-bold text-stone-800 mb-2 leading-tight">Learning and reasoning in urban wireless ecosystems</h3>
-          <p class="text-xs text-stone-600 mb-3">Spatial and temporal intelligence for cellular planning, traffic generation, mobile AI, and city-scale operations.</p>
-          <div class="space-y-2 text-xs text-stone-600">
-            {% for paper in papers limit:4 %}
-            <div class="border-t border-stone-100 pt-2"><a href="{{ paper.pdf | default: paper.arxiv }}" class="hover:text-stone-900 font-semibold">{{ paper.title }}</a><span class="text-stone-400"> - {{ paper.venue }}</span></div>
-            {% endfor %}
-          </div>
+        <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-3 p-4 bg-slate-50">
+          {% for paper in papers %}
+          <a href="{{ paper.pdf | default: paper.arxiv }}" class="group/paper rounded-2xl overflow-hidden bg-white border border-stone-200 hover:border-stone-400 transition-all">
+            <div class="h-52 bg-white">
+              <img src="{{ paper.image | replace: './images/', '/images/' }}" alt="{{ paper.title }}" class="w-full h-full object-contain p-2 group-hover/paper:scale-[1.02] transition-transform">
+            </div>
+            <div class="p-3 border-t border-stone-100">
+              <div class="text-[11px] font-bold uppercase tracking-wider text-stone-400">{{ paper.venue }}</div>
+              <div class="mt-1 text-sm font-bold leading-snug text-stone-800 line-clamp-3">{{ paper.title }}</div>
+            </div>
+          </a>
+          {% endfor %}
         </div>
       </div>
-    </div>
+    </article>
 
     {% assign proj = "exec_reliable_agent" %}
     {% assign papers = site.data.papers | where: "project", proj %}
-    {% assign first_paper = papers[0] %}
-    <div class="group p-6 rounded-2xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-lg transition-all">
-      <div class="mb-4"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Agentic Intelligence</span></div>
-      <div class="flex flex-col sm:flex-row gap-6">
-        <div class="w-full h-48 sm:w-36 sm:h-36 shrink-0 bg-stone-100 rounded-lg overflow-hidden">
-          <img src="{{ first_paper.image | replace: './images/', '/images/' }}" alt="{{ first_paper.title }}" class="w-full h-full object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity">
+    <article class="rounded-3xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all">
+      <div class="grid lg:grid-cols-[0.30fr_0.70fr]">
+        <div class="p-7 border-b lg:border-b-0 lg:border-r border-stone-100">
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Agentic Intelligence</span>
+          <h3 class="mt-4 text-2xl font-bold text-stone-900 leading-tight">Reliable task-oriented AI systems</h3>
+          <p class="mt-3 text-sm text-stone-600 leading-relaxed">We design mechanisms that make agentic systems reliably executable, using verification, memory realignment, and experience reuse to stabilize long-horizon task completion.</p>
+          <a href="#top" class="inline-flex mt-5 text-xs font-bold uppercase tracking-widest text-stone-400 hover:text-stone-900">Reliable Execution</a>
         </div>
-        <div class="flex-1">
-          <h3 class="text-lg font-bold text-stone-800 mb-2 leading-tight">Reliable task-oriented AI systems</h3>
-          <p class="text-xs text-stone-600 mb-3">Mechanisms for executable agent behavior, memory-environment realignment, experience reuse, and HCI.</p>
-          <div class="space-y-2 text-xs text-stone-600">
-            {% for paper in papers limit:4 %}
-            <div class="border-t border-stone-100 pt-2"><a href="{{ paper.pdf | default: paper.arxiv }}" class="hover:text-stone-900 font-semibold">{{ paper.title }}</a><span class="text-stone-400"> - {{ paper.venue }}</span></div>
-            {% endfor %}
-          </div>
+        <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-3 p-4 bg-slate-50">
+          {% for paper in papers %}
+          <a href="{{ paper.pdf | default: paper.arxiv }}" class="group/paper rounded-2xl overflow-hidden bg-white border border-stone-200 hover:border-stone-400 transition-all">
+            <div class="h-52 bg-white">
+              <img src="{{ paper.image | replace: './images/', '/images/' }}" alt="{{ paper.title }}" class="w-full h-full object-contain p-2 group-hover/paper:scale-[1.02] transition-transform">
+            </div>
+            <div class="p-3 border-t border-stone-100">
+              <div class="text-[11px] font-bold uppercase tracking-wider text-stone-400">{{ paper.venue }}</div>
+              <div class="mt-1 text-sm font-bold leading-snug text-stone-800 line-clamp-3">{{ paper.title }}</div>
+            </div>
+          </a>
+          {% endfor %}
         </div>
       </div>
-    </div>
+    </article>
 
     {% assign proj = "resilience_extreme" %}
     {% assign papers = site.data.papers | where: "project", proj %}
-    {% assign first_paper = papers[0] %}
-    <div class="group p-6 rounded-2xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-lg transition-all">
-      <div class="mb-4"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Resilient Intelligence</span></div>
-      <div class="flex flex-col sm:flex-row gap-6">
-        <div class="w-full h-48 sm:w-36 sm:h-36 shrink-0 bg-stone-100 rounded-lg overflow-hidden">
-          <img src="{{ first_paper.image | replace: './images/', '/images/' }}" alt="{{ first_paper.title }}" class="w-full h-full object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity">
+    <article class="rounded-3xl border border-stone-200 bg-white overflow-hidden shadow-sm hover:shadow-xl transition-all">
+      <div class="grid lg:grid-cols-[0.30fr_0.70fr]">
+        <div class="p-7 border-b lg:border-b-0 lg:border-r border-stone-100">
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-stone-900 text-white">Resilient Intelligence</span>
+          <h3 class="mt-4 text-2xl font-bold text-stone-900 leading-tight">Intelligent networks across complex scenarios</h3>
+          <p class="mt-3 text-sm text-stone-600 leading-relaxed">We develop learning and reasoning mechanisms that remain stable and effective under sparse feedback, high-dimensional decision spaces, and harsh or non-stationary conditions.</p>
+          <a href="#top" class="inline-flex mt-5 text-xs font-bold uppercase tracking-widest text-stone-400 hover:text-stone-900">Robust Intelligence</a>
         </div>
-        <div class="flex-1">
-          <h3 class="text-lg font-bold text-stone-800 mb-2 leading-tight">Intelligent networks across complex scenarios</h3>
-          <p class="text-xs text-stone-600 mb-3">Learning methods that remain stable under sparse feedback, high-dimensional decisions, and non-stationary network conditions.</p>
-          <div class="space-y-2 text-xs text-stone-600">
-            {% for paper in papers limit:4 %}
-            <div class="border-t border-stone-100 pt-2"><a href="{{ paper.pdf | default: paper.arxiv }}" class="hover:text-stone-900 font-semibold">{{ paper.title }}</a><span class="text-stone-400"> - {{ paper.venue }}</span></div>
-            {% endfor %}
-          </div>
+        <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-3 p-4 bg-slate-50">
+          {% for paper in papers %}
+          <a href="{{ paper.pdf | default: paper.arxiv }}" class="group/paper rounded-2xl overflow-hidden bg-white border border-stone-200 hover:border-stone-400 transition-all">
+            <div class="h-52 bg-white">
+              <img src="{{ paper.image | replace: './images/', '/images/' }}" alt="{{ paper.title }}" class="w-full h-full object-contain p-2 group-hover/paper:scale-[1.02] transition-transform">
+            </div>
+            <div class="p-3 border-t border-stone-100">
+              <div class="text-[11px] font-bold uppercase tracking-wider text-stone-400">{{ paper.venue }}</div>
+              <div class="mt-1 text-sm font-bold leading-snug text-stone-800 line-clamp-3">{{ paper.title }}</div>
+            </div>
+          </a>
+          {% endfor %}
         </div>
       </div>
-    </div>
+    </article>
   </div>
 </section>
 
@@ -293,12 +315,36 @@ redirect_from:
         <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[11/25]</span><span>Xingkun's work on wireless network-driven LLM evolution was accepted by npj Wireless Technology.</span></li>
         <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[11/25]</span><span>I served as Local Chair for the 2nd ACM Workshop on Open and AI RAN with MobiCom 2025.</span></li>
         <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[10/25]</span><span>Feiran's DRESS paper was accepted by IEEE Transactions on Signal Processing.</span></li>
-        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[8/25]</span><span>I delivered an ICCC tutorial on AGI-driven communications with generative AI and large language models.</span></li>
-        <div id="more-news" class="space-y-4 hidden">
-          <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[4/25]</span><span>I delivered a lecture on generative diffusion models and applications for the Communication-Specific Large AI Models Master Class.</span></li>
-          <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[3/25]</span><span>We organized a VTC2025-Fall workshop on embracing generative AI toward 6G RAN.</span></li>
-          <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[1/25]</span><span>I joined IEEE Communications Surveys & Tutorials as an Associate Editor.</span></li>
-        </div>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[8/25]</span><span>I delivered the ICCC tutorial "Toward AGI-Driven Communications with Generative AI and LLMs."</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[4/25]</span><span>I delivered a lecture on generative diffusion models and applications for the Chaspark master class.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[3/25]</span><span>We organized a VTC2025-Fall workshop on embracing generative AI toward 6G RAN.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[2/25]</span><span>We organized a VTC2025-Spring workshop on multi-modal and generative semantic communications.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[1/25]</span><span>I joined IEEE Communications Surveys & Tutorials as an Associate Editor.</span></li>
+      </ul>
+      <ul id="more-news" class="space-y-4 hidden">
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[1/25]</span><span>Our paper "Supervised Score-Based Modeling by Gradient Boosting" was accepted by AAAI 2025.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[1/25]</span><span>I joined IEEE Open Journal of the Communications Society as an Associate Editor.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[12/24]</span><span>I joined IEEE Transactions on Communications as an Associate Editor.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[12/24]</span><span>I received the IEEE ComSoc Best Young Professional Award.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[12/24]</span><span>Our work received the Best Paper Award from IEEE Open Journal of the Computer Society.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[11/24]</span><span>I gave a keynote at the International Conference on Next Generation Intelligent Networks.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[11/24]</span><span>Our Gaiety project received an honorary mention in the IEEE ComSoc Student Competition.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[10/24]</span><span>DIsFU received the Best Paper Award at ICA3PP.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[9/24]</span><span>I joined IEEE Transactions on Vehicular Technology as an Associate Editor.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[8/24]</span><span>I accepted the Assistant Professor appointment at The University of Hong Kong.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[7/24]</span><span>I received the NTU Graduate College Research Excellence Award.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[6/24]</span><span>"Mixture of Experts for Wireless Communications" received the Best Paper Award at IWCMC 2024.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[4/24]</span><span>We organized an ICCC workshop on empowering wireless communications and networking with generative AI.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[3/24]</span><span>We organized an ICCC tutorial on generative AI-empowered networks.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[12/23]</span><span>I received the SDSC Dissertation Research Fellowship.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[12/23]</span><span>Our teams received first and second prizes in the IEEE ComSoc SNTC Student Competition.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[11/23]</span><span>"Artificial Intelligence-driven Eyewear: Keys to Metaverse" received an honorary mention.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[6/23]</span><span>I gave an invited talk at Queen Mary University of London.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[5/23]</span><span>I gave an invited talk at The Chinese University of Hong Kong, Shenzhen.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[4/23]</span><span>I visited UTS, the University of Sydney, and UNSW.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[12/22]</span><span>I visited Sungkyunkwan University.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[11/22]</span><span>I received the IEEE Daniel E. Noble Fellowship Award.</span></li>
+        <li class="flex gap-4 items-start text-sm text-stone-600"><span class="font-bold text-stone-900 shrink-0 min-w-[72px]">[1/22]</span><span>I was recognized as an Exemplary Reviewer for IEEE Transactions on Communications 2021.</span></li>
       </ul>
       <button class="uppercase hover:text-stone-600 hover:border-stone-600 transition-colors text-xs font-semibold text-stone-900 tracking-wider border-stone-900 border-b mt-4 pb-0.5" id="toggle-news-btn">Show More</button>
     </div>
@@ -308,88 +354,126 @@ redirect_from:
 <!-- Team Section -->
 <section class="bg-white border-stone-200 border-t pt-20 pb-20" id="team">
   <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-12">
+    <div class="text-center mb-10">
       <h2 class="text-3xl font-semibold text-stone-900 font-serif mb-4">NICE Lab Members</h2>
       <p class="italic text-stone-500 max-w-xl mr-auto ml-auto">
         Researchers and students working across AI, networks, systems, and human-computer interaction.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/feiran.jpg" alt="Feiran You" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Feiran You</h3>
-        <p class="text-sm text-stone-500">Postdoctoral researcher, since 03/2025</p>
-        <p class="text-sm text-stone-600 mt-2">Edge intelligence, reinforcement learning. Ph.D., The University of Sydney.</p>
-        <div class="flex flex-wrap gap-2 mt-3 text-xs font-bold text-stone-400 uppercase tracking-widest"><a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a><span>DRESS</span><span>JPPO++</span></div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="md:col-span-2 lg:col-span-3 flex items-center gap-3 pt-2">
+        <span class="h-px flex-1 bg-cyan-100"></span>
+        <h3 class="text-xs font-bold uppercase tracking-[0.22em] text-cyan-800">Researchers</h3>
+        <span class="h-px flex-1 bg-cyan-100"></span>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/enhan.jpg" alt="Enhan Li" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Enhan Li</h3>
-        <p class="text-sm text-stone-500">PhD student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Networking systems. M.S., University of Chinese Academy of Sciences.</p>
-        <div class="flex flex-wrap gap-2 mt-3 text-xs font-bold text-stone-400 uppercase tracking-widest"><a href="https://arxiv.org/abs/2510.13467">NetMCP</a><a href="https://arxiv.org/abs/2510.18550">JAUNT</a></div>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/feiran.jpg" alt="Feiran You" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Feiran You</h3>
+          <p class="text-xs font-medium text-stone-500">Postdoctoral researcher</p>
+          <p class="mt-1 text-xs text-stone-600">Edge intelligence, reinforcement learning</p>
+          <div class="mt-2 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest text-stone-400"><a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a><a href="https://arxiv.org/pdf/2503.07433.pdf">DRESS</a><a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a></div>
+        </div>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/zongxi.jpg" alt="Zongxi Liu" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Zongxi Liu</h3>
-        <p class="text-sm text-stone-500">PhD student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Wireless communications. M.S., Nanjing University.</p>
+      <div class="md:col-span-2 lg:col-span-3 flex items-center gap-3 pt-6">
+        <span class="h-px flex-1 bg-blue-100"></span>
+        <h3 class="text-xs font-bold uppercase tracking-[0.22em] text-blue-800">PhD Students</h3>
+        <span class="h-px flex-1 bg-blue-100"></span>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/ruoxuan.jpg" alt="Ruoxuan Yang" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Ruoxuan Yang</h3>
-        <p class="text-sm text-stone-500">PhD student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Human-computer interaction. M.S., Tsinghua University.</p>
-        <div class="flex flex-wrap gap-2 mt-3 text-xs font-bold text-stone-400 uppercase tracking-widest"><a href="https://dl.acm.org/doi/full/10.1145/3772318.3791174">WoZ</a></div>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/enhan.jpg" alt="Enhan Li" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Enhan Li</h3>
+          <p class="text-xs font-medium text-stone-500">PhD student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Networking systems</p>
+          <div class="mt-2 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest text-stone-400"><a href="https://arxiv.org/abs/2510.13467">NetMCP</a><a href="https://arxiv.org/abs/2510.18550">JAUNT</a></div>
+        </div>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/xingkun.jpg" alt="Xingkun Yin" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Xingkun Yin</h3>
-        <p class="text-sm text-stone-500">PhD student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Large language models. M.S., Boston University.</p>
-        <div class="flex flex-wrap gap-2 mt-3 text-xs font-bold text-stone-400 uppercase tracking-widest"><a href="https://arxiv.org/pdf/2601.19249">GLOVE</a><a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a></div>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/zongxi.jpg" alt="Zongxi Liu" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Zongxi Liu</h3>
+          <p class="text-xs font-medium text-stone-500">PhD student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Wireless communications</p>
+        </div>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/shiyuan.jpg" alt="Shiyuan Zhang" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Shiyuan Zhang</h3>
-        <p class="text-sm text-stone-500">PhD student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Mobile traffic prediction, LLM, diffusion model. M.S., Tsinghua University.</p>
-        <div class="flex flex-wrap gap-2 mt-3 text-xs font-bold text-stone-400 uppercase tracking-widest"><a href="https://arxiv.org/pdf/2603.13839">NetSpatial</a><a href="https://arxiv.org/pdf/2601.06867">U-MASK</a></div>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/ruoxuan.jpg" alt="Ruoxuan Yang" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Ruoxuan Yang</h3>
+          <p class="text-xs font-medium text-stone-500">PhD student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Human-computer interaction</p>
+          <div class="mt-2 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest text-stone-400"><a href="https://dl.acm.org/doi/full/10.1145/3772318.3791174">WoZ</a></div>
+        </div>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/yunuo.jpg" alt="Yunuo Hu" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Yunuo Hu</h3>
-        <p class="text-sm text-stone-500">MPhil student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Large language models. B.S., Tongji University.</p>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/xingkun.jpg" alt="Xingkun Yin" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Xingkun Yin</h3>
+          <p class="text-xs font-medium text-stone-500">PhD student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Large language models</p>
+          <div class="mt-2 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest text-stone-400"><a href="https://arxiv.org/pdf/2601.19249">GLOVE</a><a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a></div>
+        </div>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/junhao.jpg" alt="Junhao He" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Junhao He</h3>
-        <p class="text-sm text-stone-500">MPhil student, starting 2026</p>
-        <p class="text-sm text-stone-600 mt-2">LLM infrastructure. B.S., The University of Hong Kong.</p>
-        <div class="flex flex-wrap gap-2 mt-3 text-xs font-bold text-stone-400 uppercase tracking-widest"><a href="https://arxiv.org/pdf/2601.21622">StarSD</a></div>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/shiyuan.jpg" alt="Shiyuan Zhang" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Shiyuan Zhang</h3>
+          <p class="text-xs font-medium text-stone-500">PhD student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Mobile traffic, LLM, diffusion</p>
+          <div class="mt-2 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest text-stone-400"><a href="https://arxiv.org/pdf/2603.13839">NetSpatial</a><a href="https://arxiv.org/pdf/2601.06867">U-MASK</a></div>
+        </div>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/yilai.jpg" alt="Yilai Liu" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Yilai Liu</h3>
-        <p class="text-sm text-stone-500">MPhil student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">LLM, diffusion model. B.S., Beijing University of Posts and Telecommunications.</p>
+      <div class="md:col-span-2 lg:col-span-3 flex items-center gap-3 pt-6">
+        <span class="h-px flex-1 bg-emerald-100"></span>
+        <h3 class="text-xs font-bold uppercase tracking-[0.22em] text-emerald-800">MPhil Students</h3>
+        <span class="h-px flex-1 bg-emerald-100"></span>
       </div>
 
-      <div class="group bg-stone-50 border border-stone-200 rounded-2xl p-5 hover:bg-white hover:shadow-lg transition-all">
-        <img src="/images/Members/wenqi.jpg" alt="Wenqi Pei" class="w-full aspect-square object-cover rounded-xl grayscale group-hover:grayscale-0 transition-all mb-4">
-        <h3 class="text-lg font-bold text-stone-900">Wenqi Pei</h3>
-        <p class="text-sm text-stone-500">MPhil student, starting 2025</p>
-        <p class="text-sm text-stone-600 mt-2">Large language models. B.S., National University of Singapore.</p>
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/yunuo.jpg" alt="Yunuo Hu" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Yunuo Hu</h3>
+          <p class="text-xs font-medium text-stone-500">MPhil student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Large language models</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/junhao.jpg" alt="Junhao He" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Junhao He</h3>
+          <p class="text-xs font-medium text-stone-500">MPhil student, 2026</p>
+          <p class="mt-1 text-xs text-stone-600">LLM infrastructure</p>
+          <div class="mt-2 flex flex-wrap gap-2 text-[10px] font-bold uppercase tracking-widest text-stone-400"><a href="https://arxiv.org/pdf/2601.21622">StarSD</a></div>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/yilai.jpg" alt="Yilai Liu" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Yilai Liu</h3>
+          <p class="text-xs font-medium text-stone-500">MPhil student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">LLM, diffusion model</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center rounded-2xl border border-stone-200 bg-stone-50 p-4 hover:bg-white hover:shadow-md transition-all">
+        <img src="/images/Members/wenqi.jpg" alt="Wenqi Pei" class="w-20 h-20 rounded-xl object-cover flex-none">
+        <div class="min-w-0">
+          <h3 class="text-base font-bold text-stone-900">Wenqi Pei</h3>
+          <p class="text-xs font-medium text-stone-500">MPhil student, 2025</p>
+          <p class="mt-1 text-xs text-stone-600">Large language models</p>
+        </div>
       </div>
     </div>
   </div>
@@ -474,7 +558,7 @@ redirect_from:
         <div class="text-sm text-stone-500">
           <p class="mb-2 font-medium">Useful Links:</p>
           <div class="flex flex-wrap gap-4">
-            <a href="/nice/" class="hover:text-stone-900 underline">NICE Lab Page</a>
+            <a href="#nice-lab" class="hover:text-stone-900 underline">NICE Lab</a>
             <a href="#apply" class="hover:text-stone-900 underline">Application Details</a>
             <a href="https://github.com/NICE-HKU" class="hover:text-stone-900 underline">NICE GitHub</a>
           </div>

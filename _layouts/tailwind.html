@@ -36,17 +36,23 @@
   </script>
   <style>
     ::-webkit-scrollbar { width: 8px; }
-    ::-webkit-scrollbar-track { background: #fdf8f6; }
-    ::-webkit-scrollbar-thumb { background: #d6d3d1; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #a8a29e; }
+    ::-webkit-scrollbar-track { background: #f8fafc; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
     .image-swap { position: relative; overflow: hidden; }
     .image-swap img { transition: opacity 0.5s ease-in-out; }
     .image-swap .hover-img { position: absolute; top: 0; left: 0; opacity: 0; }
     .image-swap:hover .base-img { opacity: 0; }
     .image-swap:hover .hover-img { opacity: 1; }
+    .line-clamp-3 {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
   </style>
 </head>
-<body class="bg-coffee-50 text-stone-800 antialiased font-sans selection:bg-stone-200 selection:text-stone-900">
+<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-cyan-200 selection:text-slate-950">
   {{ content }}
 </body>
 </html>

@@ -1,10 +1,10 @@
 # main links links
 main:
 
-  - title: "NICE Lab"
-    url: /nice/
+  - title: "About me"
+    url: /
 
-  - title: " "
-    url: /blog/
+  - title: "Nice Lab"
+    url: /#nice-lab
 
         
