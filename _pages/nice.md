@@ -107,7 +107,8 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: M.S., Boston University
       <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-		🌐 2026: <a href="https://arxiv.org/pdf/2601.19249">GLOVE</a>
+		🌐 2026: <a href="https://arxiv.org/pdf/2606.13204">CoDeR</a>
+🌐 2026: <a href="https://arxiv.org/pdf/2601.19249">GLOVE</a>
         🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a>
 	🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
       </div>
