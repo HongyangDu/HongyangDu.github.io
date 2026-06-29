@@ -50,7 +50,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/enhan.jpg' width="150">
     </td>
     <td>
-      <strong>Enhan Li</strong> (Email: lienhan_eee@connect.hku.hk)<br>
+      <strong>Enhan Li</strong> (Email: lienhan_eee AT connect.hku.hk)<br>
       Starting 2025<br>
       Research interests: Networking system<br>
       Prior Degree: M.S., University of Chinese Academy of Sciences
@@ -69,7 +69,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/zongxi.jpg' width="150">
     </td>
     <td>
-      <strong>Zongxi Liu</strong> (Email: 1754627980@qq.com)<br>
+      <strong>Zongxi Liu</strong> (Email: 1754627980 AT qq.com)<br>
       Starting 2025<br>
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
@@ -83,7 +83,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/ruoxuan.jpg' width="150">
     </td>
     <td>
-      <strong>Ruoxuan Yang</strong> (Email: rosheenanea@outlook.com)<br>
+      <strong>Ruoxuan Yang</strong> (Email: rosheenanea AT outlook.com)<br>
       Starting 2025<br>
       Research interests: Human–computer interaction<br>
       Prior Degree: M.S., Tsinghua University
@@ -101,7 +101,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/xingkun.jpg' width="150">
     </td>
     <td>
-      <strong>Xingkun Yin</strong> (Email: xingkunyin@hotmail.com)<br>
+      <strong>Xingkun Yin</strong> (Email: xingkunyin AT hotmail.com)<br>
       Starting 2025<br>
       Research interests: large language models<br>
       Prior Degree: M.S., Boston University
@@ -122,7 +122,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/shiyuan.jpg' width="150">
     </td>
     <td>
-      <strong>Shiyuan Zhang</strong> (Email: 15840095453@163.com)<br>
+      <strong>Shiyuan Zhang</strong> (Email: 15840095453 AT 163.com)<br>
       Starting 2025<br>
       Research interests: Mobile traffic prediction, LLM, diffusion model<br>
       Prior Degree: M.S., Tsinghua University
@@ -144,7 +144,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/yunuo.jpg' width="150">
     </td>
     <td>
-      <strong>Yunuo Hu</strong> (Email: xiran_111@qq.com)<br>
+      <strong>Yunuo Hu</strong> (Email: xiran_111 AT qq.com)<br>
       Starting 2025<br>
       Research interests: LLM<br>
       Prior Degree: B.S., Tongji University
@@ -158,7 +158,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/junhao.jpg' width="150">
     </td>
     <td>
-      <strong>Junhao He</strong> (Email: hjh2003@connect.hku.hk)<br>
+      <strong>Junhao He</strong> (Email: hjh2003 AT connect.hku.hk)<br>
       Starting 2026<br>
       Research interests: LLM infra<br>
       Prior Degree: B.S., The University of Hong Kong <a href="https://tl.hku.hk/urfp/">(URFP)</a>
@@ -178,7 +178,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/yilai.jpg' width="150">
     </td>
     <td>
-      <strong>Yilai Liu</strong> (Email: 2369475677@qq.com)<br>
+      <strong>Yilai Liu</strong> (Email: 2369475677 AT qq.com)<br>
       Starting 2025<br>
       Research interests: LLM, diffusion model<br>
       Prior Degree: B.S., Beijing University of Posts and Telecommunications
@@ -192,7 +192,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/wenqi.jpg' width="150">
     </td>
     <td>
-      <strong>Wenqi Pei</strong> (Email: wenqipei@foxmail.com)<br>
+      <strong>Wenqi Pei</strong> (Email: wenqipei AT foxmail.com)<br>
       Starting 2025<br>
       Research interests: LLM<br>
       Prior Degree: B.S., National University of Singapore
@@ -216,7 +216,7 @@ Our research is highly interdisciplinary, involving collaboration with experts f
 ## How to apply
 
 If you're interested in joining NICE Lab or would like more information, please contact me:
-- Email: duhy@hku.hk
+- Email: duhy AT hku.hk
 - Subject Line: PhD/xx Application-University-Name
 - Attachments: CV, undergraduate transcripts, relevant publications, and research statement (optional; one page discussing your research background and its relevance to my work)
 
