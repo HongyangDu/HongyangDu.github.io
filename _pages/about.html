@@ -903,22 +903,49 @@ redirect_from:
   }
 }
 
-.projects-page .project-video{
-  margin: 14px 0 18px 0;
-  border-radius: 14px;
-  overflow: hidden;
-  background: #f8faf9;
-  border: 1px solid rgba(0,0,0,0.06);
+.projects-page .project-video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 14px 0 22px 0;
 }
 
-.projects-page .project-video video{
-  width: 88%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  max-height: 360px;
-  object-fit: contain;
+.projects-page .project-video-card {
+  background: #f8faf9;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 10px;
+  overflow: hidden;
 }
+
+.projects-page .project-video-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #123f36;
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.projects-page .project-video-card video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #000;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .projects-page .project-video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-page .project-video-card video {
+    max-height: none;
+  }
+}
+
 
 
 
@@ -1038,16 +1065,32 @@ redirect_from:
 		</p>
 		</div>
 		
-		<div class="project-video">
-		<video
-		controls
-		preload="metadata"
-		playsinline
-		muted
-		>
-		<source src="/assets/videos/urban_spatial_intro.mp4" type="video/mp4">
+		<div class="project-video-grid">
+
+		<div class="project-video-card">
+		<div class="project-video-title">Base Station Planning</div>
+		<video controls preload="metadata" playsinline muted>
+		<source src="/assets/videos/video_1.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 		</video>
+		</div>
+
+		<div class="project-video-card">
+		<div class="project-video-title">Million-Scale User Simulation</div>
+		<video controls preload="metadata" playsinline muted>
+		<source src="/assets/videos/video_2.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+		</div>
+
+		<div class="project-video-card">
+		<div class="project-video-title">City-Scale Channel Simulation</div>
+		<video controls preload="metadata" playsinline muted>
+		<source src="/assets/videos/video_3.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+		</div>
+
 		</div>
 		
 
