@@ -68,9 +68,9 @@
   badge: "NEW"
   project: "env_spatial_urban"
 
-- title: "ReaCritic: Large Reasoning Transformer-based DRL Critic-model Scaling For Heterogeneous Networks"
+- title: "ReaCritic: Reasoning Transformer-based DRL Critic-model Scaling For Wireless Networks"
   authors: "Feiran You, Hongyang Du*"
-  venue: "submitted to IEEE Transactions on Mobile Computing, major revision, 2025"
+  venue: "IEEE Transactions on Mobile Computing, 2026"
   arxiv: "https://arxiv.org/abs/2505.10992"
   pdf: "https://arxiv.org/pdf/2505.10992.pdf"
   image: "./images/F0.png"
