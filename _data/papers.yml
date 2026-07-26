@@ -78,7 +78,7 @@
   arxiv: "https://arxiv.org/abs/2607.19215"
   pdf: "https://arxiv.org/pdf/2607.19215"
   image: "./images/haco.png"
-  summary: "A runtime control scheme that treats role request as a reliability-constrained selection problem over candidate agent instances, each coupling a role type, an LLM, and a concrete execution environment."
+  summary: "HACO treats role request as a reliability-constrained selection problem over candidate agent instances, each coupling a role type, an LLM, and a concrete execution environment."
   category: "Network for AI"
   badge: "NEW"
   project: "infra_llm_network"
