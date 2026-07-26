@@ -809,7 +809,52 @@ redirect_from:
 		
 		
 		
+/* Scrollable detailed paper list */
+.projects-page .works-list-scroll {
+  max-height: 930px;          /* 当前尺寸下大约显示 6 篇 */
+  overflow-y: auto;
+  overflow-x: hidden;
 
+  margin-top: 10px;
+  padding-right: 8px;
+
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(12, 59, 50, 0.32) transparent;
+}
+
+/* Chrome, Edge and Safari */
+.projects-page .works-list-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.projects-page .works-list-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.projects-page .works-list-scroll::-webkit-scrollbar-thumb {
+  background: rgba(12, 59, 50, 0.24);
+  border-radius: 8px;
+}
+
+.projects-page .works-list-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(12, 59, 50, 0.42);
+}
+
+/* Remove redundant spacing from the first paper */
+.projects-page .works-list-scroll .work-table:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 960px) {
+  .projects-page .works-list-scroll {
+    max-height: 75vh;
+    padding-right: 4px;
+  }
+}
 
 .awards{
   list-style:none;
@@ -1006,7 +1051,8 @@ redirect_from:
 		{% endfor %}
 		</div>
 		</div>
-
+		
+		<div class="works-list-scroll">
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
 		<table class="work-table">
@@ -1051,6 +1097,7 @@ redirect_from:
 		</tr>
 		</table>
 		{% endfor %}
+		</div>
 		</div>
 
 		<!-- Wireless Spatial Intelligence： AI for Wireless Urban Ecosystems -->
@@ -1117,7 +1164,8 @@ redirect_from:
 		{% endfor %}
 		</div>
 		</div>
-
+		
+		<div class="project-block">
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
 		<table class="work-table">
@@ -1163,16 +1211,17 @@ redirect_from:
 		</table>
 		{% endfor %}
 		</div>
+		</div>
 
 		<!-- Agentic AI: Reliable Task Execution Mechanism -->
 		<div class="project-block" id="proj-exec">
 		<div class="project-head">
 		<div class="project-title">
-		<span class="dim">Agentic Intelligence</span>:
+		<span class="dim">Executable Intelligence</span>:
 		<span>Reliable Task-Oriented AI Systems</span>
 		</div>
 		<p class="project-one-liner">
-		We design mechanisms that make agentic systems reliably executable, using verification, memory realignment, and experience reuse to stabilize long-horizon task completion.
+		We design mechanisms that make intelligent systems reliably executable, using verification, memory realignment, and experience reuse to stabilize long-horizon task completion.
 		</p>
 		</div>
 
@@ -1199,6 +1248,7 @@ redirect_from:
 		</div>
 		</div>
 
+		<div class="project-block">
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
 		<table class="work-table">
@@ -1243,6 +1293,7 @@ redirect_from:
 		</tr>
 		</table>
 		{% endfor %}
+		</div>
 		</div>
 
 		<!-- Resilient Intelligence: Intelligent Networks across Complex Scenarios -->
@@ -1279,7 +1330,8 @@ redirect_from:
 		{% endfor %}
 		</div>
 		</div>
-
+		
+		<div class="project-block">
 		{% for paper in proj_papers %}
 		<div id="paper-{{ proj }}-{{ forloop.index }}" style="position: relative; top: -80px;"></div>
 		<table class="work-table">
@@ -1319,6 +1371,8 @@ redirect_from:
 		<span class="paper-badge">{{ paper.badge }}</span>
 		{% endif %}
 		</div>
+		</div>
+		
 		</td>
 
 		</tr>
