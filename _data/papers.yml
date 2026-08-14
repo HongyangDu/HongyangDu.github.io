@@ -70,7 +70,16 @@
   
   
   
-  
+- title: "CROP: Task Relevance via Counterfactuals for Selective On-Policy Distillation"
+  authors: "Enhan Li, Junhao He, Hongyang Du*"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2608.13387"
+  pdf: "https://arxiv.org/pdf/2608.13387"
+  image: "./images/crop.png"
+  summary: "Counterfactual Relevance for On-Policy Distillation operationalizes task relevance through a paraphrase-calibrated counterfactual sensitivity margin."
+  category: "Network for AI"
+  badge: "NEW"
+  project: "infra_llm_network"
 
 - title: "HACO: Hedged Agent Computing for Reliable LLM Systems"
   authors: "Enhan Li, Hongyang Du*"
