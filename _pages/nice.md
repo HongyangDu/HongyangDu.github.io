@@ -207,6 +207,25 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
+### Alumni
+<div style="margin-bottom:15px; padding:12px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+  <strong>Peigen Ye</strong><br>
+  Visiting PhD Student, 2025–2026<br>
+  Home Institution: Sun Yat-sen University<br>
+  Research interests: Semantic Communications<br>
+</div>
+
+<div style="margin-bottom:15px; padding:12px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+  <strong>Weiqiang Jin</strong><br>
+  Visiting PhD Student, 2024–2025<br>
+  Home Institution: Xi'an Jiaotong University<br>
+  Research interests: Reinforcement Learning, LLM<br>
+  <div style="margin-top:8px;">
+    <strong>Highlights:</strong><br>
+    🌐 2026: <a href="">HybridThink</a><br>
+	🌐 2026: <a href="">Soft Tokens Are Off-Manifold</a><br>
+  </div>
+</div>
 
 
 ## Expectations
