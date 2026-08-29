@@ -150,6 +150,10 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: LLM<br>
       Prior Degree: B.S., Tongji University
+      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2026: <a href="https://www.preprints.org/frontend/manuscript/41f181a78cc8906a3befeb67511ab624/download_pub">Tool-Using Agent Survey</a>
+      </div>
     </td>
   </tr>
 </table>
@@ -203,6 +207,10 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: LLM<br>
       Prior Degree: B.S., National University of Singapore
+      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+        <strong>Highlights:</strong><br>
+        🌐 2026: <a href="">TempCloze</a><br>
+      </div>
     </td>
   </tr>
 </table>
