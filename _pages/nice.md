@@ -47,6 +47,20 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 <table>
   <tr>
     <td width="160">
+      <img src='/images/Members/yuwei.jpg' width="150">
+    </td>
+    <td>
+      <strong>Yuwei Du</strong> (Email: hiimingwei AT gmail.com)<br>
+      Starting 2026<br>
+      Research interests: LLM agents, Embodied AI, Urban Science Prior<br>
+      Prior Degree: M.S., Tsinghua University
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
       <img src='/images/Members/enhan.jpg' width="150">
     </td>
     <td>
@@ -75,6 +89,21 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/jiabao.jpg' width="150">
+    </td>
+    <td>
+      <strong>Jiabao Wang</strong> (Email: 1411783572 AT qq.com)<br>
+      Starting 2026<br>
+      Research interests: VLA, Autonomous Driving<br>
+      Prior Degree: M.S., University of Chinese Academy of Sciences
     </td>
   </tr>
 </table>
@@ -137,6 +166,23 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
     </td>
   </tr>
 </table>
+
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/jiayu.jpg' width="150">
+    </td>
+    <td>
+      <strong>Jiayu Zhang</strong> (Email: 1716432475 AT qq.com)<br>
+      Starting 2026<br>
+      Research interests: LLM Knowledge Editing, Causal Learning<br>
+      Prior Degree: M.S., Peking University
+    </td>
+  </tr>
+</table>
+
+
 
 ### MPhil Students
 
@@ -211,6 +257,34 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="">TempCloze</a><br>
       </div>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/jinghao.jpg' width="150">
+    </td>
+    <td>
+      <strong>Jinghao Zhou</strong> ((Email: wy1349585703 AT 163.com)<br>
+      Starting 2026<br>
+      Research interests: LLM<br>
+      Prior Degree: B.S., Tsinghua University
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="160">
+      <img src='/images/Members/baihan.jpg' width="150">
+    </td>
+    <td>
+      <strong>Baihan Zhang</strong> ((Email: zhang_baihan AT 163.com)<br>
+      Starting 2026<br>
+      Research interests: Intelligent sensing, wireless communications<br>
+      Prior Degree: B.Eng., Harbin Engineering University
     </td>
   </tr>
 </table>
