@@ -93,7 +93,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         🌐 2025: <a href="https://arxiv.org/abs/2510.18550">JAUNT</a><br>
       </div>
       <div class="research-box">
-        <strong>Research in Practice:</strong><br>
+        <strong>Research Translation:</strong><br>
         🛠️ Core Researcher of project <i>''Generative Collaboration for AI Business Experience''</i>, HK$1.06M, Oct 2025–Oct 2026
       </div>
     </td>
@@ -111,7 +111,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
       <div class="research-box">
-        <strong>Research in Practice:</strong><br>
+        <strong>Research Translation:</strong><br>
         🛠️ Core Researcher of project <i>''Communication Network Traffic Foundation Model''</i>, HK$1.64M, Jun 2025–May 2026
       </div>
     </td>
@@ -169,7 +169,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
       </div>
       <div class="research-box">
-        <strong>Research in Practice:</strong><br>
+        <strong>Research Translation:</strong><br>
         🛠️ Core Researcher of project <i>''Supernode Cloud-based Multimodal Inference Acceleration Technology''</i>, HK$1.30M, Dec 2025–Nov 2026
       </div>
     </td>
