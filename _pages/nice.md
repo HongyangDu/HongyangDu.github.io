@@ -7,8 +7,47 @@ author_profile: true
 #   # - /nice/
 #   - /nice.html
 ---
+<style>
+/* Industry research translation badge */
+.badge-industry {
+  display: inline-block;
+  padding: 2px 7px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: #fff1e6;
+  color: #b65f17;
+  font-size: 0.88em;
+  font-weight: 600;
+}
 
-<img src='/images/NICE.png' width = "500"><br/>
+/* Academic grant development badge */
+.badge-academic {
+  display: inline-block;
+  padding: 2px 7px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: #eaf6ee;
+  color: #2e7d4f;
+  font-size: 0.88em;
+  font-weight: 600;
+}
+
+/* Project information */
+.project-info {
+  margin-top: 3px;
+  line-height: 1.45;
+}
+
+.project-meta {
+  font-size: 0.90em;
+  color: #666;
+}
+</style>
+
+<img src='/images/NICE.png' width="500"><br/>
+
+
+
 
 ## Research Aim
 
@@ -74,6 +113,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         🌐 2026: <a href="https://arxiv.org/abs/2607.19215">HACO</a>
         🌐 2025: <a href="https://arxiv.org/abs/2510.13467">NetMCP</a>
 	🌐 2025: <a href="https://arxiv.org/abs/2510.18550">JAUNT</a><br>
+<span class="badge-industry">Research in Practice</span>
+<div class="project-info">
+  <strong>Core Researcher</strong> · <i>Generative Collaboration for AI Business Experience</i><br>
+  <span class="project-meta">HK$1.06M · Oct 2025–Oct 2026</span>
+</div>
       </div>
     </td>
   </tr>
@@ -89,6 +133,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
+<span class="badge-industry">Research in Practice</span>
+<div class="project-info">
+  <strong>Core Researcher</strong> · <i>Communication Network Traffic Foundation Model</i><br>
+  <span class="project-meta">HK$1.64M · Jun 2025–May 2026</span>
+</div>
     </td>
   </tr>
 </table>
@@ -143,6 +192,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a>
 	🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
       </div>
+<span class="badge-industry">Research in Practice</span>
+<div class="project-info">
+<strong>Core Researcher</strong> · <i>Supernode Cloud-based Multimodal Inference Acceleration Technology</i><br>
+<span class="project-meta">HK$1.30M · Dec 2025–Nov 2026</span>
+</div>
     </td>
   </tr>
 </table>
@@ -163,6 +217,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 		🌐 2026: <a href="https://arxiv.org/pdf/2601.06867">U-MASK</a>
         🌐 2025: <a href="https://arxiv.org/abs/2507.17795">LSDM</a><br>
       </div>
+<span class="badge-industry">Academic Research Development</span>
+<div class="project-info">
+<strong>Core Researcher</strong> · <i>Generative Perception of Spatial Semantics and Network Collaborative Optimization</i><br>
+<span class="project-meta">RMB 300K · Jan 2027–Dec 2029</span>
+</div>
     </td>
   </tr>
 </table>
