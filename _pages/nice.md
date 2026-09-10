@@ -8,34 +8,12 @@ author_profile: true
 #   - /nice.html
 ---
 <style>
-/* Industry research translation badge */
-.badge-industry {
-  display: inline-block;
-  padding: 2px 7px;
-  margin-top: 5px;
-  border-radius: 10px;
-  background-color: #fff1e6;
-  color: #b65f17;
-  font-size: 0.88em;
-  font-weight: 600;
-}
-
-/* Academic grant development badge */
-.badge-academic {
-  display: inline-block;
-  padding: 2px 7px;
-  margin-top: 5px;
-  border-radius: 10px;
-  background-color: #eaf6ee;
-  color: #2e7d4f;
-  font-size: 0.88em;
-  font-weight: 600;
-}
-
-/* Project information */
-.project-info {
-  margin-top: 3px;
-  line-height: 1.45;
+.research-box {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
 }
 
 .project-meta {
@@ -68,11 +46,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Postdoctoral researcher, since 03/2025<br>
       Research interests: Edge intelligence, reinforcement learning<br>
       Prior Degree: Ph.D., The University of Sydney
-	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+    <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
         🌐 2025: <a href="https://arxiv.org/pdf/2505.10992.pdf">ReaCritic</a>
         🌐 2025: <a href="https://arxiv.org/pdf/2503.07433.pdf">DRESS</a>
-	🌐 2025: <a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a><br>
+  🌐 2025: <a href="https://arxiv.org/pdf/2412.03621v4">JPPO++</a><br>
       </div>
     </td>
   </tr>
@@ -112,12 +90,12 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         🌐 2026: <a href="https://arxiv.org/abs/2608.13387">CROP</a>
         🌐 2026: <a href="https://arxiv.org/abs/2607.19215">HACO</a>
         🌐 2025: <a href="https://arxiv.org/abs/2510.13467">NetMCP</a>
-	🌐 2025: <a href="https://arxiv.org/abs/2510.18550">JAUNT</a><br>
-<span class="badge-industry">Research in Practice</span>
-<div class="project-info">
-  <strong>Core Researcher</strong> · <i>Generative Collaboration for AI Business Experience</i><br>
-  <span class="project-meta">HK$1.06M · Oct 2025–Oct 2026</span>
-</div>
+        🌐 2025: <a href="https://arxiv.org/abs/2510.18550">JAUNT</a><br>
+      </div>
+      <div class="research-box">
+        <strong>Research in Practice:</strong><br>
+        <strong>Core Researcher</strong> · <i>Generative Collaboration for AI Business Experience</i><br>
+        <span class="project-meta">HK$1.06M · Oct 2025–Oct 2026</span>
       </div>
     </td>
   </tr>
@@ -133,11 +111,11 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
-<span class="badge-industry">Research in Practice</span>
-<div class="project-info">
-  <strong>Core Researcher</strong> · <i>Communication Network Traffic Foundation Model</i><br>
-  <span class="project-meta">HK$1.64M · Jun 2025–May 2026</span>
-</div>
+      <div class="research-box">
+        <strong>Research in Practice:</strong><br>
+        <strong>Core Researcher</strong> · <i>Communication Network Traffic Foundation Model</i><br>
+        <span class="project-meta">HK$1.64M · Jun 2025–May 2026</span>
+      </div>
     </td>
   </tr>
 </table>
@@ -167,7 +145,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Human–computer interaction<br>
       Prior Degree: M.S., Tsinghua University
-	<div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://dl.acm.org/doi/full/10.1145/3772318.3791174">WoZ</a>
       </div>
@@ -187,16 +165,16 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: M.S., Boston University
       <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-		🌐 2026: <a href="https://arxiv.org/pdf/2606.13204">CoDeR</a>
+    🌐 2026: <a href="https://arxiv.org/pdf/2606.13204">CoDeR</a>
 🌐 2026: <a href="https://arxiv.org/pdf/2601.19249">GLOVE</a>
         🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a>
-	🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
+  🌐 2025: <a href="https://arxiv.org/abs/2509.18771">Exp-Scaling</a><br>
       </div>
-<span class="badge-industry">Research in Practice</span>
-<div class="project-info">
-<strong>Core Researcher</strong> · <i>Supernode Cloud-based Multimodal Inference Acceleration Technology</i><br>
-<span class="project-meta">HK$1.30M · Dec 2025–Nov 2026</span>
-</div>
+      <div class="research-box">
+        <strong>Research in Practice:</strong><br>
+        <strong>Core Researcher</strong> · <i>Supernode Cloud-based Multimodal Inference Acceleration Technology</i><br>
+        <span class="project-meta">HK$1.30M · Dec 2025–Nov 2026</span>
+      </div>
     </td>
   </tr>
 </table>
@@ -211,17 +189,17 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Mobile traffic prediction, LLM, diffusion model<br>
       Prior Degree: M.S., Tsinghua University
-	  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+    <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-		🌐 2026: <a href="https://arxiv.org/pdf/2603.13839">NetSpatial</a>
-		🌐 2026: <a href="https://arxiv.org/pdf/2601.06867">U-MASK</a>
+    🌐 2026: <a href="https://arxiv.org/pdf/2603.13839">NetSpatial</a>
+    🌐 2026: <a href="https://arxiv.org/pdf/2601.06867">U-MASK</a>
         🌐 2025: <a href="https://arxiv.org/abs/2507.17795">LSDM</a><br>
       </div>
-<span class="badge-industry">Academic Research Development</span>
-<div class="project-info">
-<strong>Core Researcher</strong> · <i>Generative Perception of Spatial Semantics and Network Collaborative Optimization</i><br>
-<span class="project-meta">RMB 300K · Jan 2027–Dec 2029</span>
-</div>
+      <div class="research-box">
+        <strong>Academic Research Development:</strong><br>
+        <strong>Core Researcher</strong> · <i>Generative Perception of Spatial Semantics and Network Collaborative Optimization</i><br>
+        <span class="project-meta">RMB 300K · Jan 2027–Dec 2029</span>
+      </div>
     </td>
   </tr>
 </table>
@@ -326,7 +304,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/jinghao.jpg' width="150">
     </td>
     <td>
-      <strong>Jinghao Zhou</strong> ((Email: wy1349585703 AT 163.com)<br>
+      <strong>Jinghao Zhou</strong> (Email: wy1349585703 AT 163.com)<br>
       Starting 2026<br>
       Research interests: LLM<br>
       Prior Degree: B.S., Tsinghua University
@@ -340,7 +318,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/baihan.jpg' width="150">
     </td>
     <td>
-      <strong>Baihan Zhang</strong> ((Email: zhang_baihan AT 163.com)<br>
+      <strong>Baihan Zhang</strong> (Email: zhang_baihan AT 163.com)<br>
       Starting 2026<br>
       Research interests: Intelligent sensing, wireless communications<br>
       Prior Degree: B.Eng., Harbin Engineering University
@@ -364,14 +342,14 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   <div style="margin-top:8px;">
     <strong>Highlights:</strong><br>
     🌐 2026: <a href="">HybridThink</a><br>
-	🌐 2026: <a href="">Soft Tokens Are Off-Manifold</a><br>
+  🌐 2026: <a href="">Soft Tokens Are Off-Manifold</a><br>
   </div>
 </div>
 
 
 ## Expectations
 
-Our research is highly interdisciplinary, involving collaboration with experts from AI, networking systems, human–computer interaction, and electrical engineering. Here's what we're looking for
+Our research is highly interdisciplinary, involving collaboration with experts from AI, networking systems, human–computer interaction, and electrical engineering. Here is what we are looking for
 
 - Passion for Learning: **Strong self-motivation and ability to quickly learn from new fields.**
 - Academic Foundation: Academic background in computer science, AI, electrical engineering, electronic information/communication engineering, mathematics, or related fields. Candidates with bachelor's degrees from <i>985 / QS Top 50 universities</i> or <i>211 / QS Top 80 universities + strong publication records</i> are encouraged due to HKU committee considerations.
@@ -382,7 +360,7 @@ Our research is highly interdisciplinary, involving collaboration with experts f
 
 ## How to apply
 
-If you're interested in joining NICE Lab or would like more information, please contact me:
+If you are interested in joining NICE Lab or would like more information, please contact me:
 - Email: duhy AT hku.hk
 - Subject Line: PhD/xx Application-University-Name
 - Attachments: CV, undergraduate transcripts, relevant publications, and research statement (optional; one page discussing your research background and its relevance to my work)
