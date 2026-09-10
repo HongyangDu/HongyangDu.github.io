@@ -94,8 +94,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       </div>
       <div class="research-box">
         <strong>Research in Practice:</strong><br>
-        <strong>Core Researcher</strong> · <i>Generative Collaboration for AI Business Experience</i><br>
-        <span class="project-meta">HK$1.06M · Oct 2025–Oct 2026</span>
+        Core Researcher · <i>``Generative Collaboration for AI Business Experience''</i>, HK$1.06M, Oct 2025–Oct 2026
       </div>
     </td>
   </tr>
@@ -113,8 +112,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: M.S., Nanjing University
       <div class="research-box">
         <strong>Research in Practice:</strong><br>
-        <strong>Core Researcher</strong> · <i>Communication Network Traffic Foundation Model</i><br>
-        <span class="project-meta">HK$1.64M · Jun 2025–May 2026</span>
+        Core Researcher · <i>``Communication Network Traffic Foundation Model''</i>, HK$1.64M, Jun 2025–May 2026
       </div>
     </td>
   </tr>
@@ -172,8 +170,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       </div>
       <div class="research-box">
         <strong>Research in Practice:</strong><br>
-        <strong>Core Researcher</strong> · <i>Supernode Cloud-based Multimodal Inference Acceleration Technology</i><br>
-        <span class="project-meta">HK$1.30M · Dec 2025–Nov 2026</span>
+        Core Researcher · <i>``Supernode Cloud-based Multimodal Inference Acceleration Technology''</i>, HK$1.30M · Dec 2025–Nov 2026
       </div>
     </td>
   </tr>
@@ -196,9 +193,8 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
         🌐 2025: <a href="https://arxiv.org/abs/2507.17795">LSDM</a><br>
       </div>
       <div class="research-box">
-        <strong>Academic Research Development:</strong><br>
-        <strong>Core Researcher</strong> · <i>Generative Perception of Spatial Semantics and Network Collaborative Optimization</i><br>
-        <span class="project-meta">RMB 300K · Jan 2027–Dec 2029</span>
+        <strong>Academic Development:</strong><br>
+        Core Researcher · <i>``Generative Perception of Spatial Semantics and Network Collaborative Optimization''</i>, RMB 300K， Jan 2027–Dec 2029
       </div>
     </td>
   </tr>
