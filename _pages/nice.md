@@ -354,6 +354,96 @@ Our research is highly interdisciplinary, involving collaboration with experts f
 - Graduation Requirements: A PhD degree is just a ticket for your future career, so there is NO requirement for the NUMBER of papers. **Instead, the graduation requirement is for us to work together to help you find a satisfactory job, which marks the success of our collaborative journey.** 
 
 
+  <!-- =========================
+         Special Openings
+         ========================= -->
+
+    <style>
+      .special-openings {
+        margin-top: 1.8rem;
+        padding: 18px 20px;
+        border: 1px solid var(--border-color, #d5d0c7);
+        border-radius: 16px;
+        background: #ffffff;
+        box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+      }
+
+      .special-openings h2 {
+        margin-top: 0;
+        margin-bottom: 0.6rem;
+        color: var(--primary-blue, #0c3b32);
+      }
+
+      .special-openings .opening-note {
+        margin-bottom: 1.2rem;
+        color: var(--text-light, #4b5563);
+      }
+
+      .special-opening-card {
+        border-left: 5px solid var(--primary-green, #5b8f78);
+        background: var(--soft-green, #f3f6f4);
+        border-radius: 12px;
+        padding: 14px 16px;
+        margin: 14px 0;
+      }
+
+      .special-opening-card h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: var(--primary-blue, #0c3b32);
+      }
+
+      .special-opening-card p {
+        margin: 0.45rem 0;
+      }
+
+      .special-opening-card ul {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+      }
+
+      .special-opening-card li {
+        margin-bottom: 0.35rem;
+      }
+
+      .opening-tag {
+        display: inline-block;
+        margin-bottom: 0.4rem;
+        padding: 3px 9px;
+        border-radius: 999px;
+        border: 1px solid rgba(204,85,0,0.35);
+        color: #CC5500;
+        font-size: 0.78rem;
+        font-weight: 600;
+      }
+    </style>
+
+    <section id="special-openings" class="special-openings">
+      <h2>Special Openings</h2>
+      <p class="opening-note">
+        Several PhD and RA openings are currently available to support recently launched projects.
+		</p>
+	    <div class="special-opening-card">
+        <span class="opening-tag">PhD Opening</span>
+        <h3>Human-Computer Interaction for Advanced AI Systems</h3>
+        <p>
+          We are looking for motivated PhD applicants interested in Human-Computer Interaction (HCI), especially Human-AI Interaction. The focus is on new interaction paradigms enabled by large language models, AI agents, embodied intelligence, world models, machine entities, and intelligent environments, and on studying how people understand, use, collaborate with, and are affected by these systems.
+        </p>
+        <p>
+          We welcome applicants from diverse disciplinary backgrounds. Candidates are expected to have a genuine interest in HCI and some familiarity with AI/ML and/or empirical research methods. Prior experience in user-centered research would be an advantage.
+        </p>
+      </div>
+
+      <div class="special-opening-card">
+        <span class="opening-tag">Research Assistant / Developer</span>
+        <h3>Unreal Engine Developer for AI World-Model Platforms</h3>
+        <p>
+          We are looking for a Research Assistant or developer with experience in Unreal Engine to help build interactive simulation and world-model platforms for intelligent systems. The position combines research prototyping and engineering development, with a focus on real-time 3D environments, synthetic data generation, AI-driven agents, embodied intelligence, and network-aware digital twins.
+        </p>
+      </div>
+    </section>
+  
+  
 ## How to apply
 
 If you are interested in joining NICE Lab or would like more information, please contact me:
