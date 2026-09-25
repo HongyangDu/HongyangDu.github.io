@@ -1,3 +1,15 @@
+- title: "GLOVE: Global Verifier for LLM Memory-Environment Realignment"
+  authors: "Xingkun Yin, Hongyang Du*"
+  venue: "NeurIPS 2026"
+  arxiv: "https://arxiv.org/abs/2601.19249"
+  pdf: "https://arxiv.org/pdf/2601.19249"
+  code: "https://github.com/NICE-HKU/GLOVE"
+  image: "./images/glove.png"
+  summary: "A framework that introduces a new design dimension for LLM memory systems by establishing a relative notion of truth."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "exec_reliable_agent"
+
 - title: "SlotMem: Character-Addressable Internal Memory for Narrative Long Video Generation"
   authors: "Yilai Liu, Xin Zhang, Shiyuan Zhang, Hongyang Du*"
   venue: "Submitted"
@@ -30,19 +42,6 @@
   image: "./images/hcis.png"
   summary: "This paper presents the first systematic review of WoZ in HCI, drawing on 194 papers from SIGCHI venues to identify ten application domains, five wizard control types, eight motivations, and five categories of concerns."
   category: "AI for Network"
-  badge: "NEW"
-  project: "exec_reliable_agent"
-  
-- title: "GLOVE: Global Verifier for LLM Memory-Environment Realignment"
-  authors: "Xingkun Yin, Hongyang Du*"
-  venue: "Submitted"
-  arxiv: "https://arxiv.org/abs/2601.19249"
-  pdf: "https://arxiv.org/pdf/2601.19249"
-  code: "https://github.com/NICE-HKU/GLOVE"
-  image: "./images/glove.png"
-  summary: "A framework that introduces a new design dimension for LLM memory systems by establishing a relative notion of truth."
-  category: "AI for Network"
-  badge: "NEW"
   project: "exec_reliable_agent"
   
 - title: "Experience Scaling: Post-Deployment Evolution For Large Language Models"
@@ -69,7 +68,18 @@
   
   
   
-  
+
+- title: "HACO: Hedged Agent Computing for Reliable LLM Systems"
+  authors: "Enhan Li, Hongyang Du*"
+  venue: "NeurIPS 2026"
+  arxiv: "https://arxiv.org/abs/2607.19215"
+  pdf: "https://arxiv.org/pdf/2607.19215"
+  image: "./images/haco.png"
+  summary: "HACO treats role request as a reliability-constrained selection problem over candidate agent instances, each coupling a role type, an LLM, and a concrete execution environment."
+  category: "Network for AI"
+  badge: "NEW"
+  project: "infra_llm_network"
+
 - title: "CROP: Task Relevance via Counterfactuals for Selective On-Policy Distillation"
   authors: "Enhan Li, Junhao He, Hongyang Du*"
   venue: "Submitted"
@@ -81,20 +91,11 @@
   badge: "NEW"
   project: "infra_llm_network"
 
-- title: "HACO: Hedged Agent Computing for Reliable LLM Systems"
-  authors: "Enhan Li, Hongyang Du*"
-  venue: "Submitted"
-  arxiv: "https://arxiv.org/abs/2607.19215"
-  pdf: "https://arxiv.org/pdf/2607.19215"
-  image: "./images/haco.png"
-  summary: "HACO treats role request as a reliability-constrained selection problem over candidate agent instances, each coupling a role type, an LLM, and a concrete execution environment."
-  category: "Network for AI"
-  badge: "NEW"
-  project: "infra_llm_network"
+
   
 - title: "MORES: Mobile Reasoning-as-a-Service via Distributed LLM Inference-Time Scaling"
   authors: "Guanchen Liu, Hongyang Du∗ , Kaibin Huang"
-  venue: "Submitted"
+  venue: "IEEE TMC, Major revision"
   arxiv: "https://arxiv.org/abs/2607.08116"
   pdf: "https://arxiv.org/pdf/2607.08116"
   code: "https://github.com/NICE-HKU/MORES"
