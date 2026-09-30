@@ -157,12 +157,13 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       <img src='/images/Members/xingkun.jpg' width="150">
     </td>
     <td>
-      <strong>Xingkun Yin</strong> (Email: xingkunyin AT hotmail.com)<br>
+      <strong><a href="https://troyyxk.github.io/">Xingkun Yin</a></strong> (Email: xingkunyin AT hotmail.com)<br>
       Starting 2025<br>
       Research interests: large language models<br>
       Prior Degree: M.S., Boston University
       <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
+		🌐 2026: <a href="https://arxiv.org/pdf/2609.32420">Carnator</a>
     🌐 2026: <a href="https://arxiv.org/pdf/2606.13204">CoDeR</a>
 🌐 2026: <a href="https://arxiv.org/pdf/2601.19249">GLOVE</a>
         🌐 2025: <a href="https://arxiv.org/pdf/2509.08400">Ubi-Intell</a>
@@ -249,7 +250,8 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: B.S., The University of Hong Kong <a href="https://tl.hku.hk/urfp/">(URFP)</a>
 <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-        🌐 2026: <a href="https://arxiv.org/pdf/2601.21622">StarSD</a><br>
+        🌐 2026: <a href="https://arxiv.org/pdf/2609.29364">NebulaSD</a>
+		🌐 2026: <a href="https://arxiv.org/pdf/2601.21622">StarSD</a><br>
       </div>
     </td>
   </tr>
@@ -288,7 +290,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: B.S., National University of Singapore
       <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
         <strong>Highlights:</strong><br>
-        🌐 2026: <a href="">TempCloze</a><br>
+        🌐 2026: <a href="https://arxiv.org/pdf/2609.01515">TempCloze</a><br>
       </div>
     </td>
   </tr>

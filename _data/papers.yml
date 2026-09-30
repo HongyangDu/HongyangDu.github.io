@@ -1,4 +1,15 @@
-- title: "GLOVE: Global Verifier for LLM Memory-Environment Realignment"
+- title: "Carnator: Fast Text-to-Video Generation with Generation-Native Compatibility-Guided Cross-Request Reuse"
+  authors: "Xingkun Yin, Xuebin Tang, Mingkun Xu, Hongyang Du*"
+  venue: "submitted"
+  arxiv: "https://arxiv.org/abs/2609.32420"
+  pdf: "https://arxiv.org/pdf/2609.32420"
+  image: "./images/Carnator.png"
+  summary: "A cross-request acceleration framework for text-to-video generation that uses generation-native compatibility signals to reuse latent trajectories and sparse attention computation."
+  category: "Network for AI"
+  badge: "NEW"
+  project: "exec_reliable_agent"
+  
+  - title: "GLOVE: Global Verifier for LLM Memory-Environment Realignment"
   authors: "Xingkun Yin, Hongyang Du*"
   venue: "NeurIPS 2026"
   arxiv: "https://arxiv.org/abs/2601.19249"
@@ -69,6 +80,18 @@
   
   
 
+- title: "NebulaSD: Many-for-Many Speculative Decoding"
+  authors: "Junhao He, Hongyang Du*"
+  venue: "Preprint"
+  arxiv: "https://arxiv.org/abs/2609.29364"
+  pdf: "https://arxiv.org/pdf/2609.29364"
+  code: "https://github.com/NICE-HKU/NebulaSD"
+  image: "./images/m4n.png"
+  summary: "A many-for-many speculative decoding system that independently schedules draft and target workers for efficient resource sharing and scalable LLM serving."
+  category: "Network for AI"
+  badge: "NEW"
+  project: "infra_llm_network"
+  
 - title: "HACO: Hedged Agent Computing for Reliable LLM Systems"
   authors: "Enhan Li, Hongyang Du*"
   venue: "NeurIPS 2026"
@@ -90,8 +113,6 @@
   category: "Network for AI"
   badge: "NEW"
   project: "infra_llm_network"
-
-
   
 - title: "MORES: Mobile Reasoning-as-a-Service via Distributed LLM Inference-Time Scaling"
   authors: "Guanchen Liu, Hongyang Du∗ , Kaibin Huang"
@@ -165,7 +186,17 @@
   
   
   
-
+- title: "TempCloze: Can Video-LLMs Identify the Missing Middle?"
+  authors: "Wenqi Pei, Henry Hengyuan Zhao*, Yilai Liu*, Jiahao Meng, Han Chen, Ziyu Wang, Hongyang Du"
+  venue: "EMNLP 2026"
+  arxiv: "https://arxiv.org/abs/2609.01515"
+  pdf: "https://arxiv.org/pdf/2609.01515"
+  image: "./images/tempcloze.png"
+  summary: "A video cloze benchmark for evaluating visual temporal reasoning in Video-LLMs by identifying the missing middle between beginning and ending clips."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "env_spatial_urban"
+  
 - title: "MIDiff: Tackling Sparsity and Imbalance in Mobile Usage Generation via Multivariate-Imaging Diffusion"
   authors: "Yilai Liu, Shiyuan Zhang, Hongyang Du*"
   venue: "Submitted"
