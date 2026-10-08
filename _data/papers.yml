@@ -31,7 +31,6 @@
   image: "./images/SlotMem.png"
   summary: "A character-addressable internal memory framework for multi-character narrative long video generation."
   category: "AI for Network"
-  badge: "NEW"
   project: "exec_reliable_agent"
   
 - title: "CoDeR: Local Constraint-Compatible Retrieval Beyond Semantic Similarity"
@@ -42,7 +41,6 @@
   image: "./images/Coder.png"
   summary: "Information retrieval systems often use semantic similarity as a proxy for relevance, but this can fail for constraint-sensitive queries when topically similar documents support the opposite constraint direction. We define this as constraint-violating evidence exposure and propose CoDeR."
   category: "AI for Network"
-  badge: "NEW"
   project: "exec_reliable_agent"
   
 - title: "Mapping the Wizards' Path: A Systematic Review of Wizard-of-Oz in HCI"
@@ -63,7 +61,6 @@
   pdf: "https://arxiv.org/pdf/2509.18771"
   image: "./images/nmi.png"
   summary: "We propose experience scaling, a framework for continuous post-deployment evolution for LLMs through autonomous interaction with the environment and collaborative sharing of accumulated experience."
-  tag: "📑 The learning never stops."
   category: "Ongoing Work"
   project: "exec_reliable_agent"
 
@@ -112,7 +109,6 @@
   image: "./images/crop.png"
   summary: "Counterfactual Relevance for On-Policy Distillation operationalizes task relevance through a paraphrase-calibrated counterfactual sensitivity margin."
   category: "Network for AI"
-  badge: "NEW"
   project: "infra_llm_network"
   
 - title: "MORES: Mobile Reasoning-as-a-Service via Distributed LLM Inference-Time Scaling"
@@ -124,7 +120,6 @@
   image: "./images/MORES.png"
   summary: "MORES treats reasoning as a computational service accessible to edge devices over wireless networks."
   category: "Network for AI"
-  badge: "NEW"
   project: "infra_llm_network"
   
 - title: "StarSD: One-for-Many Speculative Decoding"
@@ -136,7 +131,6 @@
   image: "./images/starsd.png"
   summary: "A one-for-many speculative decoding framework that uses a single draft model to serve multiple target models across distributed nodes via a star topology."
   category: "Network for AI"
-  badge: "NEW"
   project: "infra_llm_network"
   
 - title: "NetMCP: Network-Aware Model Context Protocol Platform for LLM Capability Extension"
@@ -146,7 +140,6 @@
   pdf: "https://arxiv.org/pdf/2510.13467"
   image: "./images/netmcp.png"
   summary: "A platform for testing and developing MCP tool routing algorithms with real-time awareness of network and server conditions."
-  tag: "🔗 Testing intelligence under real networks."
   category: "Ongoing Work"
   project: "infra_llm_network"
   
@@ -157,7 +150,6 @@
   pdf: "https://arxiv.org/pdf/2510.18550"
   image: "./images/jaunt.png"
   summary: "We propose the JAUNT framework, which achieves dual-view alignment between semantic intent and network performance for LLM tool routing."
-  tag: "🚶 Intent travels through the network."
   category: "Ongoing Work"
   project: "infra_llm_network"
   
@@ -168,7 +160,6 @@
   pdf: "https://arxiv.org/pdf/2509.08400"
   image: "./images/npj.png"
   summary: "We introduce ubiquitous intelligence as a paradigm where LLMs evolve within wireless network-driven ecosystems."
-  tag: "🧬 When networks breathe, intelligence grows."
   category: "Network for AI"
   project: "infra_llm_network"
   
@@ -185,7 +176,16 @@
   
   
   
-  
+- title: "TwinJEPA: Action-Preferred Predictive Representations for Goal-Conditioned Control"
+  authors: "Feiran You, Hongyang Du*"
+  venue: "arXiv preprint, 2026"
+  arxiv: "https://arxiv.org/abs/2610.02922"
+  pdf: "https://arxiv.org/pdf/2610.02922"
+  image: "./images/TwinJEPA.png"
+  summary: "TwinJEPA enhances joint-embedding predictive architectures with action-preference learning for offline zero-shot control."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "exec_reliable_agent"
   
 - title: "TempCloze: Can Video-LLMs Identify the Missing Middle?"
   authors: "Wenqi Pei, Henry Hengyuan Zhao*, Yilai Liu*, Jiahao Meng, Han Chen, Ziyu Wang, Hongyang Du"
@@ -207,7 +207,6 @@
   image: "./images/MIDiff.png"
   summary: "A diffusion-based framework operating in an imaging space defined by Cross-Gramian Angular Sum Field."
   category: "AI for Network"
-  badge: "NEW"
   project: "env_spatial_urban"
 
 - title: "NetSpatial: Spatially Conditional Traffic Generation for Cellular Planning and Operations"
@@ -218,7 +217,6 @@
   image: "./images/nets.png"
   summary: "A unified system for cellular planning and operation through spatially conditional traffic generation."
   category: "AI for Network"
-  badge: "NEW"
   project: "env_spatial_urban"
   
 - title: "U-MASK: User-adaptive Spatio-Temporal Masking for Personalized Mobile AI Applications"
@@ -229,7 +227,6 @@
   image: "./images/umask.png"
   summary: "A user-adaptive spatiotemporal masking method that allocates evidence budgets based on user reliability and task sensitivity."
   category: "AI for Network"
-  badge: "NEW"
   project: "env_spatial_urban"
    
 - title: "LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction"
@@ -240,14 +237,23 @@
   code: "https://github.com/SoftYuaneR/LSDM"
   image: "./images/lsdmframe.jpg"
   summary: "An LLM-Enhanced Spatio-temporal Diffusion Model (LSDM) to achieve SOTA service-level mobile traffic prediction for individual users."
-  tag: "🗺️ Your traffic tells a story."
   category: "AI for Network"
   project: "env_spatial_urban"
   
   
   
   
-  
+
+- title: "FARM: Fundamental Agentic Reward Model For Multi-task Wireless Network Optimization"
+  authors: "Feiran You, Changxu Ni, Haozhe Ma, Jun Li, Hongyang Du*"
+  venue: "submitted"
+  arxiv: "https://arxiv.org/abs/2610.02947"
+  pdf: "https://arxiv.org/pdf/2610.02947"
+  image: "./images/FARM.png"
+  summary: "FARM introduces an agentic reward model for multi-task wireless network optimization, enabling transferable decision knowledge through reward-space learning."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "resilience_extreme"
 
 - title: "ReaCritic: Reasoning Transformer-based DRL Critic-model Scaling For Wireless Networks"
   authors: "Feiran You, Hongyang Du*"
