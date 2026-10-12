@@ -389,26 +389,28 @@ redirect_from:
 				  <div class="layer-title">Ubiquitous Intelligent Systems</div>
 				  <div class="layer-purpose">Embedded intelligence in large-scale environments</div>
 			  </div>
-			  <div class="layer-content">
-				  <div class="module">
-					  <i class="icon fa-solid fa-city" style="color: #2f6f4f;"></i>
-					  <span>Smart Cities<br>&amp; Environments</span>
-				  </div>
-				  <div class="module">
-					  <i class="icon fa-solid fa-robot" style="color: #2f6f4f;"></i>
-					  <span>Autonomous<br>Industrial Systems</span>
-				  </div>
-				  <div class="module">
-					  <i class="icon fa-solid fa-cloud-arrow-up" style="color: #2f6f4f;"></i>
-					  <span>Self-Organizing<br>Integration</span>
-				  </div>
-				  <div class="module">
-					  <i class="icon fa-solid fa-mobile-screen" style="color: #2f6f4f;"></i>
-					  <span>Real-world<br>Service Intelligence</span>
-				  </div>
-			  </div>
-		  </div>
 
+			<div class="layer-content">
+				<div class="module">
+					<i class="icon fa-solid fa-earth-asia" style="color: #2f6f4f;"></i>
+					<span>World Models<br>&amp; Simulation</span>
+				</div>
+				<div class="module">
+					<i class="icon fa-solid fa-arrows-rotate" style="color: #2f6f4f;"></i>
+					<span>Recursive<br>Self-Improvement</span>
+				</div>
+				<div class="module">
+					<i class="icon fa-solid fa-robot" style="color: #2f6f4f;"></i>
+					<span>Embodied AI<br>&amp; Robotics</span>
+				</div>
+				<div class="module">
+					<i class="icon fa-solid fa-mobile-screen" style="color: #2f6f4f;"></i>
+					<span>Real-world<br>Service Intelligence</span>
+				</div>
+			</div>
+
+		  </div>
+		  
 		  <!-- Middle layer -->
 		  <div class="layer layer-mid">
 			  <div class="layer-title-box">
@@ -418,11 +420,11 @@ redirect_from:
 			  <div class="layer-content">
 				  <div class="module">
 					  <i class="icon fa-solid fa-circle-nodes" style="color: #3f8f63;"></i>
-					  <span>Multi-Agent<br>Cooperation</span>
+					  <span>AI-Native<br>Networks</span>
 				  </div>
 				  <div class="module">
 					  <i class="icon fa-solid fa-brain" style="color: #3f8f63;"></i>
-					  <span>LLM Agents<br>&amp; Operations</span>
+					  <span>Agentic<br>&amp; Multi-Agent Systems</span>
 				  </div>
 				  <div class="module">
 					  <i class="icon fa-solid fa-user-gear" style="color: #3f8f63;"></i>
@@ -430,7 +432,7 @@ redirect_from:
 				  </div>
 				  <div class="module">
 					  <i class="icon fa-solid fa-diagram-project" style="color: #3f8f63;"></i>
-					  <span>Distributed<br>Decision Making</span>
+					  <span>Distributed<br>AI Computing</span>
 				  </div>
 			  </div>
 		  </div>
@@ -444,7 +446,7 @@ redirect_from:
 			  <div class="layer-content">
 				  <div class="module">
 					  <i class="icon fa-solid fa-square-root-variable" style="color: #6b7280;"></i>
-						<span>Optimization<br>Algorithms</span>
+						<span>Optimization &amp;<br>Decision Making</span>
 				  </div>
 				  <div class="module">
 					  <i class="icon fa-solid fa-layer-group" style="color: #6b7280;"></i>
@@ -452,11 +454,11 @@ redirect_from:
 				  </div>
 				  <div class="module">
 					  <i class="icon fa-solid fa-chart-simple" style="color: #6b7280;"></i>
-					  <span>Efficient<br>Inference</span>
+					  <span>Efficient Training &amp;<br>Inference</span>
 				  </div>
 				  <div class="module">
 					  <i class="icon fa-solid fa-shield-halved" style="color: #6b7280;"></i>
-					  <span>Model<br>Robustness</span>
+					  <span>Robustness &amp;<br>Generalization</span>
 				  </div>
 			  </div>
 		  </div>
@@ -637,12 +639,12 @@ redirect_from:
 		.projects-page .work-card-thumb{
 		  display: block;
 		  width: 100%;
-		  height: 160px;        /* 你觉得图不够大就加高，比如 170-190 */
+		  height: 160px;        
 		  object-fit: cover;
 		  border-top-left-radius: 14px;
 		  border-top-right-radius: 14px;
 		}
-/* 只压住底部一小条，不要盖太多图 */
+
 .projects-page .work-card-title-overlay{
   position: absolute;
   left: 0;
@@ -652,10 +654,10 @@ redirect_from:
   padding: 8px 10px;
   font-size: 0.88rem;
   line-height: 1.25;
-  font-weight: 600;     /* 你说不需要加粗，就用 600/500，不用 800 */
+  font-weight: 600;     
   color: #ffffff;
 
-  /* 更不透明的渐变，底部更实，上部更透明 */
+
   background: linear-gradient(
     to top,
     rgba(12, 59, 50, 0.92) 0%,
@@ -724,7 +726,7 @@ redirect_from:
 		
 /* Scrollable detailed paper list */
 .projects-page .works-list-scroll {
-  max-height: 1200px;          /* 当前尺寸下大约显示 6 篇 */
+  max-height: 1200px;     
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -778,7 +780,7 @@ redirect_from:
   gap:18px;
 }
 
-/* 每条是两栏：左文字，右图片。无图时右栏自动消失 */
+
 .award{
   display:grid;
   grid-template-columns: 1fr 240px;
@@ -834,7 +836,7 @@ redirect_from:
   padding-left:16px;
   font-size:13px;
   line-height:1.45;
-  color:#CC5500;           /* 统一你现在的强调色 */
+  color:#CC5500;         
 }
 
 .award-media{
@@ -845,12 +847,12 @@ redirect_from:
 .award-media img{
   width:100%;
   height:auto;
-  border-radius:10px;      /* 不算“框”，但显得更干净 */
+  border-radius:10px;     
   display:block;
   border:1px solid rgba(0,0,0,0.08);
 }
 
-/* 小屏：图片换到下面 */
+
 @media (max-width: 860px){
   .award{
     grid-template-columns: 1fr;
