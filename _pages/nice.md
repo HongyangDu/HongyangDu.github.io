@@ -425,24 +425,21 @@ Our research is highly interdisciplinary, involving collaboration with experts f
     <section id="special-openings" class="special-openings">
       <h2>Special Openings</h2>
       <p class="opening-note">
-        Several PhD and RA openings are currently available to support recently launched projects.
+        Several openings are currently available to support recently launched projects.
 		</p>
 	    <div class="special-opening-card">
-        <span class="opening-tag">PhD Opening</span>
+        <span class="opening-tag">PhD/RA Opening</span>
         <h3>Human-Computer Interaction for Advanced AI Systems</h3>
         <p>
-          We are looking for motivated PhD applicants interested in Human-Computer Interaction (HCI), especially Human-AI Interaction. The focus is on new interaction paradigms enabled by large language models, AI agents, embodied intelligence, world models, machine entities, and intelligent environments, and on studying how people understand, use, collaborate with, and are affected by these systems.
-        </p>
-        <p>
-          We welcome applicants from diverse disciplinary backgrounds. Candidates are expected to have a genuine interest in HCI and some familiarity with AI/ML and/or empirical research methods. Prior experience in user-centered research would be an advantage.
+          We are looking for motivated applicants interested in Human-Computer Interaction (HCI), especially Human-AI Interaction. Our research explores emerging interaction paradigms involving LLMs, AI agents, embodied intelligence, machine entities, and intelligent environments, focusing on how people interact with, collaborate with, and are affected by these systems. We welcome diverse disciplinary backgrounds, with demonstrated research experience in HCI and/or AI/ML. Prior experience in user-centered research is an advantage.
         </p>
       </div>
 
       <div class="special-opening-card">
-        <span class="opening-tag">Research Assistant / Developer</span>
-        <h3>Unreal Engine Developer for AI World-Model Platforms</h3>
+        <span class="opening-tag">PhD/RA Opening</span>
+        <h3>Interactive and Self-Evolving Intelligent Systems</h3>
         <p>
-          We are looking for a Research Assistant or developer with experience in Unreal Engine to help build interactive simulation and world-model platforms for intelligent systems. The position combines research prototyping and engineering development, with a focus on real-time 3D environments, synthetic data generation, AI-driven agents, embodied intelligence, and network-aware digital twins.
+          We are looking for motivated applicants interested in how intelligent systems interact with dynamic environments and autonomously improve their capabilities. Research directions include world models and interactive simulation, embodied and agentic AI, environment-driven learning, and recursive self-improvement of LLMs and AI agents. We also welcome candidates with Unreal Engine experience to develop interactive 3D environments, synthetic data pipelines, and AI-driven simulation platforms.
         </p>
       </div>
     </section>
