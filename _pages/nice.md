@@ -9,7 +9,7 @@ page_class: nice-page
 #   - /nice.html
 ---
 
-<img class="nice-banner" src='/images/NICE.png' width="500"><br/>
+<img class="nice-banner" src='/images/nice_logo_long.svg' alt="NICE Lab Logo" width="500"><br/>
 
 
 
