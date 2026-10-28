@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Hongyang Du"
   avatar           : "profile2.png"
-  bio              : "Assistant Professor, Department of Electrical and Computer Engineering, The University of Hong Kong. Email: duhy@hku.hk"
+  bio              : "Assistant Professor, Department of Electrical and Computer Engineering, The University of Hong Kong. Email: duhy AT hku.hk"
   location         :
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=QI3vo-YAAAAJ&hl=en&oi=ao"
-  email            : duhy@eee.hku.hk
-  researchgate     : "https://www.researchgate.net/profile/Hongyang-Du-2"
+  email            : duhy@hku.hk
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -101,8 +101,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "hongyang-du-72866b246/"
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-8220-6525"
+  linkedin         : 
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
