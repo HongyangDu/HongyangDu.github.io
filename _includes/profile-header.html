@@ -1,0 +1,75 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<header class="profile-header" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-header__avatar">
+    {% if author.avatar contains "://" %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+    {% else %}
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" itemprop="image">
+    {% endif %}
+  </div>
+
+  <div class="profile-header__text">
+    <h1 class="profile-header__name" itemprop="name">{{ page.title }}</h1>
+    {% if author.bio %}<p class="profile-header__bio" itemprop="description">{{ author.bio }}</p>{% endif %}
+
+    <ul class="profile-header__links">
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      {% endif %}
+      {% if author.orcid %}
+        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
+      {% endif %}
+      {% if author.researchgate %}
+        <li><a href="{{ author.researchgate }}"><i class="fab fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+      {% endif %}
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> Github</a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</header>
+
+{% if page.section_nav %}
+<nav class="section-nav" aria-label="Sections">
+  <ul>
+    {% for item in page.section_nav %}
+      <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<script>
+  (function () {
+    var links = document.querySelectorAll('.section-nav a');
+    var targets = [];
+    for (var i = 0; i < links.length; i++) {
+      var el = document.getElementById(links[i].getAttribute('href').slice(1));
+      if (el) targets.push({ link: links[i], el: el });
+    }
+    function update() {
+      var current = targets.length ? targets[0] : null;
+      for (var j = 0; j < targets.length; j++) {
+        if (targets[j].el.getBoundingClientRect().top <= 96) current = targets[j];
+      }
+      // the last section may be too short to reach the top; treat page bottom as "last"
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) current = targets[targets.length - 1];
+      for (var k = 0; k < targets.length; k++) {
+        targets[k].link.classList.toggle('is-active', targets[k] === current);
+      }
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('load', update);
+  })();
+</script>
+{% endif %}

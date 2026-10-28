@@ -3,26 +3,13 @@ permalink: /nice/
 title: "Network Intelligence and Computing Ecosystem (NICE)"
 excerpt: ""
 author_profile: true
+page_class: nice-page
 # redirect_from: 
 #   # - /nice/
 #   - /nice.html
 ---
-<style>
-.research-box {
-  margin-top: 10px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  background-color: #f9f9f9;
-}
 
-.project-meta {
-  font-size: 0.90em;
-  color: #666;
-}
-</style>
-
-<img src='/images/NICE.png' width="500"><br/>
+<img class="nice-banner" src='/images/NICE.png' width="500"><br/>
 
 
 
@@ -36,9 +23,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 
 ## Team Members
 ### Researchers
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/feiran.jpg' width="150">
     </td>
     <td>
@@ -46,7 +33,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Postdoctoral researcher, since 03/2025<br>
       Research interests: Edge intelligence, reinforcement learning<br>
       Prior Degree: Ph.D., The University of Sydney
-    <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+    <div class="research-box">
         <strong>Highlights:</strong><br>
 		🌐 2026: <a href="https://arxiv.org/pdf/2610.02947">FARM</a>
 		🌐 2026: <a href="https://arxiv.org/pdf/2610.02922">TWIN-JEPA</a>
@@ -63,9 +50,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 ### PhD Students
 (in alphabetical order by last name)
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/yuwei.jpg' width="150">
     </td>
     <td>
@@ -77,9 +64,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/enhan.jpg' width="150">
     </td>
     <td>
@@ -87,7 +74,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Networking system<br>
       Prior Degree: M.S., University of Chinese Academy of Sciences
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+      <div class="research-box">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://arxiv.org/abs/2608.13387">CROP</a>
         🌐 2026: <a href="https://arxiv.org/abs/2607.19215">HACO</a>
@@ -102,9 +89,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/zongxi.jpg' width="150">
     </td>
     <td>
@@ -121,9 +108,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 </table>
 
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/jiabao.jpg' width="150">
     </td>
     <td>
@@ -135,9 +122,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/ruoxuan.jpg' width="150">
     </td>
     <td>
@@ -145,7 +132,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Human–computer interaction<br>
       Prior Degree: M.S., Tsinghua University
-  <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+  <div class="research-box">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://dl.acm.org/doi/full/10.1145/3772318.3791174">WoZ</a>
       </div>
@@ -153,9 +140,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/xingkun.jpg' width="150">
     </td>
     <td>
@@ -163,7 +150,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: large language models<br>
       Prior Degree: M.S., Boston University
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+      <div class="research-box">
         <strong>Highlights:</strong><br>
 		🌐 2026: <a href="https://arxiv.org/pdf/2609.32420">Carnator</a>
     🌐 2026: <a href="https://arxiv.org/pdf/2606.13204">CoDeR</a>
@@ -179,9 +166,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/shiyuan.jpg' width="150">
     </td>
     <td>
@@ -189,7 +176,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Mobile traffic prediction, LLM, diffusion model<br>
       Prior Degree: M.S., Tsinghua University
-    <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+    <div class="research-box">
         <strong>Highlights:</strong><br>
     🌐 2026: <a href="https://arxiv.org/pdf/2603.13839">NetSpatial</a>
     🌐 2026: <a href="https://arxiv.org/pdf/2601.06867">U-MASK</a>
@@ -204,9 +191,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 </table>
 
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/jiayu.jpg' width="150">
     </td>
     <td>
@@ -222,9 +209,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 
 ### MPhil Students
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/yunuo.jpg' width="150">
     </td>
     <td>
@@ -232,7 +219,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: LLM<br>
       Prior Degree: B.S., Tongji University
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+      <div class="research-box">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://www.preprints.org/frontend/manuscript/41f181a78cc8906a3befeb67511ab624/download_pub">Tool-Using Agent Survey</a>
       </div>
@@ -240,9 +227,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/junhao.jpg' width="150">
     </td>
     <td>
@@ -250,7 +237,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2026<br>
       Research interests: LLM infra<br>
       Prior Degree: B.S., The University of Hong Kong <a href="https://tl.hku.hk/urfp/">(URFP)</a>
-<div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+<div class="research-box">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://arxiv.org/pdf/2609.29364">NebulaSD</a>
 		🌐 2026: <a href="https://arxiv.org/pdf/2601.21622">StarSD</a><br>
@@ -261,9 +248,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 
 
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/yilai.jpg' width="150">
     </td>
     <td>
@@ -271,7 +258,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: LLM, diffusion model<br>
       Prior Degree: B.S., Beijing University of Posts and Telecommunications
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+      <div class="research-box">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://arxiv.org/abs/2610.13174">PreCoG</a>
 		🌐 2026: <a href="https://arxiv.org/abs/2607.14249">MIDiff</a>
@@ -281,9 +268,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/wenqi.jpg' width="150">
     </td>
     <td>
@@ -291,7 +278,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: LLM<br>
       Prior Degree: B.S., National University of Singapore
-      <div style="margin-top:10px; padding:8px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+      <div class="research-box">
         <strong>Highlights:</strong><br>
         🌐 2026: <a href="https://arxiv.org/pdf/2609.01515">TempCloze</a><br>
       </div>
@@ -299,9 +286,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/jinghao.jpg' width="150">
     </td>
     <td>
@@ -313,9 +300,9 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
   </tr>
 </table>
 
-<table>
+<table class="member">
   <tr>
-    <td width="160">
+    <td class="member__photo">
       <img src='/images/Members/baihan.jpg' width="150">
     </td>
     <td>
@@ -328,19 +315,19 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
 </table>
 
 ### Alumni
-<div style="margin-bottom:15px; padding:12px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+<div class="alumni-card">
   <strong>Peigen Ye</strong><br>
   Visiting PhD Student, 2025–2026<br>
   Home Institution: Sun Yat-sen University<br>
   Research interests: Semantic Communications<br>
 </div>
 
-<div style="margin-bottom:15px; padding:12px; border:1px solid #ccc; border-radius:6px; background-color:#f9f9f9;">
+<div class="alumni-card">
   <strong>Weiqiang Jin</strong><br>
   Visiting PhD Student, 2024–2025<br>
   Home Institution: Xi'an Jiaotong University<br>
   Research interests: Reinforcement Learning, LLM<br>
-  <div style="margin-top:8px;">
+  <div class="alumni-highlights">
     <strong>Highlights:</strong><br>
     🌐 2026: <a href="">HybridThink</a><br>
   🌐 2026: <a href="">Soft Tokens Are Off-Manifold</a><br>
@@ -359,93 +346,32 @@ Our research is highly interdisciplinary, involving collaboration with experts f
 - Graduation Requirements: A PhD degree is just a ticket for your future career, so there is NO requirement for the NUMBER of papers. **Instead, the graduation requirement is for us to work together to help you find a satisfactory job, which marks the success of our collaborative journey.** 
 
 
-  <!-- =========================
-         Special Openings
-         ========================= -->
+<!-- =========================
+     Special Openings
+     (keep this block flush-left with no blank lines inside, or Markdown turns part of it into a code block)
+     ========================= -->
 
-    <style>
-      .special-openings {
-        margin-top: 1.8rem;
-        padding: 18px 20px;
-        border: 1px solid var(--border-color, #d5d0c7);
-        border-radius: 16px;
-        background: #ffffff;
-        box-shadow: 0 8px 18px rgba(0,0,0,0.05);
-      }
+<section id="special-openings" class="special-openings">
+  <h2>Special Openings</h2>
+  <p class="opening-note">
+    Several openings are currently available to support recently launched projects.
+  </p>
+  <div class="special-opening-card">
+    <span class="opening-tag">PhD/RA Opening</span>
+    <h3>Human-Computer Interaction for Advanced AI Systems</h3>
+    <p>
+      We are looking for motivated applicants interested in Human-Computer Interaction (HCI), especially Human-AI Interaction. Our research explores emerging interaction paradigms involving LLMs, AI agents, embodied intelligence, machine entities, and intelligent environments, focusing on how people interact with, collaborate with, and are affected by these systems. We welcome diverse disciplinary backgrounds, with demonstrated research experience in HCI and/or AI/ML. Prior experience in user-centered research is an advantage.
+    </p>
+  </div>
+  <div class="special-opening-card">
+    <span class="opening-tag">PhD/RA Opening</span>
+    <h3>Interactive and Self-Evolving Intelligent Systems</h3>
+    <p>
+      We are looking for motivated applicants interested in how intelligent systems interact with dynamic environments and autonomously improve their capabilities. Research directions include world models and interactive simulation, embodied and agentic AI, environment-driven learning, and recursive self-improvement of LLMs and AI agents. We also welcome candidates with Unreal Engine experience to develop interactive 3D environments, synthetic data pipelines, and AI-driven simulation platforms.
+    </p>
+  </div>
+</section>
 
-      .special-openings h2 {
-        margin-top: 0;
-        margin-bottom: 0.6rem;
-        color: var(--primary-blue, #0c3b32);
-      }
-
-      .special-openings .opening-note {
-        margin-bottom: 1.2rem;
-        color: var(--text-light, #4b5563);
-      }
-
-      .special-opening-card {
-        border-left: 5px solid var(--primary-green, #5b8f78);
-        background: var(--soft-green, #f3f6f4);
-        border-radius: 12px;
-        padding: 14px 16px;
-        margin: 14px 0;
-      }
-
-      .special-opening-card h3 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        color: var(--primary-blue, #0c3b32);
-      }
-
-      .special-opening-card p {
-        margin: 0.45rem 0;
-      }
-
-      .special-opening-card ul {
-        margin-top: 0.5rem;
-        margin-bottom: 0;
-      }
-
-      .special-opening-card li {
-        margin-bottom: 0.35rem;
-      }
-
-      .opening-tag {
-        display: inline-block;
-        margin-bottom: 0.4rem;
-        padding: 3px 9px;
-        border-radius: 999px;
-        border: 1px solid rgba(204,85,0,0.35);
-        color: #CC5500;
-        font-size: 0.78rem;
-        font-weight: 600;
-      }
-    </style>
-
-    <section id="special-openings" class="special-openings">
-      <h2>Special Openings</h2>
-      <p class="opening-note">
-        Several openings are currently available to support recently launched projects.
-		</p>
-	    <div class="special-opening-card">
-        <span class="opening-tag">PhD/RA Opening</span>
-        <h3>Human-Computer Interaction for Advanced AI Systems</h3>
-        <p>
-          We are looking for motivated applicants interested in Human-Computer Interaction (HCI), especially Human-AI Interaction. Our research explores emerging interaction paradigms involving LLMs, AI agents, embodied intelligence, machine entities, and intelligent environments, focusing on how people interact with, collaborate with, and are affected by these systems. We welcome diverse disciplinary backgrounds, with demonstrated research experience in HCI and/or AI/ML. Prior experience in user-centered research is an advantage.
-        </p>
-      </div>
-
-      <div class="special-opening-card">
-        <span class="opening-tag">PhD/RA Opening</span>
-        <h3>Interactive and Self-Evolving Intelligent Systems</h3>
-        <p>
-          We are looking for motivated applicants interested in how intelligent systems interact with dynamic environments and autonomously improve their capabilities. Research directions include world models and interactive simulation, embodied and agentic AI, environment-driven learning, and recursive self-improvement of LLMs and AI agents. We also welcome candidates with Unreal Engine experience to develop interactive 3D environments, synthetic data pipelines, and AI-driven simulation platforms.
-        </p>
-      </div>
-    </section>
-  
-  
 ## How to apply
 
 If you are interested in joining NICE Lab or would like more information, please contact me:
