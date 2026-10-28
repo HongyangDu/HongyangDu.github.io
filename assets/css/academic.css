@@ -130,7 +130,7 @@ a:visited { color: var(--forest); }
   margin: 0;
 }
 
-.academic-layout .page__inner-wrap > header p,
+.academic-layout .page__inner-wrap > header:not(.profile-header) p,
 .academic-layout .page__date,
 .academic-layout .page__meta {
   font-family: var(--sans);
@@ -293,7 +293,7 @@ a:visited { color: var(--forest); }
   font-size: 1rem;
   line-height: 1.6;
   color: var(--muted);
-  margin: 0 0 1.4rem;
+  margin: 0 0 1.6rem;
   max-width: 640px;
 }
 
