@@ -99,6 +99,12 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Starting 2025<br>
       Research interests: Wireless communications<br>
       Prior Degree: M.S., Nanjing University
+	  <div class="research-box">
+        <strong>Highlights:</strong><br>
+        🌐 2026: <a href="https://arxiv.org/abs/2611.04437">WiSI</a>
+        🌐 2026: <a href="https://arxiv.org/abs/2611.07550">SEROA</a>
+        🌐 2026: <a href="https://arxiv.org/abs/2611.07452">AlignTraffic</a>
+      </div>
       <div class="research-box">
         <strong>Research Translation:</strong><br>
         🛠️ Core Researcher of project <i>''Communication Network Traffic Foundation Model''</i>, HK$1.64M, Jun 2025–May 2026

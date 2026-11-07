@@ -99,6 +99,18 @@
   
   
 
+- title: "WiSI: Wireless-in-the-Loop Self-Improvement"
+  authors: "Zongxi Liu, Hongyang Du*"
+  venue: "Preprint"
+  arxiv: "https://arxiv.org/abs/2611.04437"
+  pdf: "https://arxiv.org/pdf/2611.04437"
+  code: "https://github.com/NICE-HKU/WiSI"
+  image: "./images/wrsi.png"
+  summary: "A wireless-in-the-loop self-improvement framework that integrates spatiotemporal wireless channels, edge-assisted perception, and LLM-driven program improvement."
+  category: "Network for AI"
+  badge: "NEW"
+  project: "infra_llm_network"
+  
 - title: "NebulaSD: Many-for-Many Speculative Decoding"
   authors: "Junhao He, Hongyang Du*"
   venue: "Preprint"
@@ -201,6 +213,16 @@
 
 
 
+- title: "SEROA: Stable Encrypted-Traffic Representation and Online Adaptation for Service-Aware Networks"
+  authors: "Zongxi Liu, Hongyang Du*"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2611.07550"
+  pdf: "https://arxiv.org/pdf/2611.07550"
+  image: "./images/seroa.jpg"
+  summary: "A deployment-oriented framework for encryptedtraffic classification in service-aware mobile networks."
+  category: "AI for Network"
+  project: "env_spatial_urban"
+  
 - title: "LSDM: LLM-Enhanced Spatio-temporal Diffusion Model for Service-Level Mobile Traffic Prediction"
   authors: "Shiyuan Zhang, Tong Li*, Zhu Xiao, Hongyang Du*, Kaibin Huang"
   venue: "IEEE/ACM Transactions on Networking, 2026"
@@ -259,6 +281,17 @@
   
   
 
+- title: "Understanding Self-Supervised Representation Learning for Encrypted Traffic"
+  authors: "Zongxi Liu, Hongyang Du*"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2611.07452"
+  pdf: "https://arxiv.org/pdf/2611.07452"
+  image: "./images/AlignTraffic.png"
+  summary: "A systematic study of how observable information and self-supervision mechanisms shape the effectiveness and scope of representation learning for encrypted traffic."
+  category: "AI for Network"
+  badge: "NEW"
+  project: "resilience_extreme"
+  
 - title: "FARM: Fundamental Agentic Reward Model For Multi-task Wireless Network Optimization"
   authors: "Feiran You, Changxu Ni, Haozhe Ma, Jun Li, Hongyang Du*"
   venue: "submitted"
