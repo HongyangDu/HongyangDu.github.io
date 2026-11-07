@@ -218,7 +218,7 @@
   venue: "Submitted"
   arxiv: "https://arxiv.org/abs/2611.07550"
   pdf: "https://arxiv.org/pdf/2611.07550"
-  image: "./images/seroa.jpg"
+  image: "./images/seroa.png"
   summary: "A deployment-oriented framework for encryptedtraffic classification in service-aware mobile networks."
   category: "AI for Network"
   project: "env_spatial_urban"
