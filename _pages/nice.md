@@ -76,6 +76,7 @@ At the NICE Lab, we envision a future where AI and networks converge to create i
       Prior Degree: M.S., University of Chinese Academy of Sciences
       <div class="research-box">
         <strong>Highlights:</strong><br>
+		🌐 2026: <a href="https://arxiv.org/abs/2611.22657">SpatialCast</a>
         🌐 2026: <a href="https://arxiv.org/abs/2608.13387">CROP</a>
         🌐 2026: <a href="https://arxiv.org/abs/2607.19215">HACO</a>
         🌐 2025: <a href="https://arxiv.org/abs/2510.13467">NetMCP</a>

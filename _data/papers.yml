@@ -208,11 +208,16 @@
   project: "infra_llm_network"  
 
 
-
-
-
-
-
+- title: "SpatialCast: Reading the 3D World via Cast Shadows"
+  authors: "Enhan Li, Jinghao Zhou, Jiaze Zhang, Hongyang Du*"
+  venue: "Submitted"
+  arxiv: "https://arxiv.org/abs/2611.22657"
+  pdf: "https://arxiv.org/pdf/2611.22657"
+  image: "./images/SpatialCast.png"
+  summary: "A benchmark that evaluates MLLMs’ physical spatial reasoning through cast shadows and supports targeted post-training to improve spatial understanding."
+  category: "AI for Network"
+  project: "env_spatial_urban"
+  
 - title: "SEROA: Stable Encrypted-Traffic Representation and Online Adaptation for Service-Aware Networks"
   authors: "Zongxi Liu, Hongyang Du*"
   venue: "Submitted"
