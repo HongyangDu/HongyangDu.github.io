@@ -245,7 +245,6 @@ redirect_from:
 		<div class="works-carousel">
 		<div class="works-carousel-head">
 		<div class="label">Selected Works</div>
-		<div class="hint">scroll & click a card for details.</div>
 		</div>
 		<div class="works-track">
 		{% for paper in proj_papers %}
@@ -273,7 +272,7 @@ redirect_from:
 		<div class="paper-meta-wrap">
 		<div class="paper-meta-main">
 		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
-		<span class="paper-authors">{{ paper.authors | replace: "Hongyang Du", "<b>Hongyang Du</b>" }}</span><br>
+		<span class="paper-authors">{{ paper.authors }}</span><br>
 		<span class="paper-venue">{{ paper.venue }}</span><br>
 
 		{% if paper.tag %}
@@ -366,7 +365,6 @@ redirect_from:
 		<div class="works-carousel">
 		<div class="works-carousel-head">
 		<div class="label">Selected Works</div>
-		<div class="hint">scroll & click a card for details.</div>
 		</div>
 		<div class="works-track">
 		{% for paper in proj_papers %}
@@ -394,7 +392,7 @@ redirect_from:
 		<div class="paper-meta-wrap">
 		<div class="paper-meta-main">
 		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
-		<span class="paper-authors">{{ paper.authors | replace: "Hongyang Du", "<b>Hongyang Du</b>" }}</span><br>
+		<span class="paper-authors">{{ paper.authors }}</span><br>
 		<span class="paper-venue">{{ paper.venue }}</span><br>
 
 		{% if paper.tag %}
@@ -449,7 +447,6 @@ redirect_from:
 		<div class="works-carousel">
 		<div class="works-carousel-head">
 		<div class="label">Selected Works</div>
-		<div class="hint">scroll & click a card for details.</div>
 		</div>
 		<div class="works-track">
 		{% for paper in proj_papers %}
@@ -477,7 +474,7 @@ redirect_from:
 		<div class="paper-meta-wrap">
 		<div class="paper-meta-main">
 		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
-		<span class="paper-authors">{{ paper.authors | replace: "Hongyang Du", "<b>Hongyang Du</b>" }}</span><br>
+		<span class="paper-authors">{{ paper.authors }}</span><br>
 		<span class="paper-venue">{{ paper.venue }}</span><br>
 
 		{% if paper.tag %}
@@ -532,7 +529,6 @@ redirect_from:
 		<div class="works-carousel">
 		<div class="works-carousel-head">
 		<div class="label">Selected Works</div>
-		<div class="hint">scroll & click a card for details.</div>
 		</div>
 		<div class="works-track">
 		{% for paper in proj_papers %}
@@ -560,7 +556,7 @@ redirect_from:
 		<div class="paper-meta-wrap">
 		<div class="paper-meta-main">
 		<span class="paper-title">{{ forloop.index }}. {{ paper.title }}</span><br>
-		<span class="paper-authors">{{ paper.authors | replace: "Hongyang Du", "<b>Hongyang Du</b>" }}</span><br>
+		<span class="paper-authors">{{ paper.authors }}</span><br>
 		<span class="paper-venue">{{ paper.venue }}</span><br>
 
 		{% if paper.tag %}

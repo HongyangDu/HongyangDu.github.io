@@ -15,7 +15,7 @@
 
   <div class="profile-header__text">
     <h1 class="profile-header__name" itemprop="name">{{ page.title }}</h1>
-    {% if author.bio %}<p class="profile-header__bio" itemprop="description">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="profile-header__bio" itemprop="description">{{ author.bio | replace: "The University of Hong Kong", '<span class="nowrap">The University of Hong Kong</span>' }}</p>{% endif %}
 
     <ul class="profile-header__links">
       {% if author.email %}
@@ -50,26 +50,32 @@
 </nav>
 
 <script>
+  /* Use block comments only: the compress layout joins this script onto one line.
+     The sections come after this script, so look them up once the DOM is ready. */
   (function () {
-    var links = document.querySelectorAll('.section-nav a');
     var targets = [];
-    for (var i = 0; i < links.length; i++) {
-      var el = document.getElementById(links[i].getAttribute('href').slice(1));
-      if (el) targets.push({ link: links[i], el: el });
+    function init() {
+      var links = document.querySelectorAll('.section-nav a');
+      for (var i = 0; i < links.length; i++) {
+        var el = document.getElementById(links[i].getAttribute('href').slice(1));
+        if (el) targets.push({ link: links[i], el: el });
+      }
+      update();
+      window.addEventListener('scroll', update, { passive: true });
     }
     function update() {
       var current = targets.length ? targets[0] : null;
       for (var j = 0; j < targets.length; j++) {
         if (targets[j].el.getBoundingClientRect().top <= 96) current = targets[j];
       }
-      // the last section may be too short to reach the top; treat page bottom as "last"
-      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) current = targets[targets.length - 1];
+      /* the last section may be too short to reach the top; treat page bottom as "last" */
+      if (targets.length && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) current = targets[targets.length - 1];
       for (var k = 0; k < targets.length; k++) {
         targets[k].link.classList.toggle('is-active', targets[k] === current);
       }
     }
-    window.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('load', update);
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
   })();
 </script>
 {% endif %}
