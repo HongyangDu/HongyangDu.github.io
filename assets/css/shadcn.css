@@ -859,7 +859,8 @@ code, kbd, pre, samp { font-family: var(--font-mono); }
 
 .nice-page .page__inner-wrap > header { margin: 0 0 1.5rem; padding: 0 0 1.1rem; }
 
-.nice-page .page__title { font-size: 2rem; line-height: 1.2; }
+/* 1.8rem keeps the full lab name on one line in the 920px column; narrower screens wrap evenly */
+.nice-page .page__title { font-size: 1.8rem; line-height: 1.2; text-wrap: balance; }
 
 .nice-page .nice-banner { max-width: 400px; margin: 0 0 0.25rem; }
 
